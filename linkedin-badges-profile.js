@@ -20,7 +20,9 @@
   }
 
   function generateUrl(isEI) {
-    const domainPrefix = isEI ? 'https://badges.linkedin-ei' : 'https://badges.linkedin';
+    const domainPrefix = isEI
+      ? 'https://badges.linkedin-ei'
+      : 'https://badges.linkedin';
     return isCNDomain() ? `${domainPrefix}.cn/` : `${domainPrefix}.com/`;
   }
 
@@ -32,7 +34,7 @@
         (attr) =>
           encodeURIComponent(attr.name.replace('data-', '').toLowerCase()) +
           '=' +
-          encodeURIComponent(attr.value)
+          encodeURIComponent(attr.value),
       );
   }
 
@@ -92,8 +94,14 @@
       const iframe = document.createElement('iframe');
       iframe.onload = function () {
         const iframeBody = iframe.contentWindow.document.body;
-        iframe.setAttribute('height', (iframeBody.scrollHeight || defaultHeight) + 5);
-        iframe.setAttribute('width', (iframeBody.scrollWidth || defaultWidth) + 5);
+        iframe.setAttribute(
+          'height',
+          (iframeBody.scrollHeight || defaultHeight) + 5,
+        );
+        iframe.setAttribute(
+          'width',
+          (iframeBody.scrollWidth || defaultWidth) + 5,
+        );
       };
       iframe.setAttribute('frameBorder', '0');
       iframe.style.display = 'block';

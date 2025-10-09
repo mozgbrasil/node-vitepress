@@ -1,6 +1,7 @@
 (function () {
   const isLocal =
-    window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+    window.location.hostname === 'localhost' ||
+    window.location.hostname === '127.0.0.1';
   const append = (el) => document.head.appendChild(el);
 
   if (isLocal) {

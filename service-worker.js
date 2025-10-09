@@ -21,7 +21,7 @@ self.addEventListener('install', (event) => {
       })
       .catch((error) => {
         console.error('Erro ao adicionar itens ao cache:', error);
-      })
+      }),
   );
 });
 
@@ -37,9 +37,9 @@ self.addEventListener('activate', (event) => {
           if (!cacheWhitelist.includes(cacheName)) {
             return caches.delete(cacheName);
           }
-        })
+        }),
       );
-    })
+    }),
   );
 });
 
@@ -66,9 +66,13 @@ self.addEventListener('fetch', (event) => {
       return fetch(event.request)
         .then((response) => {
           // Verificar se a resposta é válida antes de armazená-la no cache
-          if (!response || response.status !== 200 || response.type !== 'basic') {
+          if (
+            !response ||
+            response.status !== 200 ||
+            response.type !== 'basic'
+          ) {
             console.warn(
-              `Resposta inválida ignorada: ${event.request.url} (status: ${response.status}, type: ${response.type})`
+              `Resposta inválida ignorada: ${event.request.url} (status: ${response.status}, type: ${response.type})`,
             );
             return response;
           }
@@ -80,10 +84,13 @@ self.addEventListener('fetch', (event) => {
           });
         })
         .catch((error) => {
-          console.error(`Erro ao buscar recurso na rede: ${event.request.url}`, error);
+          console.error(
+            `Erro ao buscar recurso na rede: ${event.request.url}`,
+            error,
+          );
           throw error;
         });
-    })
+    }),
   );
 });
 
@@ -106,7 +113,12 @@ self.addEventListener('push', (event) => {
       ],
     };
 
-    event.waitUntil(self.registration.showNotification(notificationTitle, notificationOptions));
+    event.waitUntil(
+      self.registration.showNotification(
+        notificationTitle,
+        notificationOptions,
+      ),
+    );
   } else {
     console.warn('Permissão para notificações não concedida.');
   }
@@ -121,7 +133,7 @@ self.addEventListener('sync', (event) => {
         if (response.ok) {
           // console.log('Sincronizado com sucesso em segundo plano')
         }
-      })
+      }),
     );
   }
 });
@@ -137,7 +149,7 @@ self.addEventListener('message', (event) => {
           // console.log('Respondendo com dados em cache:', response)
           return response || fetch(event.request);
         });
-      })
+      }),
     );
   }
 
@@ -156,7 +168,7 @@ self.addEventListener('message', (event) => {
       event.respondWith(
         caches.match(event.request).then((cachedResponse) => {
           return cachedResponse || new Response('Modo offline ativado.');
-        })
+        }),
       );
     });
   }

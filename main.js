@@ -22,7 +22,8 @@ window.MyApp = MyApp;
 
 //
 
-const _isShadowRootModeSupported = HTMLTemplateElement.prototype.hasOwnProperty('shadowRootMode');
+const _isShadowRootModeSupported =
+  HTMLTemplateElement.prototype.hasOwnProperty('shadowRootMode');
 
 // alert(isShadowRootModeSupported)
 
