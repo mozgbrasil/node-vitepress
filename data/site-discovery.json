@@ -1,0 +1,2557 @@
+{
+  "generated_at": "2026-03-27T22:34:28.232Z",
+  "filters_applied": {},
+  "total_items": 239,
+  "total_available_items": 239,
+  "kinds": [
+    { "label": "page", "count": 75 },
+    { "label": "stack", "count": 46 },
+    { "label": "presence", "count": 39 },
+    { "label": "api", "count": 18 },
+    { "label": "contact", "count": 10 },
+    { "label": "dossier", "count": 8 },
+    { "label": "portfolio", "count": 8 },
+    { "label": "project", "count": 8 },
+    { "label": "capability", "count": 5 },
+    { "label": "category", "count": 5 },
+    { "label": "surface", "count": 5 },
+    { "label": "delivery", "count": 4 },
+    { "label": "operation", "count": 4 },
+    { "label": "specialty", "count": 4 }
+  ],
+  "items": [
+    {
+      "id": "api-api-audit",
+      "kind": "api",
+      "title": "GET /api/audit",
+      "description": "Snapshot de contagem, rotas, superficies e exportacoes publicas.",
+      "href": "/api/audit",
+      "tags": ["api", "get", "auditabilidade"],
+      "meta": "Endpoint publico"
+    },
+    {
+      "id": "api-api-capabilities",
+      "kind": "api",
+      "title": "GET /api/capabilities",
+      "description": "Dominios de capacidade, tecnologias e modos de entrega do laboratorio.",
+      "href": "/api/capabilities",
+      "tags": ["api", "get", "auditabilidade"],
+      "meta": "Endpoint publico"
+    },
+    {
+      "id": "api-api-catalog",
+      "kind": "api",
+      "title": "GET /api/catalog",
+      "description": "Catalogo compartilhado que alimenta o site e a camada publica.",
+      "href": "/api/catalog",
+      "tags": ["api", "get", "auditabilidade"],
+      "meta": "Endpoint publico"
+    },
+    {
+      "id": "api-api-categories",
+      "kind": "api",
+      "title": "GET /api/categories",
+      "description": "Diretorio tematico por categoria com sinais, stacks, capacidades e relacoes operacionais.",
+      "href": "/api/categories",
+      "tags": ["api", "get", "auditabilidade"],
+      "meta": "Endpoint publico"
+    },
+    {
+      "id": "api-api-categories-slug",
+      "kind": "api",
+      "title": "GET /api/categories/:slug",
+      "description": "Dossier aprofundado de uma categoria com portfolio, projetos, capacidades e operacao ligada.",
+      "href": "/api/categories/:slug",
+      "tags": ["api", "get", "auditabilidade"],
+      "meta": "Endpoint publico"
+    },
+    {
+      "id": "api-api-discovery",
+      "kind": "api",
+      "title": "GET /api/discovery",
+      "description": "Inventario plano de recursos publicos para filtros, automacao e exploracao.",
+      "href": "/api/discovery",
+      "tags": ["api", "get", "auditabilidade"],
+      "meta": "Endpoint publico"
+    },
+    {
+      "id": "api-api-health",
+      "kind": "api",
+      "title": "GET /api/health",
+      "description": "Status operacional e metadados de request.",
+      "href": "/api/health",
+      "tags": ["api", "get", "auditabilidade"],
+      "meta": "Endpoint publico"
+    },
+    {
+      "id": "api-api-links",
+      "kind": "api",
+      "title": "GET /api/links",
+      "description": "Catalogo de links publicos da marca e da conta pessoal.",
+      "href": "/api/links",
+      "tags": ["api", "get", "auditabilidade"],
+      "meta": "Endpoint publico"
+    },
+    {
+      "id": "api-api-openapi-json",
+      "kind": "api",
+      "title": "GET /api/openapi.json",
+      "description": "Contrato OpenAPI 3.1 da camada publica e auditavel.",
+      "href": "/api/openapi.json",
+      "tags": ["api", "get", "auditabilidade"],
+      "meta": "Endpoint publico"
+    },
+    {
+      "id": "api-api-operations",
+      "kind": "api",
+      "title": "GET /api/operations",
+      "description": "Dossiers operacionais com quality gates, rotas, stacks e projetos conectados.",
+      "href": "/api/operations",
+      "tags": ["api", "get", "auditabilidade"],
+      "meta": "Endpoint publico"
+    },
+    {
+      "id": "api-api-operations-slug",
+      "kind": "api",
+      "title": "GET /api/operations/:slug",
+      "description": "Detalhe de um dossier operacional especifico para leitura profunda por fluxo.",
+      "href": "/api/operations/:slug",
+      "tags": ["api", "get", "auditabilidade"],
+      "meta": "Endpoint publico"
+    },
+    {
+      "id": "api-api-portfolio",
+      "kind": "api",
+      "title": "GET /api/portfolio",
+      "description": "Snapshot filtravel dos casos, stacks, categorias e sinais do portfolio.",
+      "href": "/api/portfolio",
+      "tags": ["api", "get", "auditabilidade"],
+      "meta": "Endpoint publico"
+    },
+    {
+      "id": "api-api-profile",
+      "kind": "api",
+      "title": "GET /api/profile",
+      "description": "Resumo institucional com canais e especialidades.",
+      "href": "/api/profile",
+      "tags": ["api", "get", "auditabilidade"],
+      "meta": "Endpoint publico"
+    },
+    {
+      "id": "api-api-projects",
+      "kind": "api",
+      "title": "GET /api/projects",
+      "description": "Diretorio filtravel dos dossiers tecnicos e operacionais por projeto.",
+      "href": "/api/projects",
+      "tags": ["api", "get", "auditabilidade"],
+      "meta": "Endpoint publico"
+    },
+    {
+      "id": "api-api-projects-slug",
+      "kind": "api",
+      "title": "GET /api/projects/:slug",
+      "description": "Detalhe de um dossier especifico com relacoes, comandos e superficies.",
+      "href": "/api/projects/:slug",
+      "tags": ["api", "get", "auditabilidade"],
+      "meta": "Endpoint publico"
+    },
+    {
+      "id": "api-api-stacks",
+      "kind": "api",
+      "title": "GET /api/stacks",
+      "description": "Mapa das tecnologias recorrentes com conexoes entre portfolio e capacidades.",
+      "href": "/api/stacks",
+      "tags": ["api", "get", "auditabilidade"],
+      "meta": "Endpoint publico"
+    },
+    {
+      "id": "api-api-stacks-slug",
+      "kind": "api",
+      "title": "GET /api/stacks/:slug",
+      "description": "Dossier aprofundado de uma stack com projetos ligados, comandos uteis e operacao relacionada.",
+      "href": "/api/stacks/:slug",
+      "tags": ["api", "get", "auditabilidade"],
+      "meta": "Endpoint publico"
+    },
+    {
+      "id": "api-api-v1-openapi-json",
+      "kind": "api",
+      "title": "GET /api/v1/openapi.json",
+      "description": "Alias versionado do contrato OpenAPI para integracoes e tooling.",
+      "href": "/api/v1/openapi.json",
+      "tags": ["api", "get", "auditabilidade"],
+      "meta": "Endpoint publico"
+    },
+    {
+      "id": "capability-arquitetura-e-contratos",
+      "kind": "capability",
+      "title": "Arquitetura e contratos",
+      "description": "Modelagem de dominio, envelopes previsiveis, rotas auditaveis e estruturas prontas para evolucao segura.",
+      "href": "/portfolio",
+      "tags": [
+        "contratos pequenos e claros",
+        "payloads explicitos",
+        "versionamento com baixo atrito",
+        "BFF",
+        "JSON envelopes",
+        "request metadata",
+        "schema.org",
+        "capacidade"
+      ],
+      "meta": "Dominio de entrega"
+    },
+    {
+      "id": "capability-automacao-e-ai-ops",
+      "kind": "capability",
+      "title": "Automacao e AI ops",
+      "description": "Pipelines locais, automacoes assistidas, guardrails de execucao e combinacao de dados, runtime e operacao.",
+      "href": "/portfolio",
+      "tags": [
+        "pipelines multimodais",
+        "guardrails operacionais",
+        "assistencia local com contexto",
+        "Python",
+        "SQLite",
+        "LM Studio",
+        "Bash",
+        "automation",
+        "capacidade"
+      ],
+      "meta": "Dominio de entrega"
+    },
+    {
+      "id": "capability-observabilidade-e-operacao",
+      "kind": "capability",
+      "title": "Observabilidade e operacao",
+      "description": "Health checks, request IDs, exports estaticos, snapshots operacionais e gatilhos de verificacao reais.",
+      "href": "/portfolio",
+      "tags": [
+        "quality gates",
+        "health endpoints",
+        "artefatos publicos para auditoria",
+        "Vitest",
+        "Nginx",
+        "Netlify",
+        "Firebase",
+        "service worker",
+        "capacidade"
+      ],
+      "meta": "Dominio de entrega"
+    },
+    {
+      "id": "capability-platform-engineering",
+      "kind": "capability",
+      "title": "Platform engineering",
+      "description": "Ambientes locais repetiveis, CI por matriz, infraestrutura como produto e readiness tecnica por projeto.",
+      "href": "/portfolio",
+      "tags": [
+        "docker local",
+        "matriz de validacao",
+        "padrao de runtime documentado",
+        "Docker",
+        "GitHub Actions",
+        "Terraform",
+        "Helm",
+        "Kubernetes",
+        "capacidade"
+      ],
+      "meta": "Dominio de entrega"
+    },
+    {
+      "id": "capability-produto-full-stack",
+      "kind": "capability",
+      "title": "Produto full stack",
+      "description": "Experiencias web, componentes reutilizaveis, integrações entre front e back e docs operacionais no mesmo ritmo.",
+      "href": "/portfolio",
+      "tags": [
+        "UI orientada por conteudo",
+        "fluxos pesquisaveis",
+        "componentes com manutencao simples",
+        "React",
+        "Next.js",
+        "Vue",
+        "VitePress",
+        "capacidade"
+      ],
+      "meta": "Dominio de entrega"
+    },
+    {
+      "id": "category-application",
+      "kind": "category",
+      "title": "Aplicacao",
+      "description": "Categoria orientada a produtos digitais com front, back, autenticacao, contratos e experiencia de uso no mesmo ritmo.",
+      "href": "/categorias/application",
+      "tags": [
+        "application",
+        "produto full stack",
+        "fluxos navegaveis e contratos cross-app",
+        "escala sem perder legibilidade",
+        "Produto full stack",
+        "Platform engineering",
+        "Observabilidade e operacao",
+        "categoria"
+      ],
+      "meta": "Produto e experiencia full stack"
+    },
+    {
+      "id": "category-automation",
+      "kind": "category",
+      "title": "Automacao",
+      "description": "Categoria voltada a automacoes assistidas, pipelines multimodais, runtime local e operacao segura com estado persistente.",
+      "href": "/categorias/automation",
+      "tags": [
+        "automation",
+        "AI ops aplicada",
+        "guardrails e trilhas seguras de execucao",
+        "automacao com contexto operacional real",
+        "Automacao e AI ops",
+        "Observabilidade e operacao",
+        "Arquitetura e contratos",
+        "categoria"
+      ],
+      "meta": "AI ops, pipelines e guardrails"
+    },
+    {
+      "id": "category-docs",
+      "kind": "category",
+      "title": "Docs",
+      "description": "Categoria dedicada a conteudo tipado, documentacao viva, exports publicos e camadas de descoberta prontas para evolucao.",
+      "href": "/categorias/docs",
+      "tags": [
+        "docs",
+        "conteudo orientado por dados",
+        "discoverability e leitura tecnica",
+        "artefatos publicos para consumo externo",
+        "Produto full stack",
+        "Arquitetura e contratos",
+        "Observabilidade e operacao",
+        "categoria"
+      ],
+      "meta": "Engine editorial, inventario e discoverability"
+    },
+    {
+      "id": "category-brand",
+      "kind": "category",
+      "title": "Marca",
+      "description": "Categoria focada na superficie institucional, na narrativa tecnica e na distribuicao coerente da marca em canais publicos.",
+      "href": "/categorias/brand",
+      "tags": [
+        "brand",
+        "presenca institucional consistente",
+        "narrativa editorial forte",
+        "distribuicao multiplataforma com SEO",
+        "Produto full stack",
+        "Arquitetura e contratos",
+        "Observabilidade e operacao",
+        "categoria"
+      ],
+      "meta": "Presenca publica, narrativa e distribuicao"
+    },
+    {
+      "id": "category-platform",
+      "kind": "category",
+      "title": "Plataforma",
+      "description": "Categoria voltada a bases compartilhadas, esteiras previsiveis, infraestrutura como produto e maturidade operacional.",
+      "href": "/categorias/platform",
+      "tags": [
+        "platform",
+        "governanca multi-stack",
+        "pipelines e ambientes repetiveis",
+        "infraestrutura tratada como produto",
+        "Platform engineering",
+        "Arquitetura e contratos",
+        "Observabilidade e operacao",
+        "categoria"
+      ],
+      "meta": "Governanca de workspace e runtime"
+    },
+    {
+      "id": "contact-bluesky",
+      "kind": "contact",
+      "title": "Bluesky",
+      "description": "canal publico complementar",
+      "href": "https://bsky.app/profile/mozgbrasil.bsky.social",
+      "tags": ["contato", "canal", "bluesky"],
+      "meta": "Contato principal"
+    },
+    {
+      "id": "contact-curriculo",
+      "kind": "contact",
+      "title": "Curriculo",
+      "description": "versao em PDF",
+      "href": "https://mozg.com.br/assets/curriculum.pdf",
+      "tags": ["contato", "canal", "curriculo"],
+      "meta": "Contato principal"
+    },
+    {
+      "id": "contact-email",
+      "kind": "contact",
+      "title": "Email",
+      "description": "mozgbrasil@gmail.com",
+      "href": "mailto:mozgbrasil@gmail.com",
+      "tags": ["contato", "canal", "email"],
+      "meta": "Contato principal"
+    },
+    {
+      "id": "contact-github",
+      "kind": "contact",
+      "title": "GitHub",
+      "description": "repositorios e identidade tecnica",
+      "href": "https://github.com/mozgbrasil",
+      "tags": ["contato", "canal", "github"],
+      "meta": "Contato principal"
+    },
+    {
+      "id": "contact-github-pages",
+      "kind": "contact",
+      "title": "GitHub Pages",
+      "description": "portal complementar",
+      "href": "https://mozgbrasil.github.io/",
+      "tags": ["contato", "canal", "github-pages"],
+      "meta": "Contato principal"
+    },
+    {
+      "id": "contact-github-sponsors",
+      "kind": "contact",
+      "title": "GitHub Sponsors",
+      "description": "apoio direto ao laboratorio",
+      "href": "https://github.com/sponsors/mozgbrasil",
+      "tags": ["contato", "canal", "github-sponsors"],
+      "meta": "Contato principal"
+    },
+    {
+      "id": "contact-google-developers",
+      "kind": "contact",
+      "title": "Google Developers",
+      "description": "perfil tecnico no ecossistema Google",
+      "href": "https://developers.google.com/profile/u/mozgbrasil",
+      "tags": ["contato", "canal", "google-developers"],
+      "meta": "Contato principal"
+    },
+    {
+      "id": "contact-google-play",
+      "kind": "contact",
+      "title": "Google Play",
+      "description": "perfil de desenvolvedor com Mozg TWA e Mozg Híbrido",
+      "href": "https://play.google.com/store/apps/dev?id=8685510812208806498",
+      "tags": ["contato", "canal", "google-play"],
+      "meta": "Contato principal"
+    },
+    {
+      "id": "contact-linkedin",
+      "kind": "contact",
+      "title": "LinkedIn",
+      "description": "perfil profissional e networking",
+      "href": "https://www.linkedin.com/in/mozgbrasil/",
+      "tags": ["contato", "canal", "linkedin"],
+      "meta": "Contato principal"
+    },
+    {
+      "id": "contact-openprofile",
+      "kind": "contact",
+      "title": "OpenProfile",
+      "description": "identidade publica complementar",
+      "href": "https://openprofile.dev/profile/mozgbrasil",
+      "tags": ["contato", "canal", "openprofile"],
+      "meta": "Contato principal"
+    },
+    {
+      "id": "delivery-api-minima-auditavel",
+      "kind": "delivery",
+      "title": "API minima auditavel",
+      "description": "Camadas HTTP pequenas, com envelopes claros, filtros e dados adequados para automacao e troubleshooting.",
+      "href": "/portfolio",
+      "tags": [
+        "BFFs leves",
+        "operacao com visibilidade",
+        "integracoes futuras",
+        "request metadata",
+        "catalogos JSON",
+        "snapshots operacionais",
+        "entrega"
+      ],
+      "meta": "Modelo de execucao"
+    },
+    {
+      "id": "delivery-diagnostico-e-refactor-estruturado",
+      "kind": "delivery",
+      "title": "Diagnostico e refactor estruturado",
+      "description": "Leitura de legado, consolidacao de contratos, limpeza de arquitetura e esteira verde ao final.",
+      "href": "/portfolio",
+      "tags": [
+        "bases com drift tecnico",
+        "sites e apps sem padrao claro",
+        "monorepos em crescimento",
+        "plano de refactor",
+        "padrao de dados compartilhados",
+        "validacao auditavel",
+        "entrega"
+      ],
+      "meta": "Modelo de execucao"
+    },
+    {
+      "id": "delivery-portfolio-e-superficies-publicas",
+      "kind": "delivery",
+      "title": "Portfolio e superfícies publicas",
+      "description": "Sites, portais, perfis tecnicos e camadas editoriais com distribuicao coerente e forte legibilidade.",
+      "href": "/portfolio",
+      "tags": [
+        "marca tecnica",
+        "presenca publica",
+        "conteudo com SEO e discoverability",
+        "paginas pesquisaveis",
+        "exports publicos",
+        "metadados estruturados",
+        "entrega"
+      ],
+      "meta": "Modelo de execucao"
+    },
+    {
+      "id": "delivery-readiness-de-plataforma",
+      "kind": "delivery",
+      "title": "Readiness de plataforma",
+      "description": "Qualidade por projeto, scripts operacionais, build containerizado e alinhamento entre docs e runtime.",
+      "href": "/portfolio",
+      "tags": [
+        "pipelines locais",
+        "times pequenos",
+        "evolucao com padrao rigido",
+        "quality gates",
+        "matrix-check",
+        "runtime commands documentados",
+        "entrega"
+      ],
+      "meta": "Modelo de execucao"
+    },
+    {
+      "id": "dossier-github-profile",
+      "kind": "dossier",
+      "title": "github-profile",
+      "description": "Perfil tecnico condensado para superficies do GitHub, reforcando especialidades, links publicos e contexto do laboratorio em poucos segundos.",
+      "href": "/projetos/github-profile",
+      "tags": [
+        "docs",
+        "active",
+        "Markdown",
+        "GitHub",
+        "badges",
+        "portfolio",
+        "Arquitetura e contratos",
+        "Produto full stack",
+        "dossier"
+      ],
+      "meta": "Perfil tecnico · projects/github-profile"
+    },
+    {
+      "id": "dossier-monorepo",
+      "kind": "dossier",
+      "title": "monorepo",
+      "description": "Base para governanca unica do workspace, consolidando stacks, runtime, CI, infraestrutura e documentacao sob o mesmo padrao.",
+      "href": "/projetos/monorepo",
+      "tags": [
+        "platform",
+        "active",
+        "Node.js",
+        "Docker",
+        "Terraform",
+        "Helm",
+        "GitHub Actions",
+        "Arquitetura e contratos",
+        "Platform engineering",
+        "Observabilidade e operacao",
+        "dossier"
+      ],
+      "meta": "Workspace multi-stack · projects"
+    },
+    {
+      "id": "dossier-mozg-com-br",
+      "kind": "dossier",
+      "title": "mozg.com.br",
+      "description": "Superficie institucional principal para consolidar posicionamento, portfolio, descoberta tecnica e distribuicao editorial da marca.",
+      "href": "/projetos/mozg-com-br",
+      "tags": [
+        "brand",
+        "active",
+        "branding",
+        "SEO",
+        "PWA",
+        "structured data",
+        "content",
+        "Produto full stack",
+        "Arquitetura e contratos",
+        "Observabilidade e operacao",
+        "dossier"
+      ],
+      "meta": "Site principal · projects/node-vitepress"
+    },
+    {
+      "id": "dossier-mozgbrasil-github-io",
+      "kind": "dossier",
+      "title": "mozgbrasil.github.io",
+      "description": "Portal complementar em GitHub Pages para amplificar a marca, distribuir links e expor sinais vivos do GitHub em uma landing enxuta.",
+      "href": "/projetos/mozgbrasil-github-io",
+      "tags": [
+        "brand",
+        "evolving",
+        "GitHub Pages",
+        "HTML",
+        "signals",
+        "landing",
+        "Produto full stack",
+        "Observabilidade e operacao",
+        "dossier"
+      ],
+      "meta": "Portal complementar · projects/mozgbrasil.github.io"
+    },
+    {
+      "id": "dossier-node-next",
+      "kind": "dossier",
+      "title": "node-next",
+      "description": "Frente SaaS e de contratos cross-app para validar produto full stack, autenticacao, runtime local e quality gates em escala maior.",
+      "href": "/projetos/node-next",
+      "tags": [
+        "application",
+        "active",
+        "Next.js",
+        "Nx",
+        "TypeScript",
+        "Playwright",
+        "Docker",
+        "Produto full stack",
+        "Platform engineering",
+        "Observabilidade e operacao",
+        "dossier"
+      ],
+      "meta": "Plataforma SaaS · projects/node-nextjs"
+    },
+    {
+      "id": "dossier-node-vitepress",
+      "kind": "dossier",
+      "title": "node-vitepress",
+      "description": "Engine editorial para o dominio principal, unificando narrativa, API minima, exports publicos e paginas tematicas derivadas do mesmo catalogo.",
+      "href": "/projetos/node-vitepress",
+      "tags": [
+        "docs",
+        "active",
+        "VitePress",
+        "Vitest",
+        "ESLint",
+        "Prettier",
+        "Netlify",
+        "Produto full stack",
+        "Arquitetura e contratos",
+        "Observabilidade e operacao",
+        "dossier"
+      ],
+      "meta": "Engine editorial · projects/node-vitepress"
+    },
+    {
+      "id": "dossier-node-web-components",
+      "kind": "dossier",
+      "title": "node-web-components",
+      "description": "Biblioteca publica para consolidar componentes reutilizaveis, Storybook navegavel e distribuicao auditavel sem depender da exposicao do workspace privado.",
+      "href": "/projetos/node-web-components",
+      "tags": [
+        "docs",
+        "active",
+        "TypeScript",
+        "Vite",
+        "Storybook",
+        "Lit",
+        "npm",
+        "Produto full stack",
+        "Arquitetura e contratos",
+        "Observabilidade e operacao",
+        "dossier"
+      ],
+      "meta": "Biblioteca UI e Storybook · projects/node-web-components"
+    },
+    {
+      "id": "dossier-python-lumiere-synapse",
+      "kind": "dossier",
+      "title": "python-lumiere-synapse",
+      "description": "Plano de controle local para AI ops, multimodalidade e publicacao segura com guardrails e estado operacional persistente.",
+      "href": "/projetos/python-lumiere-synapse",
+      "tags": [
+        "automation",
+        "active",
+        "Python",
+        "SQLite",
+        "LM Studio",
+        "Bash",
+        "automation",
+        "Automacao e AI ops",
+        "Observabilidade e operacao",
+        "Arquitetura e contratos",
+        "dossier"
+      ],
+      "meta": "AI ops e automacao · projects/python-lumiere-synapse"
+    },
+    {
+      "id": "operation-api-auditavel",
+      "kind": "operation",
+      "title": "API auditavel",
+      "description": "Rotas pequenas com metadata de request, filtros explicitos e payloads previsiveis tornam discovery, troubleshooting e automacao mais simples.",
+      "href": "/operacao/api-auditavel",
+      "tags": [
+        "docs",
+        "application",
+        "automation",
+        "platform",
+        "Arquitetura e contratos",
+        "Observabilidade e operacao",
+        "Automacao e AI ops",
+        "Node.js",
+        "Vitest",
+        "Firebase",
+        "VitePress",
+        "operacao"
+      ],
+      "meta": "Dossier operacional"
+    },
+    {
+      "id": "operation-conteudo-orientado-por-dados",
+      "kind": "operation",
+      "title": "Conteudo orientado por dados",
+      "description": "O mesmo catalogo compartilhado alimenta site, APIs, exports e paginas derivadas, reduzindo drift entre narrativa, runtime e operacao.",
+      "href": "/operacao/conteudo-orientado-por-dados",
+      "tags": [
+        "docs",
+        "brand",
+        "platform",
+        "Arquitetura e contratos",
+        "Produto full stack",
+        "VitePress",
+        "Node.js",
+        "Vitest",
+        "Netlify",
+        "operacao"
+      ],
+      "meta": "Dossier operacional"
+    },
+    {
+      "id": "operation-operacao-previsivel",
+      "kind": "operation",
+      "title": "Operacao previsivel",
+      "description": "Scripts, health checks, matrix-check, Docker local e comandos documentados tornam a evolucao menos fragil e mais repetivel.",
+      "href": "/operacao/operacao-previsivel",
+      "tags": [
+        "platform",
+        "application",
+        "automation",
+        "docs",
+        "Platform engineering",
+        "Observabilidade e operacao",
+        "Automacao e AI ops",
+        "Docker",
+        "GitHub Actions",
+        "Node.js",
+        "Python",
+        "Kubernetes",
+        "operacao"
+      ],
+      "meta": "Dossier operacional"
+    },
+    {
+      "id": "operation-seo-e-distribuicao",
+      "kind": "operation",
+      "title": "SEO e distribuicao",
+      "description": "Robots, sitemap, schema.org, llms.txt, PWA e canais publicos trabalham em conjunto para reforcar descoberta e distribuicao.",
+      "href": "/operacao/seo-e-distribuicao",
+      "tags": [
+        "brand",
+        "docs",
+        "Produto full stack",
+        "Observabilidade e operacao",
+        "SEO",
+        "PWA",
+        "structured data",
+        "content",
+        "GitHub Pages",
+        "operacao"
+      ],
+      "meta": "Dossier operacional"
+    },
+    {
+      "id": "page-api-e-auditoria",
+      "kind": "page",
+      "title": "API e Auditoria",
+      "description": "Workbench vivo para inspecionar endpoints, snapshots estaticos e metadados.",
+      "href": "/api",
+      "tags": ["pagina", "site", "/api"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-categoria-aplicacao",
+      "kind": "page",
+      "title": "Categoria · Aplicacao",
+      "description": "Categoria orientada a produtos digitais com front, back, autenticacao, contratos e experiencia de uso no mesmo ritmo.",
+      "href": "/categorias/application",
+      "tags": ["pagina", "site", "/categorias/application"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-categoria-automacao",
+      "kind": "page",
+      "title": "Categoria · Automacao",
+      "description": "Categoria voltada a automacoes assistidas, pipelines multimodais, runtime local e operacao segura com estado persistente.",
+      "href": "/categorias/automation",
+      "tags": ["pagina", "site", "/categorias/automation"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-categoria-docs",
+      "kind": "page",
+      "title": "Categoria · Docs",
+      "description": "Categoria dedicada a conteudo tipado, documentacao viva, exports publicos e camadas de descoberta prontas para evolucao.",
+      "href": "/categorias/docs",
+      "tags": ["pagina", "site", "/categorias/docs"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-categoria-marca",
+      "kind": "page",
+      "title": "Categoria · Marca",
+      "description": "Categoria focada na superficie institucional, na narrativa tecnica e na distribuicao coerente da marca em canais publicos.",
+      "href": "/categorias/brand",
+      "tags": ["pagina", "site", "/categorias/brand"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-categoria-plataforma",
+      "kind": "page",
+      "title": "Categoria · Plataforma",
+      "description": "Categoria voltada a bases compartilhadas, esteiras previsiveis, infraestrutura como produto e maturidade operacional.",
+      "href": "/categorias/platform",
+      "tags": ["pagina", "site", "/categorias/platform"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-categorias",
+      "kind": "page",
+      "title": "Categorias",
+      "description": "Leitura tematica por categoria com foco, sinais, stacks e dossiers relacionados.",
+      "href": "/categorias",
+      "tags": ["pagina", "site", "/categorias"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-contato",
+      "kind": "page",
+      "title": "Contato",
+      "description": "Canais principais para conversar sobre arquitetura, produto e operacao.",
+      "href": "/contato",
+      "tags": ["pagina", "site", "/contato"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-ecossistema",
+      "kind": "page",
+      "title": "Ecossistema",
+      "description": "Visao dos projetos, stacks ativas, superficies publicas e especialidades.",
+      "href": "/ecossistema",
+      "tags": ["pagina", "site", "/ecossistema"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-inicio",
+      "kind": "page",
+      "title": "Inicio",
+      "description": "Home principal do site, com panorama, recortes e sinais.",
+      "href": "/",
+      "tags": ["pagina", "site", "/"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-openapi",
+      "kind": "page",
+      "title": "OpenAPI",
+      "description": "Swagger UI publica da camada serverless com contrato JSON padronizado.",
+      "href": "/openapi",
+      "tags": ["pagina", "site", "/openapi"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-operacao",
+      "kind": "page",
+      "title": "Operacao",
+      "description": "Principios operacionais, esteira local, variaveis de ambiente e API minima.",
+      "href": "/operacao",
+      "tags": ["pagina", "site", "/operacao"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-operacao-api-auditavel",
+      "kind": "page",
+      "title": "Operacao · API auditavel",
+      "description": "Rotas pequenas com metadata de request, filtros explicitos e payloads previsiveis tornam discovery, troubleshooting e automacao mais simples.",
+      "href": "/operacao/api-auditavel",
+      "tags": ["pagina", "site", "/operacao/api-auditavel"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-operacao-conteudo-orientado-por-dados",
+      "kind": "page",
+      "title": "Operacao · Conteudo orientado por dados",
+      "description": "O mesmo catalogo compartilhado alimenta site, APIs, exports e paginas derivadas, reduzindo drift entre narrativa, runtime e operacao.",
+      "href": "/operacao/conteudo-orientado-por-dados",
+      "tags": ["pagina", "site", "/operacao/conteudo-orientado-por-dados"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-operacao-operacao-previsivel",
+      "kind": "page",
+      "title": "Operacao · Operacao previsivel",
+      "description": "Scripts, health checks, matrix-check, Docker local e comandos documentados tornam a evolucao menos fragil e mais repetivel.",
+      "href": "/operacao/operacao-previsivel",
+      "tags": ["pagina", "site", "/operacao/operacao-previsivel"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-operacao-seo-e-distribuicao",
+      "kind": "page",
+      "title": "Operacao · SEO e distribuicao",
+      "description": "Robots, sitemap, schema.org, llms.txt, PWA e canais publicos trabalham em conjunto para reforcar descoberta e distribuicao.",
+      "href": "/operacao/seo-e-distribuicao",
+      "tags": ["pagina", "site", "/operacao/seo-e-distribuicao"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-portfolio",
+      "kind": "page",
+      "title": "Portfolio",
+      "description": "Portfolio filtravel com projetos, capacidades, stack e modos de entrega.",
+      "href": "/portfolio",
+      "tags": ["pagina", "site", "/portfolio"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-presenca",
+      "kind": "page",
+      "title": "Presenca",
+      "description": "Mapa de canais publicos da conta pessoal e da marca MOZG.",
+      "href": "/presenca",
+      "tags": ["pagina", "site", "/presenca"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-projeto-github-profile",
+      "kind": "page",
+      "title": "Projeto · github-profile",
+      "description": "Perfil tecnico. Resumo enxuto da especialidade, stack e contexto do workspace privado para superficies do GitHub.",
+      "href": "/projetos/github-profile",
+      "tags": ["pagina", "site", "/projetos/github-profile"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-projeto-monorepo",
+      "kind": "page",
+      "title": "Projeto · monorepo",
+      "description": "Workspace multi-stack. Base privada para apps, templates, docs, infraestrutura, agentes locais e governanca de qualidade.",
+      "href": "/projetos/monorepo",
+      "tags": ["pagina", "site", "/projetos/monorepo"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-projeto-mozg-com-br",
+      "kind": "page",
+      "title": "Projeto · mozg.com.br",
+      "description": "Site principal. Posicionamento profissional, portfolio e camada editorial do laboratorio em dominio proprio.",
+      "href": "/projetos/mozg-com-br",
+      "tags": ["pagina", "site", "/projetos/mozg-com-br"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-projeto-mozgbrasil-github-io",
+      "kind": "page",
+      "title": "Projeto · mozgbrasil.github.io",
+      "description": "Portal complementar. Camada publica com sinais do GitHub, portfolio e distribuicao de links para canais e projetos.",
+      "href": "/projetos/mozgbrasil-github-io",
+      "tags": ["pagina", "site", "/projetos/mozgbrasil-github-io"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-projeto-node-next",
+      "kind": "page",
+      "title": "Projeto · node-next",
+      "description": "Plataforma SaaS. Ambiente Nx com apps Next, contratos cross-app, smoke tests e stack Docker de desenvolvimento.",
+      "href": "/projetos/node-next",
+      "tags": ["pagina", "site", "/projetos/node-next"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-projeto-node-vitepress",
+      "kind": "page",
+      "title": "Projeto · node-vitepress",
+      "description": "Engine editorial. Site institucional e tecnico em VitePress com catalogo compartilhado, exports publicos e API auditavel.",
+      "href": "/projetos/node-vitepress",
+      "tags": ["pagina", "site", "/projetos/node-vitepress"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-projeto-node-web-components",
+      "kind": "page",
+      "title": "Projeto · node-web-components",
+      "description": "Biblioteca UI e Storybook. Biblioteca publica de Web Components com Storybook, wrappers multiplataforma e distribuicao auditavel no npm.",
+      "href": "/projetos/node-web-components",
+      "tags": ["pagina", "site", "/projetos/node-web-components"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-projeto-python-lumiere-synapse",
+      "kind": "page",
+      "title": "Projeto · python-lumiere-synapse",
+      "description": "AI ops e automacao. Control plane local para pipelines multimodais, publicacao assistida e operacao segura.",
+      "href": "/projetos/python-lumiere-synapse",
+      "tags": ["pagina", "site", "/projetos/python-lumiere-synapse"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-projetos",
+      "kind": "page",
+      "title": "Projetos",
+      "description": "Diretorio de dossiers tecnicos e operacionais para cada caso do portfolio.",
+      "href": "/projetos",
+      "tags": ["pagina", "site", "/projetos"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-radar",
+      "kind": "page",
+      "title": "Radar",
+      "description": "Camada de descoberta com filtros para paginas, APIs, projetos, superficies e canais.",
+      "href": "/radar",
+      "tags": ["pagina", "site", "/radar"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-automation",
+      "kind": "page",
+      "title": "Stack · automation",
+      "description": "Dossier tecnico e operacional da stack automation.",
+      "href": "/stacks/automation",
+      "tags": ["pagina", "site", "/stacks/automation"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-badges",
+      "kind": "page",
+      "title": "Stack · badges",
+      "description": "Dossier tecnico e operacional da stack badges.",
+      "href": "/stacks/badges",
+      "tags": ["pagina", "site", "/stacks/badges"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-bash",
+      "kind": "page",
+      "title": "Stack · Bash",
+      "description": "Dossier tecnico e operacional da stack Bash.",
+      "href": "/stacks/bash",
+      "tags": ["pagina", "site", "/stacks/bash"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-bff",
+      "kind": "page",
+      "title": "Stack · BFF",
+      "description": "Dossier tecnico e operacional da stack BFF.",
+      "href": "/stacks/bff",
+      "tags": ["pagina", "site", "/stacks/bff"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-branding",
+      "kind": "page",
+      "title": "Stack · branding",
+      "description": "Dossier tecnico e operacional da stack branding.",
+      "href": "/stacks/branding",
+      "tags": ["pagina", "site", "/stacks/branding"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-content",
+      "kind": "page",
+      "title": "Stack · content",
+      "description": "Dossier tecnico e operacional da stack content.",
+      "href": "/stacks/content",
+      "tags": ["pagina", "site", "/stacks/content"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-docker",
+      "kind": "page",
+      "title": "Stack · Docker",
+      "description": "Dossier tecnico e operacional da stack Docker.",
+      "href": "/stacks/docker",
+      "tags": ["pagina", "site", "/stacks/docker"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-eslint",
+      "kind": "page",
+      "title": "Stack · ESLint",
+      "description": "Dossier tecnico e operacional da stack ESLint.",
+      "href": "/stacks/eslint",
+      "tags": ["pagina", "site", "/stacks/eslint"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-firebase",
+      "kind": "page",
+      "title": "Stack · Firebase",
+      "description": "Dossier tecnico e operacional da stack Firebase.",
+      "href": "/stacks/firebase",
+      "tags": ["pagina", "site", "/stacks/firebase"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-github",
+      "kind": "page",
+      "title": "Stack · GitHub",
+      "description": "Dossier tecnico e operacional da stack GitHub.",
+      "href": "/stacks/github",
+      "tags": ["pagina", "site", "/stacks/github"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-github-actions",
+      "kind": "page",
+      "title": "Stack · GitHub Actions",
+      "description": "Dossier tecnico e operacional da stack GitHub Actions.",
+      "href": "/stacks/github-actions",
+      "tags": ["pagina", "site", "/stacks/github-actions"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-github-pages",
+      "kind": "page",
+      "title": "Stack · GitHub Pages",
+      "description": "Dossier tecnico e operacional da stack GitHub Pages.",
+      "href": "/stacks/github-pages",
+      "tags": ["pagina", "site", "/stacks/github-pages"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-helm",
+      "kind": "page",
+      "title": "Stack · Helm",
+      "description": "Dossier tecnico e operacional da stack Helm.",
+      "href": "/stacks/helm",
+      "tags": ["pagina", "site", "/stacks/helm"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-html",
+      "kind": "page",
+      "title": "Stack · HTML",
+      "description": "Dossier tecnico e operacional da stack HTML.",
+      "href": "/stacks/html",
+      "tags": ["pagina", "site", "/stacks/html"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-json-envelopes",
+      "kind": "page",
+      "title": "Stack · JSON envelopes",
+      "description": "Dossier tecnico e operacional da stack JSON envelopes.",
+      "href": "/stacks/json-envelopes",
+      "tags": ["pagina", "site", "/stacks/json-envelopes"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-kubernetes",
+      "kind": "page",
+      "title": "Stack · Kubernetes",
+      "description": "Dossier tecnico e operacional da stack Kubernetes.",
+      "href": "/stacks/kubernetes",
+      "tags": ["pagina", "site", "/stacks/kubernetes"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-landing",
+      "kind": "page",
+      "title": "Stack · landing",
+      "description": "Dossier tecnico e operacional da stack landing.",
+      "href": "/stacks/landing",
+      "tags": ["pagina", "site", "/stacks/landing"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-lit",
+      "kind": "page",
+      "title": "Stack · Lit",
+      "description": "Dossier tecnico e operacional da stack Lit.",
+      "href": "/stacks/lit",
+      "tags": ["pagina", "site", "/stacks/lit"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-lm-studio",
+      "kind": "page",
+      "title": "Stack · LM Studio",
+      "description": "Dossier tecnico e operacional da stack LM Studio.",
+      "href": "/stacks/lm-studio",
+      "tags": ["pagina", "site", "/stacks/lm-studio"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-markdown",
+      "kind": "page",
+      "title": "Stack · Markdown",
+      "description": "Dossier tecnico e operacional da stack Markdown.",
+      "href": "/stacks/markdown",
+      "tags": ["pagina", "site", "/stacks/markdown"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-netlify",
+      "kind": "page",
+      "title": "Stack · Netlify",
+      "description": "Dossier tecnico e operacional da stack Netlify.",
+      "href": "/stacks/netlify",
+      "tags": ["pagina", "site", "/stacks/netlify"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-next-js",
+      "kind": "page",
+      "title": "Stack · Next.js",
+      "description": "Dossier tecnico e operacional da stack Next.js.",
+      "href": "/stacks/next-js",
+      "tags": ["pagina", "site", "/stacks/next-js"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-nginx",
+      "kind": "page",
+      "title": "Stack · Nginx",
+      "description": "Dossier tecnico e operacional da stack Nginx.",
+      "href": "/stacks/nginx",
+      "tags": ["pagina", "site", "/stacks/nginx"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-node-js",
+      "kind": "page",
+      "title": "Stack · Node.js",
+      "description": "Dossier tecnico e operacional da stack Node.js.",
+      "href": "/stacks/node-js",
+      "tags": ["pagina", "site", "/stacks/node-js"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-npm",
+      "kind": "page",
+      "title": "Stack · npm",
+      "description": "Dossier tecnico e operacional da stack npm.",
+      "href": "/stacks/npm",
+      "tags": ["pagina", "site", "/stacks/npm"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-nx",
+      "kind": "page",
+      "title": "Stack · Nx",
+      "description": "Dossier tecnico e operacional da stack Nx.",
+      "href": "/stacks/nx",
+      "tags": ["pagina", "site", "/stacks/nx"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-playwright",
+      "kind": "page",
+      "title": "Stack · Playwright",
+      "description": "Dossier tecnico e operacional da stack Playwright.",
+      "href": "/stacks/playwright",
+      "tags": ["pagina", "site", "/stacks/playwright"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-portfolio",
+      "kind": "page",
+      "title": "Stack · portfolio",
+      "description": "Dossier tecnico e operacional da stack portfolio.",
+      "href": "/stacks/portfolio",
+      "tags": ["pagina", "site", "/stacks/portfolio"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-prettier",
+      "kind": "page",
+      "title": "Stack · Prettier",
+      "description": "Dossier tecnico e operacional da stack Prettier.",
+      "href": "/stacks/prettier",
+      "tags": ["pagina", "site", "/stacks/prettier"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-pwa",
+      "kind": "page",
+      "title": "Stack · PWA",
+      "description": "Dossier tecnico e operacional da stack PWA.",
+      "href": "/stacks/pwa",
+      "tags": ["pagina", "site", "/stacks/pwa"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-python",
+      "kind": "page",
+      "title": "Stack · Python",
+      "description": "Dossier tecnico e operacional da stack Python.",
+      "href": "/stacks/python",
+      "tags": ["pagina", "site", "/stacks/python"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-react",
+      "kind": "page",
+      "title": "Stack · React",
+      "description": "Dossier tecnico e operacional da stack React.",
+      "href": "/stacks/react",
+      "tags": ["pagina", "site", "/stacks/react"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-request-metadata",
+      "kind": "page",
+      "title": "Stack · request metadata",
+      "description": "Dossier tecnico e operacional da stack request metadata.",
+      "href": "/stacks/request-metadata",
+      "tags": ["pagina", "site", "/stacks/request-metadata"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-schema-org",
+      "kind": "page",
+      "title": "Stack · schema.org",
+      "description": "Dossier tecnico e operacional da stack schema.org.",
+      "href": "/stacks/schema-org",
+      "tags": ["pagina", "site", "/stacks/schema-org"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-seo",
+      "kind": "page",
+      "title": "Stack · SEO",
+      "description": "Dossier tecnico e operacional da stack SEO.",
+      "href": "/stacks/seo",
+      "tags": ["pagina", "site", "/stacks/seo"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-service-worker",
+      "kind": "page",
+      "title": "Stack · service worker",
+      "description": "Dossier tecnico e operacional da stack service worker.",
+      "href": "/stacks/service-worker",
+      "tags": ["pagina", "site", "/stacks/service-worker"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-signals",
+      "kind": "page",
+      "title": "Stack · signals",
+      "description": "Dossier tecnico e operacional da stack signals.",
+      "href": "/stacks/signals",
+      "tags": ["pagina", "site", "/stacks/signals"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-sqlite",
+      "kind": "page",
+      "title": "Stack · SQLite",
+      "description": "Dossier tecnico e operacional da stack SQLite.",
+      "href": "/stacks/sqlite",
+      "tags": ["pagina", "site", "/stacks/sqlite"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-storybook",
+      "kind": "page",
+      "title": "Stack · Storybook",
+      "description": "Dossier tecnico e operacional da stack Storybook.",
+      "href": "/stacks/storybook",
+      "tags": ["pagina", "site", "/stacks/storybook"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-structured-data",
+      "kind": "page",
+      "title": "Stack · structured data",
+      "description": "Dossier tecnico e operacional da stack structured data.",
+      "href": "/stacks/structured-data",
+      "tags": ["pagina", "site", "/stacks/structured-data"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-terraform",
+      "kind": "page",
+      "title": "Stack · Terraform",
+      "description": "Dossier tecnico e operacional da stack Terraform.",
+      "href": "/stacks/terraform",
+      "tags": ["pagina", "site", "/stacks/terraform"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-typescript",
+      "kind": "page",
+      "title": "Stack · TypeScript",
+      "description": "Dossier tecnico e operacional da stack TypeScript.",
+      "href": "/stacks/typescript",
+      "tags": ["pagina", "site", "/stacks/typescript"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-vite",
+      "kind": "page",
+      "title": "Stack · Vite",
+      "description": "Dossier tecnico e operacional da stack Vite.",
+      "href": "/stacks/vite",
+      "tags": ["pagina", "site", "/stacks/vite"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-vitepress",
+      "kind": "page",
+      "title": "Stack · VitePress",
+      "description": "Dossier tecnico e operacional da stack VitePress.",
+      "href": "/stacks/vitepress",
+      "tags": ["pagina", "site", "/stacks/vitepress"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-vitest",
+      "kind": "page",
+      "title": "Stack · Vitest",
+      "description": "Dossier tecnico e operacional da stack Vitest.",
+      "href": "/stacks/vitest",
+      "tags": ["pagina", "site", "/stacks/vitest"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stack-vue",
+      "kind": "page",
+      "title": "Stack · Vue",
+      "description": "Dossier tecnico e operacional da stack Vue.",
+      "href": "/stacks/vue",
+      "tags": ["pagina", "site", "/stacks/vue"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-stacks",
+      "kind": "page",
+      "title": "Stacks",
+      "description": "Mapa dinamico das tecnologias recorrentes, seus casos e dominios de capacidade.",
+      "href": "/stacks",
+      "tags": ["pagina", "site", "/stacks"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "portfolio-github-profile",
+      "kind": "portfolio",
+      "title": "github-profile",
+      "description": "Resumo enxuto da especialidade, stack e contexto do workspace privado para superficies do GitHub.",
+      "href": "https://mozg.com.br/projetos/github-profile",
+      "tags": [
+        "docs",
+        "active",
+        "README profile",
+        "badges",
+        "specialties",
+        "signals",
+        "Markdown",
+        "GitHub",
+        "badges",
+        "portfolio"
+      ],
+      "meta": "Perfil tecnico · active"
+    },
+    {
+      "id": "portfolio-monorepo",
+      "kind": "portfolio",
+      "title": "monorepo",
+      "description": "Base privada para apps, templates, docs, infraestrutura, agentes locais e governanca de qualidade.",
+      "href": "https://mozg.com.br/projetos/monorepo",
+      "tags": [
+        "platform",
+        "active",
+        "CI por matriz",
+        "Helm",
+        "Terraform",
+        "AGENTS",
+        "Node.js",
+        "Docker",
+        "Terraform",
+        "Helm",
+        "GitHub Actions"
+      ],
+      "meta": "Workspace multi-stack · active"
+    },
+    {
+      "id": "portfolio-mozg-com-br",
+      "kind": "portfolio",
+      "title": "mozg.com.br",
+      "description": "Posicionamento profissional, portfolio e camada editorial do laboratorio em dominio proprio.",
+      "href": "https://mozg.com.br",
+      "tags": [
+        "brand",
+        "active",
+        "branding",
+        "SEO",
+        "PWA",
+        "content",
+        "branding",
+        "SEO",
+        "PWA",
+        "structured data",
+        "content"
+      ],
+      "meta": "Site principal · active"
+    },
+    {
+      "id": "portfolio-mozgbrasil-github-io",
+      "kind": "portfolio",
+      "title": "mozgbrasil.github.io",
+      "description": "Camada publica com sinais do GitHub, portfolio e distribuicao de links para canais e projetos.",
+      "href": "https://mozgbrasil.github.io/",
+      "tags": [
+        "brand",
+        "evolving",
+        "GitHub Pages",
+        "portfolio",
+        "signals",
+        "landing",
+        "GitHub Pages",
+        "HTML",
+        "signals",
+        "landing"
+      ],
+      "meta": "Portal complementar · evolving"
+    },
+    {
+      "id": "portfolio-node-next",
+      "kind": "portfolio",
+      "title": "node-next",
+      "description": "Ambiente Nx com apps Next, contratos cross-app, smoke tests e stack Docker de desenvolvimento.",
+      "href": "https://mozg.com.br/projetos/node-next",
+      "tags": [
+        "application",
+        "active",
+        "Next.js",
+        "Nx",
+        "Playwright",
+        "Docker",
+        "Next.js",
+        "Nx",
+        "TypeScript",
+        "Playwright",
+        "Docker"
+      ],
+      "meta": "Plataforma SaaS · active"
+    },
+    {
+      "id": "portfolio-node-vitepress",
+      "kind": "portfolio",
+      "title": "node-vitepress",
+      "description": "Site institucional e tecnico em VitePress com catalogo compartilhado, exports publicos e API auditavel.",
+      "href": "https://mozg.com.br/projetos/node-vitepress",
+      "tags": [
+        "docs",
+        "active",
+        "VitePress",
+        "Vitest",
+        "SEO",
+        "auditability",
+        "VitePress",
+        "Vitest",
+        "ESLint",
+        "Prettier",
+        "Netlify"
+      ],
+      "meta": "Engine editorial · active"
+    },
+    {
+      "id": "portfolio-node-web-components",
+      "kind": "portfolio",
+      "title": "node-web-components",
+      "description": "Biblioteca publica de Web Components com Storybook, wrappers multiplataforma e distribuicao auditavel no npm.",
+      "href": "https://mozg.com.br/projetos/node-web-components",
+      "tags": [
+        "docs",
+        "active",
+        "Web Components",
+        "Storybook",
+        "npm",
+        "auditability",
+        "TypeScript",
+        "Vite",
+        "Storybook",
+        "Lit",
+        "npm"
+      ],
+      "meta": "Biblioteca UI e Storybook · active"
+    },
+    {
+      "id": "portfolio-python-lumiere-synapse",
+      "kind": "portfolio",
+      "title": "python-lumiere-synapse",
+      "description": "Control plane local para pipelines multimodais, publicacao assistida e operacao segura.",
+      "href": "https://mozg.com.br/projetos/python-lumiere-synapse",
+      "tags": [
+        "automation",
+        "active",
+        "Python",
+        "SQLite",
+        "guardrails",
+        "LM Studio",
+        "Python",
+        "SQLite",
+        "LM Studio",
+        "Bash",
+        "automation"
+      ],
+      "meta": "AI ops e automacao · active"
+    },
+    {
+      "id": "presence-hackin88-base-publica-github",
+      "kind": "presence",
+      "title": "hackin88 · Base publica · GitHub",
+      "description": "Conta pessoal e criativa no grupo Base publica.",
+      "href": "https://github.com/hackin88",
+      "tags": ["personal", "presenca", "base-publica", "github"],
+      "meta": "@marciohackin88"
+    },
+    {
+      "id": "presence-hackin88-base-publica-x-twitter",
+      "kind": "presence",
+      "title": "hackin88 · Base publica · X / Twitter",
+      "description": "Conta pessoal e criativa no grupo Base publica.",
+      "href": "https://x.com/Hackin88Mar",
+      "tags": ["personal", "presenca", "base-publica", "x-twitter"],
+      "meta": "@marciohackin88"
+    },
+    {
+      "id": "presence-hackin88-github",
+      "kind": "presence",
+      "title": "hackin88 · GitHub",
+      "description": "repositorios e codigo",
+      "href": "https://github.com/hackin88",
+      "tags": ["personal", "presenca", "github"],
+      "meta": "@marciohackin88"
+    },
+    {
+      "id": "presence-hackin88-social-facebook-pagina",
+      "kind": "presence",
+      "title": "hackin88 · Social · Facebook pagina",
+      "description": "Conta pessoal e criativa no grupo Social.",
+      "href": "https://web.facebook.com/profile.php?id=61586871089569",
+      "tags": ["personal", "presenca", "social", "facebook-pagina"],
+      "meta": "@marciohackin88"
+    },
+    {
+      "id": "presence-hackin88-social-facebook-perfil",
+      "kind": "presence",
+      "title": "hackin88 · Social · Facebook perfil",
+      "description": "Conta pessoal e criativa no grupo Social.",
+      "href": "https://web.facebook.com/profile.php?id=100005962474459",
+      "tags": ["personal", "presenca", "social", "facebook-perfil"],
+      "meta": "@marciohackin88"
+    },
+    {
+      "id": "presence-hackin88-social-instagram",
+      "kind": "presence",
+      "title": "hackin88 · Social · Instagram",
+      "description": "Conta pessoal e criativa no grupo Social.",
+      "href": "https://www.instagram.com/marciohackin88/",
+      "tags": ["personal", "presenca", "social", "instagram"],
+      "meta": "@marciohackin88"
+    },
+    {
+      "id": "presence-hackin88-social-threads",
+      "kind": "presence",
+      "title": "hackin88 · Social · Threads",
+      "description": "Conta pessoal e criativa no grupo Social.",
+      "href": "https://www.threads.com/@marciohackin88",
+      "tags": ["personal", "presenca", "social", "threads"],
+      "meta": "@marciohackin88"
+    },
+    {
+      "id": "presence-hackin88-tiktok",
+      "kind": "presence",
+      "title": "hackin88 · TikTok",
+      "description": "short-form e alcance",
+      "href": "https://www.tiktok.com/@marciohackin88",
+      "tags": ["personal", "presenca", "tiktok"],
+      "meta": "@marciohackin88"
+    },
+    {
+      "id": "presence-hackin88-video-e-short-form-tiktok",
+      "kind": "presence",
+      "title": "hackin88 · Video e short-form · TikTok",
+      "description": "Conta pessoal e criativa no grupo Video e short-form.",
+      "href": "https://www.tiktok.com/@marciohackin88",
+      "tags": ["personal", "presenca", "video-e-short-form", "tiktok"],
+      "meta": "@marciohackin88"
+    },
+    {
+      "id": "presence-hackin88-video-e-short-form-youtube-canal-01",
+      "kind": "presence",
+      "title": "hackin88 · Video e short-form · YouTube canal 01",
+      "description": "Conta pessoal e criativa no grupo Video e short-form.",
+      "href": "https://www.youtube.com/channel/UCZiA1iAt1agceweTMav6zAQ",
+      "tags": [
+        "personal",
+        "presenca",
+        "video-e-short-form",
+        "youtube-canal-01"
+      ],
+      "meta": "@marciohackin88"
+    },
+    {
+      "id": "presence-hackin88-video-e-short-form-youtube-canal-02",
+      "kind": "presence",
+      "title": "hackin88 · Video e short-form · YouTube canal 02",
+      "description": "Conta pessoal e criativa no grupo Video e short-form.",
+      "href": "https://youtube.com/channel/UCKTqbtqQcCK8GqeBuBTRwOQ/",
+      "tags": [
+        "personal",
+        "presenca",
+        "video-e-short-form",
+        "youtube-canal-02"
+      ],
+      "meta": "@marciohackin88"
+    },
+    {
+      "id": "presence-hackin88-x-twitter",
+      "kind": "presence",
+      "title": "hackin88 · X / Twitter",
+      "description": "notas e distribuicao rapida",
+      "href": "https://x.com/Hackin88Mar",
+      "tags": ["personal", "presenca", "x-twitter"],
+      "meta": "@marciohackin88"
+    },
+    {
+      "id": "presence-hackin88-youtube",
+      "kind": "presence",
+      "title": "hackin88 · YouTube",
+      "description": "canal principal",
+      "href": "https://www.youtube.com/channel/UCZiA1iAt1agceweTMav6zAQ",
+      "tags": ["personal", "presenca", "youtube"],
+      "meta": "@marciohackin88"
+    },
+    {
+      "id": "presence-mozgbrasil-apps-moveis-mozg-hibrido-angular",
+      "kind": "presence",
+      "title": "mozgbrasil · Apps móveis · Mozg Híbrido (Angular)",
+      "description": "Marca, laboratorio e canais no grupo Apps móveis.",
+      "href": "https://play.google.com/store/search?q=mozg%20h%C3%ADbrido&c=apps&hl=pt_BR",
+      "tags": ["brand", "presenca", "apps-moveis", "mozg-hibrido-angular"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-apps-moveis-mozg-twa-bubblewrap",
+      "kind": "presence",
+      "title": "mozgbrasil · Apps móveis · Mozg TWA (Bubblewrap)",
+      "description": "Marca, laboratorio e canais no grupo Apps móveis.",
+      "href": "https://play.google.com/store/search?q=mozg%20twa&c=apps&hl=pt_BR",
+      "tags": ["brand", "presenca", "apps-moveis", "mozg-twa-bubblewrap"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-apps-moveis-perfil-de-desenvolvedor",
+      "kind": "presence",
+      "title": "mozgbrasil · Apps móveis · Perfil de desenvolvedor",
+      "description": "Marca, laboratorio e canais no grupo Apps móveis.",
+      "href": "https://play.google.com/store/apps/dev?id=8685510812208806498",
+      "tags": ["brand", "presenca", "apps-moveis", "perfil-de-desenvolvedor"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-base-publica-bluesky",
+      "kind": "presence",
+      "title": "mozgbrasil · Base publica · Bluesky",
+      "description": "Marca, laboratorio e canais no grupo Base publica.",
+      "href": "https://bsky.app/profile/mozgbrasil.bsky.social",
+      "tags": ["brand", "presenca", "base-publica", "bluesky"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-base-publica-github",
+      "kind": "presence",
+      "title": "mozgbrasil · Base publica · GitHub",
+      "description": "Marca, laboratorio e canais no grupo Base publica.",
+      "href": "https://github.com/mozgbrasil",
+      "tags": ["brand", "presenca", "base-publica", "github"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-base-publica-twitch",
+      "kind": "presence",
+      "title": "mozgbrasil · Base publica · Twitch",
+      "description": "Marca, laboratorio e canais no grupo Base publica.",
+      "href": "https://www.twitch.tv/mozgbrasil",
+      "tags": ["brand", "presenca", "base-publica", "twitch"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-base-publica-x-twitter",
+      "kind": "presence",
+      "title": "mozgbrasil · Base publica · X / Twitter",
+      "description": "Marca, laboratorio e canais no grupo Base publica.",
+      "href": "https://x.com/mozgbrasil",
+      "tags": ["brand", "presenca", "base-publica", "x-twitter"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-github",
+      "kind": "presence",
+      "title": "mozgbrasil · GitHub",
+      "description": "repositorios e identidade tecnica",
+      "href": "https://github.com/mozgbrasil",
+      "tags": ["brand", "presenca", "github"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-github-pages",
+      "kind": "presence",
+      "title": "mozgbrasil · GitHub Pages",
+      "description": "perfil, redes e sinais recentes",
+      "href": "https://mozgbrasil.github.io/",
+      "tags": ["brand", "presenca", "github-pages"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-github-sponsors",
+      "kind": "presence",
+      "title": "mozgbrasil · GitHub Sponsors",
+      "description": "apoio e sustentabilidade publica",
+      "href": "https://github.com/sponsors/mozgbrasil",
+      "tags": ["brand", "presenca", "github-sponsors"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-perfis-tecnicos-github-sponsors",
+      "kind": "presence",
+      "title": "mozgbrasil · Perfis tecnicos · GitHub Sponsors",
+      "description": "Marca, laboratorio e canais no grupo Perfis tecnicos.",
+      "href": "https://github.com/sponsors/mozgbrasil",
+      "tags": ["brand", "presenca", "perfis-tecnicos", "github-sponsors"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-perfis-tecnicos-google-developers",
+      "kind": "presence",
+      "title": "mozgbrasil · Perfis tecnicos · Google Developers",
+      "description": "Marca, laboratorio e canais no grupo Perfis tecnicos.",
+      "href": "https://developers.google.com/profile/u/mozgbrasil",
+      "tags": ["brand", "presenca", "perfis-tecnicos", "google-developers"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-perfis-tecnicos-openprofile",
+      "kind": "presence",
+      "title": "mozgbrasil · Perfis tecnicos · OpenProfile",
+      "description": "Marca, laboratorio e canais no grupo Perfis tecnicos.",
+      "href": "https://openprofile.dev/profile/mozgbrasil",
+      "tags": ["brand", "presenca", "perfis-tecnicos", "openprofile"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-portais-mozg-com-br",
+      "kind": "presence",
+      "title": "mozgbrasil · Portais · mozg.com.br",
+      "description": "Marca, laboratorio e canais no grupo Portais.",
+      "href": "https://mozg.com.br",
+      "tags": ["brand", "presenca", "portais", "mozg-com-br"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-portais-mozgbrasil-github-io",
+      "kind": "presence",
+      "title": "mozgbrasil · Portais · mozgbrasil.github.io",
+      "description": "Marca, laboratorio e canais no grupo Portais.",
+      "href": "https://mozgbrasil.github.io/",
+      "tags": ["brand", "presenca", "portais", "mozgbrasil-github-io"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-social-e-comunidade-facebook-pagina",
+      "kind": "presence",
+      "title": "mozgbrasil · Social e comunidade · Facebook pagina",
+      "description": "Marca, laboratorio e canais no grupo Social e comunidade.",
+      "href": "https://web.facebook.com/profile.php?id=1747017103304350",
+      "tags": ["brand", "presenca", "social-e-comunidade", "facebook-pagina"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-social-e-comunidade-facebook-perfil",
+      "kind": "presence",
+      "title": "mozgbrasil · Social e comunidade · Facebook perfil",
+      "description": "Marca, laboratorio e canais no grupo Social e comunidade.",
+      "href": "https://web.facebook.com/profile.php?id=100011302182650",
+      "tags": ["brand", "presenca", "social-e-comunidade", "facebook-perfil"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-social-e-comunidade-instagram",
+      "kind": "presence",
+      "title": "mozgbrasil · Social e comunidade · Instagram",
+      "description": "Marca, laboratorio e canais no grupo Social e comunidade.",
+      "href": "https://www.instagram.com/mozgbrasil/",
+      "tags": ["brand", "presenca", "social-e-comunidade", "instagram"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-social-e-comunidade-threads",
+      "kind": "presence",
+      "title": "mozgbrasil · Social e comunidade · Threads",
+      "description": "Marca, laboratorio e canais no grupo Social e comunidade.",
+      "href": "https://www.threads.com/@mozgbrasil",
+      "tags": ["brand", "presenca", "social-e-comunidade", "threads"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-streaming-e-jogos-steam",
+      "kind": "presence",
+      "title": "mozgbrasil · Streaming e jogos · Steam",
+      "description": "Marca, laboratorio e canais no grupo Streaming e jogos.",
+      "href": "https://steamcommunity.com/id/mozgbrasil/",
+      "tags": ["brand", "presenca", "streaming-e-jogos", "steam"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-streaming-e-jogos-xbox",
+      "kind": "presence",
+      "title": "mozgbrasil · Streaming e jogos · Xbox",
+      "description": "Marca, laboratorio e canais no grupo Streaming e jogos.",
+      "href": "https://www.xbox.com/pt-BR/play/user/MozgBrasil",
+      "tags": ["brand", "presenca", "streaming-e-jogos", "xbox"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-video-e-short-form-tiktok",
+      "kind": "presence",
+      "title": "mozgbrasil · Video e short-form · TikTok",
+      "description": "Marca, laboratorio e canais no grupo Video e short-form.",
+      "href": "https://www.tiktok.com/@marciomozgbrasil",
+      "tags": ["brand", "presenca", "video-e-short-form", "tiktok"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-video-e-short-form-youtube-canal-01",
+      "kind": "presence",
+      "title": "mozgbrasil · Video e short-form · YouTube canal 01",
+      "description": "Marca, laboratorio e canais no grupo Video e short-form.",
+      "href": "https://www.youtube.com/channel/UCgGavVKpdCqcizHoMzPWzvA",
+      "tags": ["brand", "presenca", "video-e-short-form", "youtube-canal-01"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-video-e-short-form-youtube-canal-02",
+      "kind": "presence",
+      "title": "mozgbrasil · Video e short-form · YouTube canal 02",
+      "description": "Marca, laboratorio e canais no grupo Video e short-form.",
+      "href": "https://youtube.com/channel/UCiXR9cKwxNKMehSnqXvhtug/",
+      "tags": ["brand", "presenca", "video-e-short-form", "youtube-canal-02"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-x-twitter",
+      "kind": "presence",
+      "title": "mozgbrasil · X / Twitter",
+      "description": "canal rapido e publico",
+      "href": "https://x.com/mozgbrasil",
+      "tags": ["brand", "presenca", "x-twitter"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-youtube",
+      "kind": "presence",
+      "title": "mozgbrasil · YouTube",
+      "description": "conteudo principal",
+      "href": "https://www.youtube.com/channel/UCgGavVKpdCqcizHoMzPWzvA",
+      "tags": ["brand", "presenca", "youtube"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "project-github-profile",
+      "kind": "project",
+      "title": "github-profile",
+      "description": "Resumo enxuto da especialidade, stack e contexto do workspace privado para superficies do GitHub.",
+      "href": "https://mozg.com.br/projetos/github-profile",
+      "tags": ["README profile", "badges", "specialties", "signals", "projeto"],
+      "meta": "Perfil tecnico"
+    },
+    {
+      "id": "project-monorepo",
+      "kind": "project",
+      "title": "monorepo",
+      "description": "Base privada para apps, templates, docs, infraestrutura, agentes locais e governanca de qualidade.",
+      "href": "https://mozg.com.br/projetos/monorepo",
+      "tags": ["CI por matriz", "Helm", "Terraform", "AGENTS", "projeto"],
+      "meta": "Workspace multi-stack"
+    },
+    {
+      "id": "project-mozg-com-br",
+      "kind": "project",
+      "title": "mozg.com.br",
+      "description": "Posicionamento profissional, portfolio e camada editorial do laboratorio em dominio proprio.",
+      "href": "https://mozg.com.br",
+      "tags": ["branding", "SEO", "PWA", "content", "projeto"],
+      "meta": "Site principal"
+    },
+    {
+      "id": "project-mozgbrasil-github-io",
+      "kind": "project",
+      "title": "mozgbrasil.github.io",
+      "description": "Camada publica com sinais do GitHub, portfolio e distribuicao de links para canais e projetos.",
+      "href": "https://mozgbrasil.github.io/",
+      "tags": ["GitHub Pages", "portfolio", "signals", "landing", "projeto"],
+      "meta": "Portal complementar"
+    },
+    {
+      "id": "project-node-next",
+      "kind": "project",
+      "title": "node-next",
+      "description": "Ambiente Nx com apps Next, contratos cross-app, smoke tests e stack Docker de desenvolvimento.",
+      "href": "https://mozg.com.br/projetos/node-next",
+      "tags": ["Next.js", "Nx", "Playwright", "Docker", "projeto"],
+      "meta": "Plataforma SaaS"
+    },
+    {
+      "id": "project-node-vitepress",
+      "kind": "project",
+      "title": "node-vitepress",
+      "description": "Site institucional e tecnico em VitePress com catalogo compartilhado, exports publicos e API auditavel.",
+      "href": "https://mozg.com.br/projetos/node-vitepress",
+      "tags": ["VitePress", "Vitest", "SEO", "auditability", "projeto"],
+      "meta": "Engine editorial"
+    },
+    {
+      "id": "project-node-web-components",
+      "kind": "project",
+      "title": "node-web-components",
+      "description": "Biblioteca publica de Web Components com Storybook, wrappers multiplataforma e distribuicao auditavel no npm.",
+      "href": "https://mozg.com.br/projetos/node-web-components",
+      "tags": ["Web Components", "Storybook", "npm", "auditability", "projeto"],
+      "meta": "Biblioteca UI e Storybook"
+    },
+    {
+      "id": "project-python-lumiere-synapse",
+      "kind": "project",
+      "title": "python-lumiere-synapse",
+      "description": "Control plane local para pipelines multimodais, publicacao assistida e operacao segura.",
+      "href": "https://mozg.com.br/projetos/python-lumiere-synapse",
+      "tags": ["Python", "SQLite", "guardrails", "LM Studio", "projeto"],
+      "meta": "AI ops e automacao"
+    },
+    {
+      "id": "specialty-arquitetura-orientada-a-execucao",
+      "kind": "specialty",
+      "title": "Arquitetura orientada a execucao",
+      "description": "Modelagem de produto, contratos, qualidade e operacao pensadas desde o primeiro deploy.",
+      "href": "/ecossistema",
+      "tags": [
+        "BFF",
+        "API contracts",
+        "docs",
+        "observability",
+        "especialidade"
+      ],
+      "meta": "Capacidade principal"
+    },
+    {
+      "id": "specialty-automacao-e-ai-ops",
+      "kind": "specialty",
+      "title": "Automacao e AI ops",
+      "description": "Fluxos assistidos, runtime local, guardrails, monitoramento e integracao com pipelines multimodais.",
+      "href": "/ecossistema",
+      "tags": ["Python", "LM Studio", "SQLite", "automation", "especialidade"],
+      "meta": "Capacidade principal"
+    },
+    {
+      "id": "specialty-engenharia-full-stack",
+      "kind": "specialty",
+      "title": "Engenharia full stack",
+      "description": "Frontends, backends, autenticacao, componentes reutilizaveis e experiencias de alto contexto.",
+      "href": "/ecossistema",
+      "tags": ["React", "Next.js", "Vue", "Node.js", "especialidade"],
+      "meta": "Capacidade principal"
+    },
+    {
+      "id": "specialty-platform-e-devops",
+      "kind": "specialty",
+      "title": "Platform e DevOps",
+      "description": "Ambientes repetiveis, health checks, CI por matriz, Docker local e trilhas seguras de manutencao.",
+      "href": "/ecossistema",
+      "tags": [
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "GitHub Actions",
+        "especialidade"
+      ],
+      "meta": "Capacidade principal"
+    },
+    {
+      "id": "stack-automation",
+      "kind": "stack",
+      "title": "automation",
+      "description": "1 casos e 1 dominios conectados a esta tecnologia.",
+      "href": "/stacks/automation",
+      "tags": ["automation", "Automacao e AI ops", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-badges",
+      "kind": "stack",
+      "title": "badges",
+      "description": "1 casos e 0 dominios conectados a esta tecnologia.",
+      "href": "/stacks/badges",
+      "tags": ["docs", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-bash",
+      "kind": "stack",
+      "title": "Bash",
+      "description": "1 casos e 1 dominios conectados a esta tecnologia.",
+      "href": "/stacks/bash",
+      "tags": ["automation", "Automacao e AI ops", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-bff",
+      "kind": "stack",
+      "title": "BFF",
+      "description": "0 casos e 1 dominios conectados a esta tecnologia.",
+      "href": "/stacks/bff",
+      "tags": ["Arquitetura e contratos", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-branding",
+      "kind": "stack",
+      "title": "branding",
+      "description": "1 casos e 0 dominios conectados a esta tecnologia.",
+      "href": "/stacks/branding",
+      "tags": ["brand", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-content",
+      "kind": "stack",
+      "title": "content",
+      "description": "1 casos e 0 dominios conectados a esta tecnologia.",
+      "href": "/stacks/content",
+      "tags": ["brand", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-docker",
+      "kind": "stack",
+      "title": "Docker",
+      "description": "2 casos e 1 dominios conectados a esta tecnologia.",
+      "href": "/stacks/docker",
+      "tags": ["platform", "application", "Platform engineering", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-eslint",
+      "kind": "stack",
+      "title": "ESLint",
+      "description": "1 casos e 0 dominios conectados a esta tecnologia.",
+      "href": "/stacks/eslint",
+      "tags": ["docs", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-firebase",
+      "kind": "stack",
+      "title": "Firebase",
+      "description": "0 casos e 1 dominios conectados a esta tecnologia.",
+      "href": "/stacks/firebase",
+      "tags": ["Observabilidade e operacao", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-github",
+      "kind": "stack",
+      "title": "GitHub",
+      "description": "1 casos e 0 dominios conectados a esta tecnologia.",
+      "href": "/stacks/github",
+      "tags": ["docs", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-github-actions",
+      "kind": "stack",
+      "title": "GitHub Actions",
+      "description": "1 casos e 1 dominios conectados a esta tecnologia.",
+      "href": "/stacks/github-actions",
+      "tags": ["platform", "Platform engineering", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-github-pages",
+      "kind": "stack",
+      "title": "GitHub Pages",
+      "description": "1 casos e 0 dominios conectados a esta tecnologia.",
+      "href": "/stacks/github-pages",
+      "tags": ["brand", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-helm",
+      "kind": "stack",
+      "title": "Helm",
+      "description": "1 casos e 1 dominios conectados a esta tecnologia.",
+      "href": "/stacks/helm",
+      "tags": ["platform", "Platform engineering", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-html",
+      "kind": "stack",
+      "title": "HTML",
+      "description": "1 casos e 0 dominios conectados a esta tecnologia.",
+      "href": "/stacks/html",
+      "tags": ["brand", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-json-envelopes",
+      "kind": "stack",
+      "title": "JSON envelopes",
+      "description": "0 casos e 1 dominios conectados a esta tecnologia.",
+      "href": "/stacks/json-envelopes",
+      "tags": ["Arquitetura e contratos", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-kubernetes",
+      "kind": "stack",
+      "title": "Kubernetes",
+      "description": "0 casos e 1 dominios conectados a esta tecnologia.",
+      "href": "/stacks/kubernetes",
+      "tags": ["Platform engineering", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-landing",
+      "kind": "stack",
+      "title": "landing",
+      "description": "1 casos e 0 dominios conectados a esta tecnologia.",
+      "href": "/stacks/landing",
+      "tags": ["brand", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-lit",
+      "kind": "stack",
+      "title": "Lit",
+      "description": "1 casos e 0 dominios conectados a esta tecnologia.",
+      "href": "/stacks/lit",
+      "tags": ["docs", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-lm-studio",
+      "kind": "stack",
+      "title": "LM Studio",
+      "description": "1 casos e 1 dominios conectados a esta tecnologia.",
+      "href": "/stacks/lm-studio",
+      "tags": ["automation", "Automacao e AI ops", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-markdown",
+      "kind": "stack",
+      "title": "Markdown",
+      "description": "1 casos e 0 dominios conectados a esta tecnologia.",
+      "href": "/stacks/markdown",
+      "tags": ["docs", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-netlify",
+      "kind": "stack",
+      "title": "Netlify",
+      "description": "1 casos e 1 dominios conectados a esta tecnologia.",
+      "href": "/stacks/netlify",
+      "tags": ["docs", "Observabilidade e operacao", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-next-js",
+      "kind": "stack",
+      "title": "Next.js",
+      "description": "1 casos e 1 dominios conectados a esta tecnologia.",
+      "href": "/stacks/next-js",
+      "tags": ["application", "Produto full stack", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-nginx",
+      "kind": "stack",
+      "title": "Nginx",
+      "description": "0 casos e 1 dominios conectados a esta tecnologia.",
+      "href": "/stacks/nginx",
+      "tags": ["Observabilidade e operacao", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-node-js",
+      "kind": "stack",
+      "title": "Node.js",
+      "description": "1 casos e 0 dominios conectados a esta tecnologia.",
+      "href": "/stacks/node-js",
+      "tags": ["platform", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-npm",
+      "kind": "stack",
+      "title": "npm",
+      "description": "1 casos e 0 dominios conectados a esta tecnologia.",
+      "href": "/stacks/npm",
+      "tags": ["docs", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-nx",
+      "kind": "stack",
+      "title": "Nx",
+      "description": "1 casos e 0 dominios conectados a esta tecnologia.",
+      "href": "/stacks/nx",
+      "tags": ["application", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-playwright",
+      "kind": "stack",
+      "title": "Playwright",
+      "description": "1 casos e 0 dominios conectados a esta tecnologia.",
+      "href": "/stacks/playwright",
+      "tags": ["application", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-portfolio",
+      "kind": "stack",
+      "title": "portfolio",
+      "description": "1 casos e 0 dominios conectados a esta tecnologia.",
+      "href": "/stacks/portfolio",
+      "tags": ["docs", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-prettier",
+      "kind": "stack",
+      "title": "Prettier",
+      "description": "1 casos e 0 dominios conectados a esta tecnologia.",
+      "href": "/stacks/prettier",
+      "tags": ["docs", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-pwa",
+      "kind": "stack",
+      "title": "PWA",
+      "description": "1 casos e 0 dominios conectados a esta tecnologia.",
+      "href": "/stacks/pwa",
+      "tags": ["brand", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-python",
+      "kind": "stack",
+      "title": "Python",
+      "description": "1 casos e 1 dominios conectados a esta tecnologia.",
+      "href": "/stacks/python",
+      "tags": ["automation", "Automacao e AI ops", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-react",
+      "kind": "stack",
+      "title": "React",
+      "description": "0 casos e 1 dominios conectados a esta tecnologia.",
+      "href": "/stacks/react",
+      "tags": ["Produto full stack", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-request-metadata",
+      "kind": "stack",
+      "title": "request metadata",
+      "description": "0 casos e 1 dominios conectados a esta tecnologia.",
+      "href": "/stacks/request-metadata",
+      "tags": ["Arquitetura e contratos", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-schema-org",
+      "kind": "stack",
+      "title": "schema.org",
+      "description": "0 casos e 1 dominios conectados a esta tecnologia.",
+      "href": "/stacks/schema-org",
+      "tags": ["Arquitetura e contratos", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-seo",
+      "kind": "stack",
+      "title": "SEO",
+      "description": "1 casos e 0 dominios conectados a esta tecnologia.",
+      "href": "/stacks/seo",
+      "tags": ["brand", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-service-worker",
+      "kind": "stack",
+      "title": "service worker",
+      "description": "0 casos e 1 dominios conectados a esta tecnologia.",
+      "href": "/stacks/service-worker",
+      "tags": ["Observabilidade e operacao", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-signals",
+      "kind": "stack",
+      "title": "signals",
+      "description": "1 casos e 0 dominios conectados a esta tecnologia.",
+      "href": "/stacks/signals",
+      "tags": ["brand", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-sqlite",
+      "kind": "stack",
+      "title": "SQLite",
+      "description": "1 casos e 1 dominios conectados a esta tecnologia.",
+      "href": "/stacks/sqlite",
+      "tags": ["automation", "Automacao e AI ops", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-storybook",
+      "kind": "stack",
+      "title": "Storybook",
+      "description": "1 casos e 0 dominios conectados a esta tecnologia.",
+      "href": "/stacks/storybook",
+      "tags": ["docs", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-structured-data",
+      "kind": "stack",
+      "title": "structured data",
+      "description": "1 casos e 0 dominios conectados a esta tecnologia.",
+      "href": "/stacks/structured-data",
+      "tags": ["brand", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-terraform",
+      "kind": "stack",
+      "title": "Terraform",
+      "description": "1 casos e 1 dominios conectados a esta tecnologia.",
+      "href": "/stacks/terraform",
+      "tags": ["platform", "Platform engineering", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-typescript",
+      "kind": "stack",
+      "title": "TypeScript",
+      "description": "2 casos e 0 dominios conectados a esta tecnologia.",
+      "href": "/stacks/typescript",
+      "tags": ["application", "docs", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-vite",
+      "kind": "stack",
+      "title": "Vite",
+      "description": "1 casos e 0 dominios conectados a esta tecnologia.",
+      "href": "/stacks/vite",
+      "tags": ["docs", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-vitepress",
+      "kind": "stack",
+      "title": "VitePress",
+      "description": "1 casos e 1 dominios conectados a esta tecnologia.",
+      "href": "/stacks/vitepress",
+      "tags": ["docs", "Produto full stack", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-vitest",
+      "kind": "stack",
+      "title": "Vitest",
+      "description": "1 casos e 1 dominios conectados a esta tecnologia.",
+      "href": "/stacks/vitest",
+      "tags": ["docs", "Observabilidade e operacao", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "stack-vue",
+      "kind": "stack",
+      "title": "Vue",
+      "description": "0 casos e 1 dominios conectados a esta tecnologia.",
+      "href": "/stacks/vue",
+      "tags": ["Produto full stack", "stack"],
+      "meta": "Tecnologia recorrente"
+    },
+    {
+      "id": "surface-pacotes-e-artefatos",
+      "kind": "surface",
+      "title": "Pacotes e artefatos",
+      "description": "Historico de publicacao em npm e Packagist para transformar conhecimento em modulos reutilizaveis.",
+      "href": "https://www.npmjs.com/~mozg",
+      "tags": ["superficie", "publico", "distribuicao"],
+      "meta": "Canal publico"
+    },
+    {
+      "id": "surface-perfil-profissional",
+      "kind": "surface",
+      "title": "Perfil profissional",
+      "description": "github-profile organiza especialidades, badges e links para curriculo, site e dossiers publicos do ecossistema.",
+      "href": "https://github.com/mozgbrasil",
+      "tags": ["superficie", "publico", "distribuicao"],
+      "meta": "Canal publico"
+    },
+    {
+      "id": "surface-play-store-do-desenvolvedor",
+      "kind": "surface",
+      "title": "Play Store do desenvolvedor",
+      "description": "Mozg TWA (Bubblewrap) e Mozg Híbrido (Angular) são os dois produtos ativos no Android.",
+      "href": "https://play.google.com/store/apps/dev?id=8685510812208806498",
+      "tags": ["superficie", "publico", "distribuicao"],
+      "meta": "Canal publico"
+    },
+    {
+      "id": "surface-portal-em-github-pages",
+      "kind": "surface",
+      "title": "Portal em GitHub Pages",
+      "description": "mozgbrasil.github.io reforca presenca publica com sinais vivos e recortes derivados do workspace privado.",
+      "href": "https://mozgbrasil.github.io/",
+      "tags": ["superficie", "publico", "distribuicao"],
+      "meta": "Canal publico"
+    },
+    {
+      "id": "surface-site-principal",
+      "kind": "surface",
+      "title": "Site principal",
+      "description": "mozg.com.br concentra posicionamento, portfolio e a camada institucional do trabalho.",
+      "href": "https://mozg.com.br",
+      "tags": ["superficie", "publico", "distribuicao"],
+      "meta": "Canal publico"
+    }
+  ]
+}

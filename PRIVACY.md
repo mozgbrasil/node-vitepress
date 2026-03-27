@@ -24,4 +24,4 @@ Implementamos medidas de segurança para proteger os dados coletados.
 ## Contato
 
 Para dúvidas sobre esta política, entre em contato conosco pelo e-mail:
-mozg@mozg.com.br
+mozgbrasil@gmail.com
