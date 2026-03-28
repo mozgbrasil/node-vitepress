@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-28T02:53:09.560Z",
+  "generated_at": "2026-03-28T05:17:32.738Z",
   "catalog": {
     "site": {
       "title": "MOZG | Marcio dos Santos Amorim",
@@ -125,6 +125,11 @@
         "path": "/contato",
         "title": "Contato",
         "description": "Canais principais para conversar sobre arquitetura, produto e operacao."
+      },
+      {
+        "path": "/privacypolicy",
+        "title": "Politica de privacidade",
+        "description": "Compromissos de privacidade, analytics, formularios e artefatos publicos do site."
       },
       {
         "path": "/categorias",
@@ -1024,7 +1029,7 @@
           },
           {
             "label": "Pacote npm",
-            "href": "https://www.npmjs.com/package/node-web-components"
+            "href": "https://www.npmjs.com/package/@mozgbrasil/node-web-components"
           },
           {
             "label": "Repositorio publico de showcase",
@@ -1828,6 +1833,21 @@
         "note": "perfil de desenvolvedor com Mozg TWA e Mozg Híbrido"
       },
       {
+        "href": "https://br.trustpilot.com/review/mozg.com.br",
+        "label": "Trustpilot",
+        "note": "prova social publica e coleta de reviews"
+      },
+      {
+        "href": "https://brasilparticipativo.presidencia.gov.br/profiles/mozgbrasil/activity",
+        "label": "Brasil Participativo",
+        "note": "perfil publico de participacao cidadã"
+      },
+      {
+        "href": "https://mozg.com.br/privacypolicy",
+        "label": "Privacidade",
+        "note": "politica publica de privacidade do site e dos apps"
+      },
+      {
         "href": "mailto:mozgbrasil@gmail.com",
         "label": "Email",
         "note": "mozgbrasil@gmail.com"
@@ -2021,6 +2041,10 @@
               {
                 "href": "https://github.com/sponsors/mozgbrasil",
                 "label": "GitHub Sponsors"
+              },
+              {
+                "href": "https://brasilparticipativo.presidencia.gov.br/profiles/mozgbrasil/activity",
+                "label": "Brasil Participativo"
               }
             ]
           },
@@ -2028,11 +2052,11 @@
             "title": "Apps móveis",
             "links": [
               {
-                "href": "https://play.google.com/store/search?q=mozg%20twa&c=apps&hl=pt_BR",
+                "href": "https://play.google.com/store/apps/details?id=br.com.mozg.twa&hl=pt_BR",
                 "label": "Mozg TWA (Bubblewrap)"
               },
               {
-                "href": "https://play.google.com/store/search?q=mozg%20h%C3%ADbrido&c=apps&hl=pt_BR",
+                "href": "https://play.google.com/store/apps/details?id=com.mozg.android.fizzy&hl=pt_BR",
                 "label": "Mozg Híbrido (Angular)"
               },
               {
@@ -2048,6 +2072,14 @@
               {
                 "href": "https://mozgbrasil.github.io/",
                 "label": "mozgbrasil.github.io"
+              },
+              {
+                "href": "https://mozg.com.br/privacypolicy",
+                "label": "Politica de privacidade"
+              },
+              {
+                "href": "https://br.trustpilot.com/review/mozg.com.br",
+                "label": "Trustpilot"
               }
             ]
           }
@@ -2056,13 +2088,13 @@
     ]
   },
   "audit": {
-    "generated_at": "2026-03-28T02:53:09.560Z",
+    "generated_at": "2026-03-28T05:17:32.738Z",
     "company": "MOZG",
     "site_url": "https://mozg.com.br",
     "counts": {
-      "pages": 75,
+      "pages": 76,
       "api_routes": 18,
-      "discovery_items": 239,
+      "discovery_items": 246,
       "portfolio_entries": 8,
       "project_dossiers": 8,
       "category_profiles": 5,
@@ -2075,8 +2107,8 @@
       "surfaces": 5,
       "presence_profiles": 2,
       "presence_groups": 10,
-      "presence_links": 39,
-      "contact_links": 10
+      "presence_links": 42,
+      "contact_links": 13
     },
     "pages": [
       "/",
@@ -2090,6 +2122,7 @@
       "/radar",
       "/presenca",
       "/contato",
+      "/privacypolicy",
       "/categorias",
       "/categorias/platform",
       "/categorias/application",

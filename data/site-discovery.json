@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-03-28T02:53:09.560Z",
+  "generated_at": "2026-03-28T05:17:32.738Z",
   "filters_applied": {},
-  "total_items": 239,
-  "total_available_items": 239,
+  "total_items": 246,
+  "total_available_items": 246,
   "kinds": [
-    { "label": "page", "count": 75 },
+    { "label": "page", "count": 76 },
     { "label": "stack", "count": 46 },
-    { "label": "presence", "count": 39 },
+    { "label": "presence", "count": 42 },
     { "label": "api", "count": 18 },
-    { "label": "contact", "count": 10 },
+    { "label": "contact", "count": 13 },
     { "label": "dossier", "count": 8 },
     { "label": "portfolio", "count": 8 },
     { "label": "project", "count": 8 },
@@ -375,6 +375,15 @@
       "meta": "Contato principal"
     },
     {
+      "id": "contact-brasil-participativo",
+      "kind": "contact",
+      "title": "Brasil Participativo",
+      "description": "perfil publico de participacao cidadã",
+      "href": "https://brasilparticipativo.presidencia.gov.br/profiles/mozgbrasil/activity",
+      "tags": ["contato", "canal", "brasil-participativo"],
+      "meta": "Contato principal"
+    },
+    {
       "id": "contact-curriculo",
       "kind": "contact",
       "title": "Curriculo",
@@ -453,6 +462,24 @@
       "description": "identidade publica complementar",
       "href": "https://openprofile.dev/profile/mozgbrasil",
       "tags": ["contato", "canal", "openprofile"],
+      "meta": "Contato principal"
+    },
+    {
+      "id": "contact-privacidade",
+      "kind": "contact",
+      "title": "Privacidade",
+      "description": "politica publica de privacidade do site e dos apps",
+      "href": "https://mozg.com.br/privacypolicy",
+      "tags": ["contato", "canal", "privacidade"],
+      "meta": "Contato principal"
+    },
+    {
+      "id": "contact-trustpilot",
+      "kind": "contact",
+      "title": "Trustpilot",
+      "description": "prova social publica e coleta de reviews",
+      "href": "https://br.trustpilot.com/review/mozg.com.br",
+      "tags": ["contato", "canal", "trustpilot"],
       "meta": "Contato principal"
     },
     {
@@ -914,6 +941,15 @@
       "description": "Robots, sitemap, schema.org, llms.txt, PWA e canais publicos trabalham em conjunto para reforcar descoberta e distribuicao.",
       "href": "/operacao/seo-e-distribuicao",
       "tags": ["pagina", "site", "/operacao/seo-e-distribuicao"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-politica-de-privacidade",
+      "kind": "page",
+      "title": "Politica de privacidade",
+      "description": "Compromissos de privacidade, analytics, formularios e artefatos publicos do site.",
+      "href": "/privacypolicy",
+      "tags": ["pagina", "site", "/privacypolicy"],
       "meta": "Navegacao principal"
     },
     {
@@ -1745,7 +1781,7 @@
       "kind": "presence",
       "title": "mozgbrasil · Apps móveis · Mozg Híbrido (Angular)",
       "description": "Marca, laboratorio e canais no grupo Apps móveis.",
-      "href": "https://play.google.com/store/search?q=mozg%20h%C3%ADbrido&c=apps&hl=pt_BR",
+      "href": "https://play.google.com/store/apps/details?id=com.mozg.android.fizzy&hl=pt_BR",
       "tags": ["brand", "presenca", "apps-moveis", "mozg-hibrido-angular"],
       "meta": "@mozgbrasil"
     },
@@ -1754,7 +1790,7 @@
       "kind": "presence",
       "title": "mozgbrasil · Apps móveis · Mozg TWA (Bubblewrap)",
       "description": "Marca, laboratorio e canais no grupo Apps móveis.",
-      "href": "https://play.google.com/store/search?q=mozg%20twa&c=apps&hl=pt_BR",
+      "href": "https://play.google.com/store/apps/details?id=br.com.mozg.twa&hl=pt_BR",
       "tags": ["brand", "presenca", "apps-moveis", "mozg-twa-bubblewrap"],
       "meta": "@mozgbrasil"
     },
@@ -1831,6 +1867,15 @@
       "meta": "@mozgbrasil"
     },
     {
+      "id": "presence-mozgbrasil-perfis-tecnicos-brasil-participativo",
+      "kind": "presence",
+      "title": "mozgbrasil · Perfis tecnicos · Brasil Participativo",
+      "description": "Marca, laboratorio e canais no grupo Perfis tecnicos.",
+      "href": "https://brasilparticipativo.presidencia.gov.br/profiles/mozgbrasil/activity",
+      "tags": ["brand", "presenca", "perfis-tecnicos", "brasil-participativo"],
+      "meta": "@mozgbrasil"
+    },
+    {
       "id": "presence-mozgbrasil-perfis-tecnicos-github-sponsors",
       "kind": "presence",
       "title": "mozgbrasil · Perfis tecnicos · GitHub Sponsors",
@@ -1873,6 +1918,24 @@
       "description": "Marca, laboratorio e canais no grupo Portais.",
       "href": "https://mozgbrasil.github.io/",
       "tags": ["brand", "presenca", "portais", "mozgbrasil-github-io"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-portais-politica-de-privacidade",
+      "kind": "presence",
+      "title": "mozgbrasil · Portais · Politica de privacidade",
+      "description": "Marca, laboratorio e canais no grupo Portais.",
+      "href": "https://mozg.com.br/privacypolicy",
+      "tags": ["brand", "presenca", "portais", "politica-de-privacidade"],
+      "meta": "@mozgbrasil"
+    },
+    {
+      "id": "presence-mozgbrasil-portais-trustpilot",
+      "kind": "presence",
+      "title": "mozgbrasil · Portais · Trustpilot",
+      "description": "Marca, laboratorio e canais no grupo Portais.",
+      "href": "https://br.trustpilot.com/review/mozg.com.br",
+      "tags": ["brand", "presenca", "portais", "trustpilot"],
       "meta": "@mozgbrasil"
     },
     {

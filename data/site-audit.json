@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-28T02:53:09.560Z",
+  "generated_at": "2026-03-28T05:17:32.738Z",
   "company": "MOZG",
   "site_url": "https://mozg.com.br",
   "counts": {
-    "pages": 75,
+    "pages": 76,
     "api_routes": 18,
-    "discovery_items": 239,
+    "discovery_items": 246,
     "portfolio_entries": 8,
     "project_dossiers": 8,
     "category_profiles": 5,
@@ -18,8 +18,8 @@
     "surfaces": 5,
     "presence_profiles": 2,
     "presence_groups": 10,
-    "presence_links": 39,
-    "contact_links": 10
+    "presence_links": 42,
+    "contact_links": 13
   },
   "pages": [
     "/",
@@ -33,6 +33,7 @@
     "/radar",
     "/presenca",
     "/contato",
+    "/privacypolicy",
     "/categorias",
     "/categorias/platform",
     "/categorias/application",
