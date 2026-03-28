@@ -5,7 +5,7 @@
 - Role: Software Architect
 - Location: Sao Paulo, Brasil
 - Site: https://mozg.com.br
-- Generated at: 2026-03-28T05:17:32.738Z
+- Generated at: 2026-03-28T08:17:39.039Z
 
 ## Summary
 Arquitetura de software, full stack, platform engineering, automacao, observabilidade e operacao para produtos digitais reais.
