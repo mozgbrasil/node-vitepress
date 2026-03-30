@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-28T08:17:39.039Z",
+  "generated_at": "2026-03-30T19:53:45.067Z",
   "total_categories": 5,
-  "total_portfolio_entries": 8,
-  "total_project_dossiers": 8,
+  "total_portfolio_entries": 6,
+  "total_project_dossiers": 6,
   "categories": [
     {
       "category": "platform",
@@ -16,7 +16,7 @@
         "infraestrutura tratada como produto"
       ],
       "signals": [
-        "monorepos com contratos claros e escopo bem definido",
+        "bases complexas com contratos claros e escopo bem definido",
         "Docker, Helm, Terraform e GitHub Actions convivendo com apps reais",
         "quality gates pequenos, rastreaveis e repetiveis"
       ],
@@ -31,16 +31,10 @@
         "Readiness de plataforma"
       ],
       "pagePath": "/categorias/platform",
-      "portfolio_count": 1,
-      "dossier_count": 1,
-      "technology_count": 5,
-      "top_technologies": [
-        { "label": "Docker", "count": 1 },
-        { "label": "GitHub Actions", "count": 1 },
-        { "label": "Helm", "count": 1 },
-        { "label": "Node.js", "count": 1 },
-        { "label": "Terraform", "count": 1 }
-      ],
+      "portfolio_count": 0,
+      "dossier_count": 0,
+      "technology_count": 0,
+      "top_technologies": [],
       "related_operations": [
         {
           "title": "Conteudo orientado por dados",
@@ -136,16 +130,10 @@
         "Diagnostico e refactor estruturado"
       ],
       "pagePath": "/categorias/automation",
-      "portfolio_count": 1,
-      "dossier_count": 1,
-      "technology_count": 5,
-      "top_technologies": [
-        { "label": "automation", "count": 1 },
-        { "label": "Bash", "count": 1 },
-        { "label": "LM Studio", "count": 1 },
-        { "label": "Python", "count": 1 },
-        { "label": "SQLite", "count": 1 }
-      ],
+      "portfolio_count": 0,
+      "dossier_count": 0,
+      "technology_count": 0,
+      "top_technologies": [],
       "related_operations": [
         {
           "title": "API auditavel",

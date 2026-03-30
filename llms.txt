@@ -5,7 +5,7 @@
 - Role: Software Architect
 - Location: Sao Paulo, Brasil
 - Site: https://mozg.com.br
-- Generated at: 2026-03-28T08:17:39.039Z
+- Generated at: 2026-03-30T19:53:45.067Z
 
 ## Summary
 Arquitetura de software, full stack, platform engineering, automacao, observabilidade e operacao para produtos digitais reais.
@@ -29,9 +29,7 @@ Arquitetura de software, full stack, platform engineering, automacao, observabil
 - Categoria · Automacao: https://mozg.com.br/categorias/automation
 - Categoria · Docs: https://mozg.com.br/categorias/docs
 - Categoria · Marca: https://mozg.com.br/categorias/brand
-- Projeto · monorepo: https://mozg.com.br/projetos/monorepo
 - Projeto · node-next: https://mozg.com.br/projetos/node-next
-- Projeto · python-lumiere-synapse: https://mozg.com.br/projetos/python-lumiere-synapse
 - Projeto · node-vitepress: https://mozg.com.br/projetos/node-vitepress
 - Projeto · node-web-components: https://mozg.com.br/projetos/node-web-components
 - Projeto · mozg.com.br: https://mozg.com.br/projetos/mozg-com-br
@@ -60,7 +58,6 @@ Arquitetura de software, full stack, platform engineering, automacao, observabil
 - Stack · Netlify: https://mozg.com.br/stacks/netlify
 - Stack · Next.js: https://mozg.com.br/stacks/next-js
 - Stack · Nginx: https://mozg.com.br/stacks/nginx
-- Stack · Node.js: https://mozg.com.br/stacks/node-js
 - Stack · npm: https://mozg.com.br/stacks/npm
 - Stack · Nx: https://mozg.com.br/stacks/nx
 - Stack · Playwright: https://mozg.com.br/stacks/playwright
@@ -109,34 +106,28 @@ Arquitetura de software, full stack, platform engineering, automacao, observabil
 - GET /api/operations/:slug: Detalhe de um dossier operacional especifico para leitura profunda por fluxo.
 
 ## Projects
-- monorepo: Base privada para apps, templates, docs, infraestrutura, agentes locais e governanca de qualidade.
 - node-next: Ambiente Nx com apps Next, contratos cross-app, smoke tests e stack Docker de desenvolvimento.
-- python-lumiere-synapse: Control plane local para pipelines multimodais, publicacao assistida e operacao segura.
-- node-vitepress: Site institucional e tecnico em VitePress com catalogo compartilhado, exports publicos e API auditavel.
+- node-vitepress: Plataforma editorial para site institucional, documentacao publica, catalogo compartilhado e API auditavel.
 - node-web-components: Biblioteca publica de Web Components com Storybook, wrappers multiplataforma e distribuicao auditavel no npm.
-- mozg.com.br: Posicionamento profissional, portfolio e camada editorial do laboratorio em dominio proprio.
-- mozgbrasil.github.io: Camada publica com sinais do GitHub, portfolio e distribuicao de links para canais e projetos.
-- github-profile: Resumo enxuto da especialidade, stack e contexto do workspace privado para superficies do GitHub.
+- mozg.com.br: Presenca institucional principal com portfolio, servicos, documentacao publica e narrativas de implantacao em dominio proprio.
+- mozgbrasil.github.io: Portal complementar para apresentacao profissional, distribuicao de links publicos e reforco de presenca digital.
+- github-profile: Resumo enxuto da especialidade, portfolio e links publicos para uma apresentacao profissional coerente no GitHub.
 
 ## Portfolio
-- monorepo [platform/active]: Base privada para apps, templates, docs, infraestrutura, agentes locais e governanca de qualidade.
 - node-next [application/active]: Ambiente Nx com apps Next, contratos cross-app, smoke tests e stack Docker de desenvolvimento.
-- python-lumiere-synapse [automation/active]: Control plane local para pipelines multimodais, publicacao assistida e operacao segura.
-- node-vitepress [docs/active]: Site institucional e tecnico em VitePress com catalogo compartilhado, exports publicos e API auditavel.
+- node-vitepress [docs/active]: Plataforma editorial para site institucional, documentacao publica, catalogo compartilhado e API auditavel.
 - node-web-components [docs/active]: Biblioteca publica de Web Components com Storybook, wrappers multiplataforma e distribuicao auditavel no npm.
-- mozg.com.br [brand/active]: Posicionamento profissional, portfolio e camada editorial do laboratorio em dominio proprio.
-- mozgbrasil.github.io [brand/evolving]: Camada publica com sinais do GitHub, portfolio e distribuicao de links para canais e projetos.
-- github-profile [docs/active]: Resumo enxuto da especialidade, stack e contexto do workspace privado para superficies do GitHub.
+- mozg.com.br [brand/active]: Presenca institucional principal com portfolio, servicos, documentacao publica e narrativas de implantacao em dominio proprio.
+- mozgbrasil.github.io [brand/evolving]: Portal complementar para apresentacao profissional, distribuicao de links publicos e reforco de presenca digital.
+- github-profile [docs/active]: Resumo enxuto da especialidade, portfolio e links publicos para uma apresentacao profissional coerente no GitHub.
 
 ## Project Dossiers
-- monorepo: Base para governanca unica do workspace, consolidando stacks, runtime, CI, infraestrutura e documentacao sob o mesmo padrao. (/projetos/monorepo)
 - node-next: Frente SaaS e de contratos cross-app para validar produto full stack, autenticacao, runtime local e quality gates em escala maior. (/projetos/node-next)
-- python-lumiere-synapse: Plano de controle local para AI ops, multimodalidade e publicacao segura com guardrails e estado operacional persistente. (/projetos/python-lumiere-synapse)
-- node-vitepress: Engine editorial para o dominio principal, unificando narrativa, API minima, exports publicos e paginas tematicas derivadas do mesmo catalogo. (/projetos/node-vitepress)
-- node-web-components: Biblioteca publica para consolidar componentes reutilizaveis, Storybook navegavel e distribuicao auditavel sem depender da exposicao do workspace privado. (/projetos/node-web-components)
-- mozg.com.br: Superficie institucional principal para consolidar posicionamento, portfolio, descoberta tecnica e distribuicao editorial da marca. (/projetos/mozg-com-br)
-- mozgbrasil.github.io: Portal complementar em GitHub Pages para amplificar a marca, distribuir links e expor sinais vivos do GitHub em uma landing enxuta. (/projetos/mozgbrasil-github-io)
-- github-profile: Perfil tecnico condensado para superficies do GitHub, reforcando especialidades, links publicos e contexto do laboratorio em poucos segundos. (/projetos/github-profile)
+- node-vitepress: Motor editorial do ecossistema MOZG para consolidar site institucional, documentacao, portfolio e APIs publicas com uma base auditavel. (/projetos/node-vitepress)
+- node-web-components: Biblioteca publica para consolidar componentes reutilizaveis, Storybook navegavel e distribuicao auditavel no npm. (/projetos/node-web-components)
+- mozg.com.br: Superficie institucional principal para consolidar posicionamento, portfolio, servicos, documentacao publica e implantacoes da marca. (/projetos/mozg-com-br)
+- mozgbrasil.github.io: Portal complementar em GitHub Pages para reforcar apresentacao profissional, distribuir links publicos e ampliar a descoberta da marca. (/projetos/mozgbrasil-github-io)
+- github-profile: Perfil profissional condensado para superficies do GitHub, reforcando especialidades, portfolio e links publicos em poucos segundos. (/projetos/github-profile)
 
 ## Capability Domains
 - Arquitetura e contratos: Modelagem de dominio, envelopes previsiveis, rotas auditaveis e estruturas prontas para evolucao segura.
@@ -153,22 +144,22 @@ Arquitetura de software, full stack, platform engineering, automacao, observabil
 - Marca: Categoria focada na superficie institucional, na narrativa tecnica e na distribuicao coerente da marca em canais publicos. (/categorias/brand)
 
 ## Stacks
-- Docker: 2 casos / 1 dominios (/stacks/docker)
 - TypeScript: 2 casos / 0 dominios (/stacks/typescript)
-- automation: 1 casos / 1 dominios (/stacks/automation)
-- Bash: 1 casos / 1 dominios (/stacks/bash)
-- GitHub Actions: 1 casos / 1 dominios (/stacks/github-actions)
-- Helm: 1 casos / 1 dominios (/stacks/helm)
-- LM Studio: 1 casos / 1 dominios (/stacks/lm-studio)
+- Docker: 1 casos / 1 dominios (/stacks/docker)
 - Netlify: 1 casos / 1 dominios (/stacks/netlify)
 - Next.js: 1 casos / 1 dominios (/stacks/next-js)
-- Python: 1 casos / 1 dominios (/stacks/python)
-- SQLite: 1 casos / 1 dominios (/stacks/sqlite)
-- Terraform: 1 casos / 1 dominios (/stacks/terraform)
 - VitePress: 1 casos / 1 dominios (/stacks/vitepress)
 - Vitest: 1 casos / 1 dominios (/stacks/vitest)
 - badges: 1 casos / 0 dominios (/stacks/badges)
 - branding: 1 casos / 0 dominios (/stacks/branding)
+- content: 1 casos / 0 dominios (/stacks/content)
+- ESLint: 1 casos / 0 dominios (/stacks/eslint)
+- GitHub: 1 casos / 0 dominios (/stacks/github)
+- GitHub Pages: 1 casos / 0 dominios (/stacks/github-pages)
+- HTML: 1 casos / 0 dominios (/stacks/html)
+- landing: 1 casos / 0 dominios (/stacks/landing)
+- Lit: 1 casos / 0 dominios (/stacks/lit)
+- Markdown: 1 casos / 0 dominios (/stacks/markdown)
 
 ## Operations
 - Conteudo orientado por dados: O mesmo catalogo compartilhado alimenta site, APIs, exports e paginas derivadas, reduzindo drift entre narrativa, runtime e operacao. (/operacao/conteudo-orientado-por-dados)

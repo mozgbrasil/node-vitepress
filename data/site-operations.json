@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-28T08:17:39.039Z",
+  "generated_at": "2026-03-30T19:53:45.067Z",
   "total_operations": 4,
-  "total_linked_projects": 7,
+  "total_linked_projects": 6,
   "operations": [
     {
       "slug": "conteudo-orientado-por-dados",
@@ -21,7 +21,11 @@
         "/api/projects",
         "/api/stacks"
       ],
-      "relatedProjects": ["node-vitepress", "mozg.com.br", "monorepo"],
+      "relatedProjects": [
+        "node-vitepress",
+        "mozg.com.br",
+        "mozgbrasil.github.io"
+      ],
       "relatedCapabilities": ["Arquitetura e contratos", "Produto full stack"],
       "relatedCategories": ["docs", "brand", "platform"],
       "relatedStacks": ["VitePress", "Node.js", "Vitest", "Netlify"],
@@ -89,11 +93,7 @@
         "/api/stacks",
         "/api/projects"
       ],
-      "relatedProjects": [
-        "node-vitepress",
-        "node-next",
-        "python-lumiere-synapse"
-      ],
+      "relatedProjects": ["node-vitepress", "node-next", "node-web-components"],
       "relatedCapabilities": [
         "Arquitetura e contratos",
         "Observabilidade e operacao",
@@ -126,12 +126,7 @@
         "npm run matrix:check"
       ],
       "apiRoutes": ["/api/health", "/api/audit"],
-      "relatedProjects": [
-        "monorepo",
-        "node-next",
-        "python-lumiere-synapse",
-        "node-vitepress"
-      ],
+      "relatedProjects": ["node-next", "node-vitepress", "mozg.com.br"],
       "relatedCapabilities": [
         "Platform engineering",
         "Observabilidade e operacao",
@@ -146,7 +141,7 @@
         "Kubernetes"
       ],
       "pagePath": "/operacao/operacao-previsivel",
-      "project_count": 4,
+      "project_count": 3,
       "category_count": 4,
       "stack_count": 5,
       "api_route_count": 2

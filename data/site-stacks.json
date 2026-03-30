@@ -1,43 +1,14 @@
 {
-  "generated_at": "2026-03-28T08:17:39.039Z",
+  "generated_at": "2026-03-30T19:53:45.067Z",
   "filters_applied": {},
-  "total_technologies": 46,
-  "total_available_technologies": 46,
+  "total_technologies": 45,
+  "total_available_technologies": 45,
   "categories": [
     { "label": "docs", "count": 3 },
     { "label": "brand", "count": 2 },
-    { "label": "application", "count": 1 },
-    { "label": "automation", "count": 1 },
-    { "label": "platform", "count": 1 }
+    { "label": "application", "count": 1 }
   ],
   "technologies": [
-    {
-      "slug": "docker",
-      "page_path": "/stacks/docker",
-      "technology": "Docker",
-      "categories": ["platform", "application"],
-      "project_count": 2,
-      "domain_count": 1,
-      "projects": [
-        {
-          "title": "monorepo",
-          "href": "https://mozg.com.br/projetos/monorepo",
-          "page_path": "/projetos/monorepo",
-          "slug": "monorepo",
-          "category": "platform",
-          "status": "active"
-        },
-        {
-          "title": "node-next",
-          "href": "https://mozg.com.br/projetos/node-next",
-          "page_path": "/projetos/node-next",
-          "slug": "node-next",
-          "category": "application",
-          "status": "active"
-        }
-      ],
-      "capability_domains": ["Platform engineering"]
-    },
     {
       "slug": "typescript",
       "page_path": "/stacks/typescript",
@@ -66,99 +37,23 @@
       "capability_domains": []
     },
     {
-      "slug": "automation",
-      "page_path": "/stacks/automation",
-      "technology": "automation",
-      "categories": ["automation"],
+      "slug": "docker",
+      "page_path": "/stacks/docker",
+      "technology": "Docker",
+      "categories": ["application"],
       "project_count": 1,
       "domain_count": 1,
       "projects": [
         {
-          "title": "python-lumiere-synapse",
-          "href": "https://mozg.com.br/projetos/python-lumiere-synapse",
-          "page_path": "/projetos/python-lumiere-synapse",
-          "slug": "python-lumiere-synapse",
-          "category": "automation",
-          "status": "active"
-        }
-      ],
-      "capability_domains": ["Automacao e AI ops"]
-    },
-    {
-      "slug": "bash",
-      "page_path": "/stacks/bash",
-      "technology": "Bash",
-      "categories": ["automation"],
-      "project_count": 1,
-      "domain_count": 1,
-      "projects": [
-        {
-          "title": "python-lumiere-synapse",
-          "href": "https://mozg.com.br/projetos/python-lumiere-synapse",
-          "page_path": "/projetos/python-lumiere-synapse",
-          "slug": "python-lumiere-synapse",
-          "category": "automation",
-          "status": "active"
-        }
-      ],
-      "capability_domains": ["Automacao e AI ops"]
-    },
-    {
-      "slug": "github-actions",
-      "page_path": "/stacks/github-actions",
-      "technology": "GitHub Actions",
-      "categories": ["platform"],
-      "project_count": 1,
-      "domain_count": 1,
-      "projects": [
-        {
-          "title": "monorepo",
-          "href": "https://mozg.com.br/projetos/monorepo",
-          "page_path": "/projetos/monorepo",
-          "slug": "monorepo",
-          "category": "platform",
+          "title": "node-next",
+          "href": "https://mozg.com.br/projetos/node-next",
+          "page_path": "/projetos/node-next",
+          "slug": "node-next",
+          "category": "application",
           "status": "active"
         }
       ],
       "capability_domains": ["Platform engineering"]
-    },
-    {
-      "slug": "helm",
-      "page_path": "/stacks/helm",
-      "technology": "Helm",
-      "categories": ["platform"],
-      "project_count": 1,
-      "domain_count": 1,
-      "projects": [
-        {
-          "title": "monorepo",
-          "href": "https://mozg.com.br/projetos/monorepo",
-          "page_path": "/projetos/monorepo",
-          "slug": "monorepo",
-          "category": "platform",
-          "status": "active"
-        }
-      ],
-      "capability_domains": ["Platform engineering"]
-    },
-    {
-      "slug": "lm-studio",
-      "page_path": "/stacks/lm-studio",
-      "technology": "LM Studio",
-      "categories": ["automation"],
-      "project_count": 1,
-      "domain_count": 1,
-      "projects": [
-        {
-          "title": "python-lumiere-synapse",
-          "href": "https://mozg.com.br/projetos/python-lumiere-synapse",
-          "page_path": "/projetos/python-lumiere-synapse",
-          "slug": "python-lumiere-synapse",
-          "category": "automation",
-          "status": "active"
-        }
-      ],
-      "capability_domains": ["Automacao e AI ops"]
     },
     {
       "slug": "netlify",
@@ -197,63 +92,6 @@
         }
       ],
       "capability_domains": ["Produto full stack"]
-    },
-    {
-      "slug": "python",
-      "page_path": "/stacks/python",
-      "technology": "Python",
-      "categories": ["automation"],
-      "project_count": 1,
-      "domain_count": 1,
-      "projects": [
-        {
-          "title": "python-lumiere-synapse",
-          "href": "https://mozg.com.br/projetos/python-lumiere-synapse",
-          "page_path": "/projetos/python-lumiere-synapse",
-          "slug": "python-lumiere-synapse",
-          "category": "automation",
-          "status": "active"
-        }
-      ],
-      "capability_domains": ["Automacao e AI ops"]
-    },
-    {
-      "slug": "sqlite",
-      "page_path": "/stacks/sqlite",
-      "technology": "SQLite",
-      "categories": ["automation"],
-      "project_count": 1,
-      "domain_count": 1,
-      "projects": [
-        {
-          "title": "python-lumiere-synapse",
-          "href": "https://mozg.com.br/projetos/python-lumiere-synapse",
-          "page_path": "/projetos/python-lumiere-synapse",
-          "slug": "python-lumiere-synapse",
-          "category": "automation",
-          "status": "active"
-        }
-      ],
-      "capability_domains": ["Automacao e AI ops"]
-    },
-    {
-      "slug": "terraform",
-      "page_path": "/stacks/terraform",
-      "technology": "Terraform",
-      "categories": ["platform"],
-      "project_count": 1,
-      "domain_count": 1,
-      "projects": [
-        {
-          "title": "monorepo",
-          "href": "https://mozg.com.br/projetos/monorepo",
-          "page_path": "/projetos/monorepo",
-          "slug": "monorepo",
-          "category": "platform",
-          "status": "active"
-        }
-      ],
-      "capability_domains": ["Platform engineering"]
     },
     {
       "slug": "vitepress",
@@ -484,25 +322,6 @@
       "capability_domains": []
     },
     {
-      "slug": "node-js",
-      "page_path": "/stacks/node-js",
-      "technology": "Node.js",
-      "categories": ["platform"],
-      "project_count": 1,
-      "domain_count": 0,
-      "projects": [
-        {
-          "title": "monorepo",
-          "href": "https://mozg.com.br/projetos/monorepo",
-          "page_path": "/projetos/monorepo",
-          "slug": "monorepo",
-          "category": "platform",
-          "status": "active"
-        }
-      ],
-      "capability_domains": []
-    },
-    {
       "slug": "npm",
       "page_path": "/stacks/npm",
       "technology": "npm",
@@ -712,6 +531,26 @@
       "capability_domains": []
     },
     {
+      "slug": "automation",
+      "page_path": "/stacks/automation",
+      "technology": "automation",
+      "categories": [],
+      "project_count": 0,
+      "domain_count": 1,
+      "projects": [],
+      "capability_domains": ["Automacao e AI ops"]
+    },
+    {
+      "slug": "bash",
+      "page_path": "/stacks/bash",
+      "technology": "Bash",
+      "categories": [],
+      "project_count": 0,
+      "domain_count": 1,
+      "projects": [],
+      "capability_domains": ["Automacao e AI ops"]
+    },
+    {
       "slug": "bff",
       "page_path": "/stacks/bff",
       "technology": "BFF",
@@ -730,6 +569,26 @@
       "domain_count": 1,
       "projects": [],
       "capability_domains": ["Observabilidade e operacao"]
+    },
+    {
+      "slug": "github-actions",
+      "page_path": "/stacks/github-actions",
+      "technology": "GitHub Actions",
+      "categories": [],
+      "project_count": 0,
+      "domain_count": 1,
+      "projects": [],
+      "capability_domains": ["Platform engineering"]
+    },
+    {
+      "slug": "helm",
+      "page_path": "/stacks/helm",
+      "technology": "Helm",
+      "categories": [],
+      "project_count": 0,
+      "domain_count": 1,
+      "projects": [],
+      "capability_domains": ["Platform engineering"]
     },
     {
       "slug": "json-envelopes",
@@ -752,6 +611,16 @@
       "capability_domains": ["Platform engineering"]
     },
     {
+      "slug": "lm-studio",
+      "page_path": "/stacks/lm-studio",
+      "technology": "LM Studio",
+      "categories": [],
+      "project_count": 0,
+      "domain_count": 1,
+      "projects": [],
+      "capability_domains": ["Automacao e AI ops"]
+    },
+    {
       "slug": "nginx",
       "page_path": "/stacks/nginx",
       "technology": "Nginx",
@@ -760,6 +629,16 @@
       "domain_count": 1,
       "projects": [],
       "capability_domains": ["Observabilidade e operacao"]
+    },
+    {
+      "slug": "python",
+      "page_path": "/stacks/python",
+      "technology": "Python",
+      "categories": [],
+      "project_count": 0,
+      "domain_count": 1,
+      "projects": [],
+      "capability_domains": ["Automacao e AI ops"]
     },
     {
       "slug": "react",
@@ -800,6 +679,26 @@
       "domain_count": 1,
       "projects": [],
       "capability_domains": ["Observabilidade e operacao"]
+    },
+    {
+      "slug": "sqlite",
+      "page_path": "/stacks/sqlite",
+      "technology": "SQLite",
+      "categories": [],
+      "project_count": 0,
+      "domain_count": 1,
+      "projects": [],
+      "capability_domains": ["Automacao e AI ops"]
+    },
+    {
+      "slug": "terraform",
+      "page_path": "/stacks/terraform",
+      "technology": "Terraform",
+      "categories": [],
+      "project_count": 0,
+      "domain_count": 1,
+      "projects": [],
+      "capability_domains": ["Platform engineering"]
     },
     {
       "slug": "vue",

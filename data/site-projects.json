@@ -1,112 +1,43 @@
 {
-  "generated_at": "2026-03-28T08:17:39.039Z",
+  "generated_at": "2026-03-30T19:53:45.067Z",
   "filters_applied": {},
-  "total_dossiers": 8,
-  "total_available_dossiers": 8,
-  "featured_dossiers": 8,
+  "total_dossiers": 6,
+  "total_available_dossiers": 6,
+  "featured_dossiers": 6,
   "categories": [
     { "label": "docs", "count": 3 },
     { "label": "brand", "count": 2 },
-    { "label": "application", "count": 1 },
-    { "label": "automation", "count": 1 },
-    { "label": "platform", "count": 1 }
+    { "label": "application", "count": 1 }
   ],
   "statuses": [
-    { "label": "active", "count": 7 },
+    { "label": "active", "count": 5 },
     { "label": "evolving", "count": 1 }
   ],
   "technologies": [
-    { "label": "Docker", "count": 2 },
     { "label": "TypeScript", "count": 2 },
-    { "label": "automation", "count": 1 },
     { "label": "badges", "count": 1 },
-    { "label": "Bash", "count": 1 },
     { "label": "branding", "count": 1 },
     { "label": "content", "count": 1 },
+    { "label": "Docker", "count": 1 },
     { "label": "ESLint", "count": 1 },
     { "label": "GitHub", "count": 1 },
-    { "label": "GitHub Actions", "count": 1 },
     { "label": "GitHub Pages", "count": 1 },
-    { "label": "Helm", "count": 1 },
     { "label": "HTML", "count": 1 },
     { "label": "landing", "count": 1 },
     { "label": "Lit", "count": 1 },
-    { "label": "LM Studio", "count": 1 }
+    { "label": "Markdown", "count": 1 },
+    { "label": "Netlify", "count": 1 },
+    { "label": "Next.js", "count": 1 },
+    { "label": "npm", "count": 1 },
+    { "label": "Nx", "count": 1 }
   ],
   "capabilities": [
-    { "label": "Observabilidade e operacao", "count": 7 },
-    { "label": "Arquitetura e contratos", "count": 6 },
     { "label": "Produto full stack", "count": 6 },
-    { "label": "Platform engineering", "count": 2 },
-    { "label": "Automacao e AI ops", "count": 1 }
+    { "label": "Observabilidade e operacao", "count": 5 },
+    { "label": "Arquitetura e contratos", "count": 4 },
+    { "label": "Platform engineering", "count": 1 }
   ],
   "dossiers": [
-    {
-      "title": "monorepo",
-      "eyebrow": "Workspace multi-stack",
-      "category": "platform",
-      "status": "active",
-      "description": "Base privada para apps, templates, docs, infraestrutura, agentes locais e governanca de qualidade.",
-      "href": "https://mozg.com.br/projetos/monorepo",
-      "tags": ["CI por matriz", "Helm", "Terraform", "AGENTS"],
-      "stack": ["Node.js", "Docker", "Terraform", "Helm", "GitHub Actions"],
-      "focus": [
-        "governanca multi-stack",
-        "automacao de esteira",
-        "infra como produto"
-      ],
-      "outcomes": [
-        "padrao unico de qualidade",
-        "documentacao por projeto",
-        "operacao previsivel"
-      ],
-      "featured": true,
-      "slug": "monorepo",
-      "pagePath": "/projetos/monorepo",
-      "localPath": "projects",
-      "whyItExists": "Base para governanca unica do workspace, consolidando stacks, runtime, CI, infraestrutura e documentacao sob o mesmo padrao.",
-      "highlights": [
-        "matriz oficial por projeto",
-        "infra e docs convivendo com apps reais",
-        "padrao compartilhado de AGENTS, CLAUDE e quality gates"
-      ],
-      "commands": [
-        {
-          "label": "Doctor do workspace",
-          "command": "./main.sh resource=system action=doctor",
-          "context": "inspecao operacional das dependencias e do estado do workspace"
-        },
-        {
-          "label": "Subir stack de plataforma",
-          "command": "npm run docker:platform:up",
-          "context": "boot da stack local principal baseada em Docker"
-        },
-        {
-          "label": "Relatorio de health",
-          "command": "npm run platform:health:report",
-          "context": "snapshot de readiness para troubleshooting e auditoria"
-        }
-      ],
-      "surfaces": [
-        {
-          "label": "Dossier publico",
-          "href": "https://mozg.com.br/projetos/monorepo"
-        },
-        { "label": "Site principal", "href": "https://mozg.com.br" }
-      ],
-      "relatedCapabilities": [
-        "Arquitetura e contratos",
-        "Platform engineering",
-        "Observabilidade e operacao"
-      ],
-      "maintenanceNotes": [
-        "o workspace fonte e privado; a camada publica fica nos dossies e superficies derivadas",
-        "prioriza escopo minimo por subprojeto para reduzir drift",
-        "padroes de ambiente e runtime ficam documentados no proprio projeto",
-        "qualidade fecha por esteiras pequenas e auditaveis"
-      ],
-      "referenceSources": ["github-profile", "mozgbrasil.github.io"]
-    },
     {
       "title": "node-next",
       "eyebrow": "Plataforma SaaS",
@@ -129,7 +60,6 @@
       "featured": true,
       "slug": "node-next",
       "pagePath": "/projetos/node-next",
-      "localPath": "projects/node-nextjs",
       "whyItExists": "Frente SaaS e de contratos cross-app para validar produto full stack, autenticacao, runtime local e quality gates em escala maior.",
       "highlights": [
         "workspace Nx com multiplos apps",
@@ -172,71 +102,11 @@
       "referenceSources": ["github-profile"]
     },
     {
-      "title": "python-lumiere-synapse",
-      "eyebrow": "AI ops e automacao",
-      "category": "automation",
-      "status": "active",
-      "description": "Control plane local para pipelines multimodais, publicacao assistida e operacao segura.",
-      "href": "https://mozg.com.br/projetos/python-lumiere-synapse",
-      "tags": ["Python", "SQLite", "guardrails", "LM Studio"],
-      "stack": ["Python", "SQLite", "LM Studio", "Bash", "automation"],
-      "focus": ["AI ops", "pipelines locais", "guardrails operacionais"],
-      "outcomes": [
-        "runtime assistido",
-        "publicacao segura",
-        "automacao com contexto"
-      ],
-      "featured": true,
-      "slug": "python-lumiere-synapse",
-      "pagePath": "/projetos/python-lumiere-synapse",
-      "localPath": "projects/python-lumiere-synapse",
-      "whyItExists": "Plano de controle local para AI ops, multimodalidade e publicacao segura com guardrails e estado operacional persistente.",
-      "highlights": [
-        "CLI unica com catalogo de recursos",
-        "guardrails estritos para publicacao e parametros",
-        "auditoria persistente via SQLite e relatorios de qualidade"
-      ],
-      "commands": [
-        {
-          "label": "Instalar ambiente",
-          "command": "poetry install --with lint,test,typecheck,dev,studio",
-          "context": "prepara o ambiente padrao com dependencias de studio e qualidade"
-        },
-        {
-          "label": "Quality check",
-          "command": "make quality-check",
-          "context": "executa validacao sem alterar arquivos"
-        },
-        {
-          "label": "Catalogo do sistema",
-          "command": "./main.sh resource=system action=catalog",
-          "context": "descoberta das superficies oficiais do control plane"
-        }
-      ],
-      "surfaces": [
-        {
-          "label": "Dossier publico",
-          "href": "https://mozg.com.br/projetos/python-lumiere-synapse"
-        }
-      ],
-      "relatedCapabilities": [
-        "Automacao e AI ops",
-        "Observabilidade e operacao",
-        "Arquitetura e contratos"
-      ],
-      "maintenanceNotes": [
-        "a interface suportada e sempre a system CLI canonica",
-        "parametros estritos evitam drift operacional entre fluxos",
-        "relatorios persistentes reduzem troubleshooting manual"
-      ],
-      "referenceSources": ["github-profile"]
-    },
-    {
       "title": "node-vitepress",
       "eyebrow": "Engine editorial",
       "category": "docs",
       "status": "active",
-      "description": "Site institucional e tecnico em VitePress com catalogo compartilhado, exports publicos e API auditavel.",
+      "description": "Plataforma editorial para site institucional, documentacao publica, catalogo compartilhado e API auditavel.",
       "href": "https://mozg.com.br/projetos/node-vitepress",
       "tags": ["VitePress", "Vitest", "SEO", "auditability"],
       "stack": ["VitePress", "Vitest", "ESLint", "Prettier", "Netlify"],
@@ -253,8 +123,7 @@
       "featured": true,
       "slug": "node-vitepress",
       "pagePath": "/projetos/node-vitepress",
-      "localPath": "projects/node-vitepress",
-      "whyItExists": "Engine editorial para o dominio principal, unificando narrativa, API minima, exports publicos e paginas tematicas derivadas do mesmo catalogo.",
+      "whyItExists": "Motor editorial do ecossistema MOZG para consolidar site institucional, documentacao, portfolio e APIs publicas com uma base auditavel.",
       "highlights": [
         "conteudo tipado e compartilhado",
         "tema modular com discovery, portfolio e stacks",
@@ -318,8 +187,7 @@
       "featured": true,
       "slug": "node-web-components",
       "pagePath": "/projetos/node-web-components",
-      "localPath": "projects/node-web-components",
-      "whyItExists": "Biblioteca publica para consolidar componentes reutilizaveis, Storybook navegavel e distribuicao auditavel sem depender da exposicao do workspace privado.",
+      "whyItExists": "Biblioteca publica para consolidar componentes reutilizaveis, Storybook navegavel e distribuicao auditavel no npm.",
       "highlights": [
         "catalogo tipado com auditoria deterministica",
         "showcase publico em Storybook com explorers por familia",
@@ -362,7 +230,7 @@
         "Observabilidade e operacao"
       ],
       "maintenanceNotes": [
-        "metadados publicos do pacote nao devem apontar para o workspace privado",
+        "metadados publicos do pacote devem permanecer alinhados com as superficies publicas oficiais",
         "catalogo central, Storybook e manifesto de release devem evoluir juntos",
         "a publicacao fecha com revisao humana e sem git push automatico por agents"
       ],
@@ -373,7 +241,7 @@
       "eyebrow": "Site principal",
       "category": "brand",
       "status": "active",
-      "description": "Posicionamento profissional, portfolio e camada editorial do laboratorio em dominio proprio.",
+      "description": "Presenca institucional principal com portfolio, servicos, documentacao publica e narrativas de implantacao em dominio proprio.",
       "href": "https://mozg.com.br",
       "tags": ["branding", "SEO", "PWA", "content"],
       "stack": ["branding", "SEO", "PWA", "structured data", "content"],
@@ -386,8 +254,7 @@
       "featured": true,
       "slug": "mozg-com-br",
       "pagePath": "/projetos/mozg-com-br",
-      "localPath": "projects/node-vitepress",
-      "whyItExists": "Superficie institucional principal para consolidar posicionamento, portfolio, descoberta tecnica e distribuicao editorial da marca.",
+      "whyItExists": "Superficie institucional principal para consolidar posicionamento, portfolio, servicos, documentacao publica e implantacoes da marca.",
       "highlights": [
         "dominio proprio com narrativa forte",
         "SEO tecnico, PWA e exports publicos",
@@ -429,7 +296,7 @@
       "eyebrow": "Portal complementar",
       "category": "brand",
       "status": "evolving",
-      "description": "Camada publica com sinais do GitHub, portfolio e distribuicao de links para canais e projetos.",
+      "description": "Portal complementar para apresentacao profissional, distribuicao de links publicos e reforco de presenca digital.",
       "href": "https://mozgbrasil.github.io/",
       "tags": ["GitHub Pages", "portfolio", "signals", "landing"],
       "stack": ["GitHub Pages", "HTML", "signals", "landing"],
@@ -446,11 +313,10 @@
       "featured": true,
       "slug": "mozgbrasil-github-io",
       "pagePath": "/projetos/mozgbrasil-github-io",
-      "localPath": "projects/mozgbrasil.github.io",
-      "whyItExists": "Portal complementar em GitHub Pages para amplificar a marca, distribuir links e expor sinais vivos do GitHub em uma landing enxuta.",
+      "whyItExists": "Portal complementar em GitHub Pages para reforcar apresentacao profissional, distribuir links publicos e ampliar a descoberta da marca.",
       "highlights": [
-        "landing estatico com forte narrativa pessoal",
-        "dashboard publico de GitHub com cache local",
+        "landing estatica com narrativa direta",
+        "hub publico de links e canais",
         "PWA simples publicada no GitHub Pages"
       ],
       "commands": [
@@ -491,7 +357,7 @@
       "eyebrow": "Perfil tecnico",
       "category": "docs",
       "status": "active",
-      "description": "Resumo enxuto da especialidade, stack e contexto do workspace privado para superficies do GitHub.",
+      "description": "Resumo enxuto da especialidade, portfolio e links publicos para uma apresentacao profissional coerente no GitHub.",
       "href": "https://mozg.com.br/projetos/github-profile",
       "tags": ["README profile", "badges", "specialties", "signals"],
       "stack": ["Markdown", "GitHub", "badges", "portfolio"],
@@ -508,8 +374,7 @@
       "featured": true,
       "slug": "github-profile",
       "pagePath": "/projetos/github-profile",
-      "localPath": "projects/github-profile",
-      "whyItExists": "Perfil tecnico condensado para superficies do GitHub, reforcando especialidades, links publicos e contexto do laboratorio em poucos segundos.",
+      "whyItExists": "Perfil profissional condensado para superficies do GitHub, reforcando especialidades, portfolio e links publicos em poucos segundos.",
       "highlights": [
         "README orientado a sinais e especialidades",
         "badges e links publicos coerentes",
@@ -542,7 +407,7 @@
       "relatedCapabilities": ["Arquitetura e contratos", "Produto full stack"],
       "maintenanceNotes": [
         "o foco esta em clareza editorial e distribuicao, nao em complexidade visual",
-        "serve como camada de entrada para site principal, portal e monorepo",
+        "serve como camada de entrada para site principal, portal e canais publicos",
         "os sinais aqui ajudam a calibrar a narrativa das demais superficies publicas"
       ],
       "referenceSources": ["github-profile"]
