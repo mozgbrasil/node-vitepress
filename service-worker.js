@@ -1,4 +1,4 @@
-const VERSION = 'mozg-site-v8';
+const VERSION = 'mozg-site-v9';
 const APP_SHELL = [
   '/',
   '/openapi/',
@@ -53,10 +53,22 @@ self.addEventListener('fetch', (event) => {
 
   if (event.request.mode === 'navigate') {
     event.respondWith(
-      fetch(event.request).catch(async () => {
-        const cache = await caches.open(VERSION);
-        return cache.match('/') || Response.error();
-      }),
+      fetch(event.request)
+        .then((response) => {
+          if (response.ok) {
+            const responseClone = response.clone();
+            event.waitUntil(
+              caches.open(VERSION).then((cache) => {
+                cache.put('/', responseClone);
+              }),
+            );
+          }
+          return response;
+        })
+        .catch(async () => {
+          const cache = await caches.open(VERSION);
+          return cache.match('/') || Response.error();
+        }),
     );
     return;
   }
@@ -66,9 +78,12 @@ self.addEventListener('fetch', (event) => {
       const networkFetch = fetch(event.request)
         .then((response) => {
           if (response.ok) {
-            caches.open(VERSION).then((cache) => {
-              cache.put(event.request, response.clone());
-            });
+            const responseClone = response.clone();
+            event.waitUntil(
+              caches.open(VERSION).then((cache) => {
+                cache.put(event.request, responseClone);
+              }),
+            );
           }
           return response;
         })

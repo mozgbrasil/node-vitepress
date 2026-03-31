@@ -3,12 +3,12 @@
 - Company: MOZG
 - Author: Marcio dos Santos Amorim
 - Role: Software Architect
-- Location: Sao Paulo, Brasil
+- Location: São Paulo, Brasil
 - Site: https://mozg.com.br
-- Generated at: 2026-03-30T21:01:00.889Z
+- Generated at: 2026-03-31T02:19:27.885Z
 
 ## Summary
-Arquitetura de software, full stack, platform engineering, automacao, observabilidade e operacao para produtos digitais reais.
+Arquitetura de software, produtos digitais e presença online com clareza, confiança e evolução contínua.
 
 ## Pages
 - Inicio: https://mozg.com.br/
@@ -17,12 +17,17 @@ Arquitetura de software, full stack, platform engineering, automacao, observabil
 - API e Auditoria: https://mozg.com.br/api
 - OpenAPI: https://mozg.com.br/openapi
 - Portfolio: https://mozg.com.br/portfolio
+- Política de devolução: https://mozg.com.br/politica-de-devolucao
+- Finalizar compra: https://mozg.com.br/finalizar-compra
+- Carrinho: https://mozg.com.br/carrinho
+- Obrigado: https://mozg.com.br/obrigado
+- Confirmação de assinatura: https://mozg.com.br/confirmacao-de-assinatura
 - Projetos: https://mozg.com.br/projetos
 - Stacks: https://mozg.com.br/stacks
 - Radar: https://mozg.com.br/radar
-- Presenca: https://mozg.com.br/presenca
+- Perfis: https://mozg.com.br/presenca
 - Contato: https://mozg.com.br/contato
-- Politica de privacidade: https://mozg.com.br/privacypolicy
+- Política de privacidade: https://mozg.com.br/privacypolicy
 - Categorias: https://mozg.com.br/categorias
 - Categoria · Plataforma: https://mozg.com.br/categorias/platform
 - Categoria · Aplicacao: https://mozg.com.br/categorias/application
@@ -107,19 +112,19 @@ Arquitetura de software, full stack, platform engineering, automacao, observabil
 
 ## Projects
 - node-next: Ambiente Nx com apps Next, contratos cross-app, smoke tests e stack Docker de desenvolvimento.
-- node-vitepress: Plataforma editorial para site institucional, documentacao publica, catalogo compartilhado e API auditavel.
-- node-web-components: Biblioteca publica de Web Components com Storybook, wrappers multiplataforma e distribuicao auditavel no npm.
-- mozg.com.br: Presenca institucional principal com portfolio, servicos, documentacao publica e narrativas de implantacao em dominio proprio.
-- mozgbrasil.github.io: Portal complementar para apresentacao profissional, distribuicao de links publicos e reforco de presenca digital.
-- github-profile: Resumo enxuto da especialidade, portfolio e links publicos para uma apresentacao profissional coerente no GitHub.
+- node-vitepress: Plataforma editorial para o site institucional, documentação pública, catálogo compartilhado e dados públicos consistentes.
+- node-web-components: Biblioteca pública de Web Components com Storybook, wrappers multiplataforma e distribuição consistente no npm.
+- mozg.com.br: Presença institucional principal com portfólio, serviços, documentação pública e apresentação da marca em domínio próprio.
+- mozgbrasil.github.io: Portal complementar para apresentação profissional, distribuição de links públicos e reforço de presença digital.
+- github-profile: Resumo enxuto da especialidade, portfólio e links públicos para uma apresentação profissional coerente no GitHub.
 
 ## Portfolio
 - node-next [application/active]: Ambiente Nx com apps Next, contratos cross-app, smoke tests e stack Docker de desenvolvimento.
-- node-vitepress [docs/active]: Plataforma editorial para site institucional, documentacao publica, catalogo compartilhado e API auditavel.
-- node-web-components [docs/active]: Biblioteca publica de Web Components com Storybook, wrappers multiplataforma e distribuicao auditavel no npm.
-- mozg.com.br [brand/active]: Presenca institucional principal com portfolio, servicos, documentacao publica e narrativas de implantacao em dominio proprio.
-- mozgbrasil.github.io [brand/evolving]: Portal complementar para apresentacao profissional, distribuicao de links publicos e reforco de presenca digital.
-- github-profile [docs/active]: Resumo enxuto da especialidade, portfolio e links publicos para uma apresentacao profissional coerente no GitHub.
+- node-vitepress [docs/active]: Plataforma editorial para o site institucional, documentação pública, catálogo compartilhado e dados públicos consistentes.
+- node-web-components [docs/active]: Biblioteca pública de Web Components com Storybook, wrappers multiplataforma e distribuição consistente no npm.
+- mozg.com.br [brand/active]: Presença institucional principal com portfólio, serviços, documentação pública e apresentação da marca em domínio próprio.
+- mozgbrasil.github.io [brand/evolving]: Portal complementar para apresentação profissional, distribuição de links públicos e reforço de presença digital.
+- github-profile [docs/active]: Resumo enxuto da especialidade, portfólio e links públicos para uma apresentação profissional coerente no GitHub.
 
 ## Project Dossiers
 - node-next: Frente SaaS e de contratos cross-app para validar produto full stack, autenticacao, runtime local e quality gates em escala maior. (/projetos/node-next)

@@ -1,16 +1,18 @@
 {
-  "generated_at": "2026-03-30T21:01:00.889Z",
+  "generated_at": "2026-03-31T02:19:27.885Z",
   "catalog": {
     "site": {
       "title": "MOZG | Marcio dos Santos Amorim",
-      "description": "Arquitetura de software, full stack, platform engineering, automacao, observabilidade e operacao para produtos digitais reais.",
+      "description": "Arquitetura de software, produtos digitais e presença online com clareza, confiança e evolução contínua.",
       "author": "Marcio dos Santos Amorim",
       "company": "MOZG",
       "role": "Software Architect",
-      "location": "Sao Paulo, Brasil",
+      "location": "São Paulo, Brasil",
       "siteUrl": "https://mozg.com.br",
       "socialImage": "https://mozg.com.br/og.jpg",
       "email": "mozgbrasil@gmail.com",
+      "phone": "+55 11 97707-2339",
+      "whatsapp": "https://wa.me/5511977072339",
       "linkedIn": "https://www.linkedin.com/in/mozgbrasil/",
       "github": "https://github.com/mozgbrasil",
       "bluesky": "https://bsky.app/profile/mozgbrasil.bsky.social",
@@ -19,6 +21,15 @@
       "openProfile": "https://openprofile.dev/profile/mozgbrasil",
       "curriculum": "https://mozg.com.br/assets/curriculum.pdf",
       "githubPages": "https://mozgbrasil.github.io/",
+      "profileImage": "/assets/marcio-profile.jpg",
+      "institutionLogo": "/logo-mini.svg",
+      "address": {
+        "street": "Avenida Campanella, 1297, Apto. 14",
+        "city": "São Paulo",
+        "state": "SP",
+        "postalCode": "08220-831",
+        "country": "Brasil"
+      },
       "startedYear": 1999,
       "foundedYear": 2016,
       "keywords": [
@@ -64,33 +75,45 @@
       "pixOptions": [
         {
           "id": "pix-copy-01",
-          "title": "Pix copia e cola 01",
+          "title": "Pix copia e cola principal",
           "payload": "00020126330014br.gov.bcb.pix0111301657438165204000053039865802BR5924Marcio Dos Santos Amorim6009Sao Paulo62290525REC69CAB688480D044552720063041CE6",
           "qrImage": "/assets/pix-copy-01.png",
-          "note": "Pagamento instantaneo com QR Code padrao Pix."
+          "note": "Pagamento instantâneo com QR Code Pix para apoio, sinal ou acerto direto.",
+          "receiverName": "Marcio dos Santos Amorim",
+          "institutionLabel": "Pagamento instantâneo via Pix",
+          "badge": "Principal"
         },
         {
           "id": "pix-copy-02",
-          "title": "Pix copia e cola 02",
+          "title": "Pix copia e cola alternativo",
           "payload": "00020126580014BR.GOV.BCB.PIX0136894274f4-c1cd-4562-8373-9aa8ca94feee5204000053039865802BR5924Marcio dos Santos Amorim6009SAO PAULO62140510UB3f89exve63048B49",
           "qrImage": "/assets/pix-copy-02.png",
-          "note": "Alternativa de recebimento para contribuicoes e pagamentos diretos."
+          "note": "Alternativa de recebimento para contribuições, pagamentos diretos e cobrança pontual.",
+          "receiverName": "Marcio dos Santos Amorim",
+          "institutionLabel": "Pagamento instantâneo via Pix",
+          "badge": "Alternativo"
         },
         {
           "id": "pix-key-01",
-          "title": "Chave Pix adicional 01",
+          "title": "Chave Pix UUID 01",
           "payload": "055a67db-c864-4170-8880-a095cbbc672d",
           "key": "055a67db-c864-4170-8880-a095cbbc672d",
           "qrImage": "/assets/pix-key-01.png",
-          "note": "Chave Pix em formato UUID para compartilhamento direto."
+          "note": "Chave Pix em formato UUID para compartilhamento direto.",
+          "receiverName": "Marcio dos Santos Amorim",
+          "institutionLabel": "Chave Pix",
+          "badge": "UUID"
         },
         {
           "id": "pix-key-02",
-          "title": "Chave Pix adicional 02",
+          "title": "Chave Pix UUID 02",
           "payload": "41550c34-bcc4-4cf7-a668-8401d7d923a2",
           "key": "41550c34-bcc4-4cf7-a668-8401d7d923a2",
           "qrImage": "/assets/pix-key-02.png",
-          "note": "Chave Pix complementar para cobrancas e transferencias."
+          "note": "Chave Pix complementar para cobranças e transferências.",
+          "receiverName": "Marcio dos Santos Amorim",
+          "institutionLabel": "Chave Pix",
+          "badge": "Reserva"
         }
       ],
       "businessEntities": [
@@ -98,22 +121,22 @@
           "name": "MOZG",
           "cnpj": "",
           "website": "https://mozg.com.br",
-          "role": "marca profissional e superficie institucional principal",
-          "note": "Concentra portfolio, servicos, documentacao publica e canais da atuacao profissional."
+          "role": "marca profissional e superfície institucional principal",
+          "note": "Concentra portfólio, serviços, documentação pública e canais da atuação profissional."
         },
         {
           "name": "CEREBRUM COMERCIO ELETRONICO LTDA",
           "cnpj": "07.361.259/0001-07",
           "website": "https://www.cerebrum.com.br/",
-          "role": "empresa utilizada para emissao de notas fiscais quando necessario",
-          "note": "A operacao institucional do site e da presenca publica segue em MOZG; o site da Cerebrum e administrado por Marcelo."
+          "role": "estrutura empresarial para emissão fiscal e operação comercial",
+          "note": "CNPJ ativo em São Paulo, com uso institucional quando necessário para faturamento e formalização comercial."
         }
       ]
     },
     "hero": {
       "name": "MOZG",
-      "text": "Arquitetura, produto e operacao para software real",
-      "tagline": "Site pessoal de Marcio dos Santos Amorim com foco em full stack, platform engineering, automacao, observabilidade e evolucao continua."
+      "text": "Arquitetura, produto e presença digital para software real",
+      "tagline": "Presença profissional de Marcio dos Santos Amorim com foco em arquitetura de software, produtos digitais, interfaces elegantes e evolução contínua."
     },
     "pages": [
       {
@@ -124,7 +147,7 @@
       {
         "path": "/ecossistema",
         "title": "Ecossistema",
-        "description": "Visao dos projetos, stacks ativas, superficies publicas e especialidades."
+        "description": "Visão dos projetos, frentes públicas e especialidades."
       },
       {
         "path": "/operacao",
@@ -147,34 +170,59 @@
         "description": "Portfolio filtravel com projetos, capacidades, stack e modos de entrega."
       },
       {
+        "path": "/politica-de-devolucao",
+        "title": "Política de devolução",
+        "description": "Política pública para cancelamentos, trocas, reembolsos e atendimento pós-compra."
+      },
+      {
+        "path": "/finalizar-compra",
+        "title": "Finalizar compra",
+        "description": "Página institucional para início de checkout e alinhamento comercial."
+      },
+      {
+        "path": "/carrinho",
+        "title": "Carrinho",
+        "description": "Página pública de referência para revisão de itens e preparação da compra."
+      },
+      {
+        "path": "/obrigado",
+        "title": "Obrigado",
+        "description": "Página pública exibida após a confirmação de uma compra ou contratação."
+      },
+      {
+        "path": "/confirmacao-de-assinatura",
+        "title": "Confirmação de assinatura",
+        "description": "Página pública para confirmação de assinaturas, planos e adesões recorrentes."
+      },
+      {
         "path": "/projetos",
         "title": "Projetos",
-        "description": "Diretorio de dossiers tecnicos e operacionais para cada caso do portfolio."
+        "description": "Diretório com contexto público para cada caso do portfólio."
       },
       {
         "path": "/stacks",
         "title": "Stacks",
-        "description": "Mapa dinamico das tecnologias recorrentes, seus casos e dominios de capacidade."
+        "description": "Mapa dinâmico das tecnologias recorrentes, seus casos e domínios de capacidade."
       },
       {
         "path": "/radar",
         "title": "Radar",
-        "description": "Camada de descoberta com filtros para paginas, APIs, projetos, superficies e canais."
+        "description": "Camada de descoberta com filtros para páginas, APIs, projetos, superfícies e canais."
       },
       {
         "path": "/presenca",
-        "title": "Presenca",
-        "description": "Mapa de canais publicos da conta pessoal e da marca MOZG."
+        "title": "Perfis",
+        "description": "Perfis públicos, canais principais e presença coordenada da marca e da conta pessoal."
       },
       {
         "path": "/contato",
         "title": "Contato",
-        "description": "Canais principais para conversar sobre arquitetura, produto e operacao."
+        "description": "Canais principais para falar sobre serviços, produtos, parcerias e contato direto."
       },
       {
         "path": "/privacypolicy",
-        "title": "Politica de privacidade",
-        "description": "Compromissos de privacidade, analytics, formularios e artefatos publicos do site."
+        "title": "Política de privacidade",
+        "description": "Compromissos de privacidade, analytics, formulários e artefatos públicos do site."
       },
       {
         "path": "/categorias",
@@ -214,27 +262,27 @@
       {
         "path": "/projetos/node-vitepress",
         "title": "Projeto · node-vitepress",
-        "description": "Engine editorial. Plataforma editorial para site institucional, documentacao publica, catalogo compartilhado e API auditavel."
+        "description": "Engine editorial. Plataforma editorial para o site institucional, documentação pública, catálogo compartilhado e dados públicos consistentes."
       },
       {
         "path": "/projetos/node-web-components",
         "title": "Projeto · node-web-components",
-        "description": "Biblioteca UI e Storybook. Biblioteca publica de Web Components com Storybook, wrappers multiplataforma e distribuicao auditavel no npm."
+        "description": "Biblioteca UI e Storybook. Biblioteca pública de Web Components com Storybook, wrappers multiplataforma e distribuição consistente no npm."
       },
       {
         "path": "/projetos/mozg-com-br",
         "title": "Projeto · mozg.com.br",
-        "description": "Site principal. Presenca institucional principal com portfolio, servicos, documentacao publica e narrativas de implantacao em dominio proprio."
+        "description": "Site principal. Presença institucional principal com portfólio, serviços, documentação pública e apresentação da marca em domínio próprio."
       },
       {
         "path": "/projetos/mozgbrasil-github-io",
         "title": "Projeto · mozgbrasil.github.io",
-        "description": "Portal complementar. Portal complementar para apresentacao profissional, distribuicao de links publicos e reforco de presenca digital."
+        "description": "Portal complementar. Portal complementar para apresentação profissional, distribuição de links públicos e reforço de presença digital."
       },
       {
         "path": "/projetos/github-profile",
         "title": "Projeto · github-profile",
-        "description": "Perfil tecnico. Resumo enxuto da especialidade, portfolio e links publicos para uma apresentacao profissional coerente no GitHub."
+        "description": "Perfil público. Resumo enxuto da especialidade, portfólio e links públicos para uma apresentação profissional coerente no GitHub."
       },
       {
         "path": "/stacks/automation",
@@ -484,47 +532,47 @@
     ],
     "specialties": [
       {
-        "title": "Arquitetura orientada a execucao",
-        "description": "Modelagem de produto, contratos, qualidade e operacao pensadas desde o primeiro deploy.",
-        "tags": ["BFF", "API contracts", "docs", "observability"]
+        "title": "Soluções pensadas para funcionar bem na prática",
+        "description": "Projetos digitais com clareza, consistência e base preparada para continuar crescendo.",
+        "tags": ["produto", "clareza", "qualidade", "consistência"]
       },
       {
-        "title": "Engenharia full stack",
-        "description": "Frontends, backends, autenticacao, componentes reutilizaveis e experiencias de alto contexto.",
-        "tags": ["React", "Next.js", "Vue", "Node.js"]
+        "title": "Produtos, sites e experiências conectadas",
+        "description": "Sites, aplicativos, áreas administrativas e componentes reutilizáveis com apresentação forte e manutenção simples.",
+        "tags": ["sites", "apps", "componentes", "experiência"]
       },
       {
-        "title": "Platform e DevOps",
-        "description": "Ambientes repetiveis, health checks, CI por matriz, Docker local e trilhas seguras de manutencao.",
-        "tags": ["Docker", "Kubernetes", "Terraform", "GitHub Actions"]
+        "title": "Operação previsível",
+        "description": "Publicação, atualização e acompanhamento com processos claros, rastreáveis e fáceis de manter.",
+        "tags": ["publicação", "qualidade", "monitoramento", "processo"]
       },
       {
-        "title": "Automacao e AI ops",
-        "description": "Fluxos assistidos, runtime local, guardrails, monitoramento e integracao com pipelines multimodais.",
-        "tags": ["Python", "LM Studio", "SQLite", "automation"]
+        "title": "Automação e ganho de escala",
+        "description": "Fluxos assistidos, componentes reutilizáveis e automações úteis para atendimento, conteúdo e operação.",
+        "tags": ["automação", "escala", "integração", "AI"]
       }
     ],
     "journeyMilestones": [
       {
         "year": "1999",
-        "title": "Inicio em desenvolvimento de software",
-        "description": "Uma trajetoria que passou por operacao, engenharia, arquitetura e DevOps."
+        "title": "Início em desenvolvimento de software",
+        "description": "Uma trajetória que passou por operação, engenharia, arquitetura e DevOps."
       },
       {
         "year": "2016",
-        "title": "Fundacao do MOZG",
-        "description": "O laboratorio virou a base para modularizacao, documentacao e ativos reutilizaveis."
+        "title": "Fundação do MOZG",
+        "description": "O laboratório virou a base para produtos, páginas públicas e ativos reutilizáveis."
       },
       {
         "year": "2026",
-        "title": "Presenca institucional auditavel",
-        "description": "Portfolio, documentacao, APIs publicas e camadas de distribuicao trabalhando com padrao de qualidade e leitura profissional."
+        "title": "Presença pública mais madura",
+        "description": "Portfólio, páginas públicas, componentes e canais trabalhando com linguagem mais clara e apresentação mais elegante."
       }
     ],
     "experienceHighlights": [
-      "Experiencia em ambientes de alta criticidade, incluindo Santander, Bradesco e Fundacao Vanzolini (USP).",
-      "Atuacao em fintech, e-commerce, plataformas corporativas, cloud e produtividade de engenharia.",
-      "Foco em software que continua simples de operar depois do lancamento."
+      "Experiência em ambientes de alta criticidade, incluindo Santander, Bradesco e Fundação Vanzolini (USP).",
+      "Atuação em fintech, e-commerce, plataformas corporativas e produtos digitais com foco em evolução contínua.",
+      "Foco em soluções que continuam simples de manter depois do lançamento."
     ],
     "flagshipProjects": [
       {
@@ -537,35 +585,35 @@
       {
         "title": "node-vitepress",
         "eyebrow": "Engine editorial",
-        "description": "Plataforma editorial para site institucional, documentacao publica, catalogo compartilhado e API auditavel.",
+        "description": "Plataforma editorial para o site institucional, documentação pública, catálogo compartilhado e dados públicos consistentes.",
         "href": "https://mozg.com.br/projetos/node-vitepress",
         "tags": ["VitePress", "Vitest", "SEO", "auditability"]
       },
       {
         "title": "node-web-components",
         "eyebrow": "Biblioteca UI e Storybook",
-        "description": "Biblioteca publica de Web Components com Storybook, wrappers multiplataforma e distribuicao auditavel no npm.",
+        "description": "Biblioteca pública de Web Components com Storybook, wrappers multiplataforma e distribuição consistente no npm.",
         "href": "https://mozg.com.br/projetos/node-web-components",
         "tags": ["Web Components", "Storybook", "npm", "auditability"]
       },
       {
         "title": "mozg.com.br",
         "eyebrow": "Site principal",
-        "description": "Presenca institucional principal com portfolio, servicos, documentacao publica e narrativas de implantacao em dominio proprio.",
+        "description": "Presença institucional principal com portfólio, serviços, documentação pública e apresentação da marca em domínio próprio.",
         "href": "https://mozg.com.br",
         "tags": ["branding", "SEO", "PWA", "content"]
       },
       {
         "title": "mozgbrasil.github.io",
         "eyebrow": "Portal complementar",
-        "description": "Portal complementar para apresentacao profissional, distribuicao de links publicos e reforco de presenca digital.",
+        "description": "Portal complementar para apresentação profissional, distribuição de links públicos e reforço de presença digital.",
         "href": "https://mozgbrasil.github.io/",
         "tags": ["GitHub Pages", "portfolio", "signals", "landing"]
       },
       {
         "title": "github-profile",
-        "eyebrow": "Perfil tecnico",
-        "description": "Resumo enxuto da especialidade, portfolio e links publicos para uma apresentacao profissional coerente no GitHub.",
+        "eyebrow": "Perfil público",
+        "description": "Resumo enxuto da especialidade, portfólio e links públicos para uma apresentação profissional coerente no GitHub.",
         "href": "https://mozg.com.br/projetos/github-profile",
         "tags": ["README profile", "badges", "specialties", "signals"]
       }
@@ -597,7 +645,7 @@
         "eyebrow": "Engine editorial",
         "category": "docs",
         "status": "active",
-        "description": "Plataforma editorial para site institucional, documentacao publica, catalogo compartilhado e API auditavel.",
+        "description": "Plataforma editorial para o site institucional, documentação pública, catálogo compartilhado e dados públicos consistentes.",
         "href": "https://mozg.com.br/projetos/node-vitepress",
         "tags": ["VitePress", "Vitest", "SEO", "auditability"],
         "stack": ["VitePress", "Vitest", "ESLint", "Prettier", "Netlify"],
@@ -607,7 +655,7 @@
           "discoverability"
         ],
         "outcomes": [
-          "catalogo central reutilizavel",
+          "catálogo central reutilizável",
           "exports JSON publicos",
           "tema modular e pesquisavel"
         ],
@@ -618,19 +666,19 @@
         "eyebrow": "Biblioteca UI e Storybook",
         "category": "docs",
         "status": "active",
-        "description": "Biblioteca publica de Web Components com Storybook, wrappers multiplataforma e distribuicao auditavel no npm.",
+        "description": "Biblioteca pública de Web Components com Storybook, wrappers multiplataforma e distribuição consistente no npm.",
         "href": "https://mozg.com.br/projetos/node-web-components",
         "tags": ["Web Components", "Storybook", "npm", "auditability"],
         "stack": ["TypeScript", "Vite", "Storybook", "Lit", "npm"],
         "focus": [
           "componentes reutilizaveis",
-          "showcase publico",
-          "release auditavel"
+          "showcase público",
+          "release consistente"
         ],
         "outcomes": [
           "storybook publico",
-          "pacote npm acessivel",
-          "catalogo tipado central"
+          "pacote npm acessível",
+          "catálogo tipado central"
         ],
         "featured": true
       },
@@ -639,19 +687,19 @@
         "eyebrow": "Site principal",
         "category": "brand",
         "status": "active",
-        "description": "Presenca institucional principal com portfolio, servicos, documentacao publica e narrativas de implantacao em dominio proprio.",
+        "description": "Presença institucional principal com portfólio, serviços, documentação pública e apresentação da marca em domínio próprio.",
         "href": "https://mozg.com.br",
         "tags": ["branding", "SEO", "PWA", "content"],
         "stack": ["branding", "SEO", "PWA", "structured data", "content"],
         "focus": [
-          "presenca tecnica",
+          "presença da marca",
           "narrativa editorial",
-          "portfolio publico"
+          "portfólio público"
         ],
         "outcomes": [
           "dominio proprio consistente",
-          "distribuicao institucional",
-          "base para evolucao continua"
+          "distribuição institucional",
+          "base para evolução contínua"
         ],
         "featured": true
       },
@@ -660,40 +708,40 @@
         "eyebrow": "Portal complementar",
         "category": "brand",
         "status": "evolving",
-        "description": "Portal complementar para apresentacao profissional, distribuicao de links publicos e reforco de presenca digital.",
+        "description": "Portal complementar para apresentação profissional, distribuição de links públicos e reforço de presença digital.",
         "href": "https://mozgbrasil.github.io/",
         "tags": ["GitHub Pages", "portfolio", "signals", "landing"],
         "stack": ["GitHub Pages", "HTML", "signals", "landing"],
         "focus": [
-          "sinais publicos",
+          "sinais públicos",
           "landing complementar",
-          "distribuicao de links"
+          "distribuição de links"
         ],
         "outcomes": [
-          "amplificacao de presenca",
+          "amplificação de presença",
           "hub de canais",
-          "portfolio vivo"
+          "portfólio vivo"
         ],
         "featured": true
       },
       {
         "title": "github-profile",
-        "eyebrow": "Perfil tecnico",
+        "eyebrow": "Perfil público",
         "category": "docs",
         "status": "active",
-        "description": "Resumo enxuto da especialidade, portfolio e links publicos para uma apresentacao profissional coerente no GitHub.",
+        "description": "Resumo enxuto da especialidade, portfólio e links públicos para uma apresentação profissional coerente no GitHub.",
         "href": "https://mozg.com.br/projetos/github-profile",
         "tags": ["README profile", "badges", "specialties", "signals"],
         "stack": ["Markdown", "GitHub", "badges", "portfolio"],
         "focus": [
-          "identidade tecnica",
-          "contexto rapido de especialidade",
-          "surface area publica"
+          "identidade profissional",
+          "contexto rápido de especialidade",
+          "camada pública clara"
         ],
         "outcomes": [
           "perfil mais claro",
           "links publicos coerentes",
-          "distribuicao editorial enxuta"
+          "distribuição editorial enxuta"
         ],
         "featured": true
       }
@@ -767,7 +815,7 @@
         "eyebrow": "Engine editorial",
         "category": "docs",
         "status": "active",
-        "description": "Plataforma editorial para site institucional, documentacao publica, catalogo compartilhado e API auditavel.",
+        "description": "Plataforma editorial para o site institucional, documentação pública, catálogo compartilhado e dados públicos consistentes.",
         "href": "https://mozg.com.br/projetos/node-vitepress",
         "tags": ["VitePress", "Vitest", "SEO", "auditability"],
         "stack": ["VitePress", "Vitest", "ESLint", "Prettier", "Netlify"],
@@ -777,7 +825,7 @@
           "discoverability"
         ],
         "outcomes": [
-          "catalogo central reutilizavel",
+          "catálogo central reutilizável",
           "exports JSON publicos",
           "tema modular e pesquisavel"
         ],
@@ -831,19 +879,19 @@
         "eyebrow": "Biblioteca UI e Storybook",
         "category": "docs",
         "status": "active",
-        "description": "Biblioteca publica de Web Components com Storybook, wrappers multiplataforma e distribuicao auditavel no npm.",
+        "description": "Biblioteca pública de Web Components com Storybook, wrappers multiplataforma e distribuição consistente no npm.",
         "href": "https://mozg.com.br/projetos/node-web-components",
         "tags": ["Web Components", "Storybook", "npm", "auditability"],
         "stack": ["TypeScript", "Vite", "Storybook", "Lit", "npm"],
         "focus": [
           "componentes reutilizaveis",
-          "showcase publico",
-          "release auditavel"
+          "showcase público",
+          "release consistente"
         ],
         "outcomes": [
           "storybook publico",
-          "pacote npm acessivel",
-          "catalogo tipado central"
+          "pacote npm acessível",
+          "catálogo tipado central"
         ],
         "featured": true,
         "slug": "node-web-components",
@@ -902,19 +950,19 @@
         "eyebrow": "Site principal",
         "category": "brand",
         "status": "active",
-        "description": "Presenca institucional principal com portfolio, servicos, documentacao publica e narrativas de implantacao em dominio proprio.",
+        "description": "Presença institucional principal com portfólio, serviços, documentação pública e apresentação da marca em domínio próprio.",
         "href": "https://mozg.com.br",
         "tags": ["branding", "SEO", "PWA", "content"],
         "stack": ["branding", "SEO", "PWA", "structured data", "content"],
         "focus": [
-          "presenca tecnica",
+          "presença da marca",
           "narrativa editorial",
-          "portfolio publico"
+          "portfólio público"
         ],
         "outcomes": [
           "dominio proprio consistente",
-          "distribuicao institucional",
-          "base para evolucao continua"
+          "distribuição institucional",
+          "base para evolução contínua"
         ],
         "featured": true,
         "slug": "mozg-com-br",
@@ -961,19 +1009,19 @@
         "eyebrow": "Portal complementar",
         "category": "brand",
         "status": "evolving",
-        "description": "Portal complementar para apresentacao profissional, distribuicao de links publicos e reforco de presenca digital.",
+        "description": "Portal complementar para apresentação profissional, distribuição de links públicos e reforço de presença digital.",
         "href": "https://mozgbrasil.github.io/",
         "tags": ["GitHub Pages", "portfolio", "signals", "landing"],
         "stack": ["GitHub Pages", "HTML", "signals", "landing"],
         "focus": [
-          "sinais publicos",
+          "sinais públicos",
           "landing complementar",
-          "distribuicao de links"
+          "distribuição de links"
         ],
         "outcomes": [
-          "amplificacao de presenca",
+          "amplificação de presença",
           "hub de canais",
-          "portfolio vivo"
+          "portfólio vivo"
         ],
         "featured": true,
         "slug": "mozgbrasil-github-io",
@@ -1019,22 +1067,22 @@
       },
       {
         "title": "github-profile",
-        "eyebrow": "Perfil tecnico",
+        "eyebrow": "Perfil público",
         "category": "docs",
         "status": "active",
-        "description": "Resumo enxuto da especialidade, portfolio e links publicos para uma apresentacao profissional coerente no GitHub.",
+        "description": "Resumo enxuto da especialidade, portfólio e links públicos para uma apresentação profissional coerente no GitHub.",
         "href": "https://mozg.com.br/projetos/github-profile",
         "tags": ["README profile", "badges", "specialties", "signals"],
         "stack": ["Markdown", "GitHub", "badges", "portfolio"],
         "focus": [
-          "identidade tecnica",
-          "contexto rapido de especialidade",
-          "surface area publica"
+          "identidade profissional",
+          "contexto rápido de especialidade",
+          "camada pública clara"
         ],
         "outcomes": [
           "perfil mais claro",
           "links publicos coerentes",
-          "distribuicao editorial enxuta"
+          "distribuição editorial enxuta"
         ],
         "featured": true,
         "slug": "github-profile",
@@ -1471,19 +1519,19 @@
     "operationalSignals": [
       {
         "title": "Especialidades ativas",
-        "description": "Arquitetura, produto, automacao, documentacao e operacao convivendo com escopo claro e apresentacao profissional."
+        "description": "Arquitetura, produto, automação, documentação e operação convivendo com escopo claro e apresentação profissional."
       },
       {
         "title": "Qualidade por entrega",
-        "description": "Cada frente publica fecha com verificacoes reais, comandos documentados e metadados minimos para auditoria."
+        "description": "Cada frente pública fecha com verificações reais, comandos documentados e metadados mínimos para auditoria."
       },
       {
-        "title": "Implantacao previsivel",
-        "description": "Build, SEO, analytics, publicacao estatica e distribuicao de artefatos seguem uma trilha previsivel de manutencao."
+        "title": "Implantação previsível",
+        "description": "Build, SEO, analytics, publicação estática e distribuição de artefatos seguem uma trilha previsível de manutenção."
       },
       {
-        "title": "Auditabilidade",
-        "description": "Logs, metadados de request, payloads explicitos e scripts de verificacao ajudam na evolucao segura das superficies publicas."
+        "title": "Clareza operacional",
+        "description": "Logs, metadados de request, páginas públicas e scripts de verificação ajudam na evolução segura das superfícies públicas."
       }
     ],
     "publishedSurfaces": [
@@ -1494,7 +1542,7 @@
       },
       {
         "title": "Portal em GitHub Pages",
-        "description": "mozgbrasil.github.io reforca presenca publica com apresentacao profissional, links e distribuicao complementar.",
+        "description": "mozgbrasil.github.io reforça a presença pública com apresentação profissional, links e distribuição complementar.",
         "href": "https://mozgbrasil.github.io/"
       },
       {
@@ -1504,13 +1552,76 @@
       },
       {
         "title": "Perfil profissional",
-        "description": "O perfil em GitHub organiza especialidades, links publicos e acesso rapido ao curriculo e aos principais canais.",
+        "description": "O perfil em GitHub organiza especialidades, links públicos e acesso rápido ao currículo e aos principais canais.",
         "href": "https://github.com/mozgbrasil"
       },
       {
         "title": "Pacotes e artefatos",
-        "description": "Historico de publicacao em npm e Packagist para transformar conhecimento em modulos reutilizaveis.",
+        "description": "Histórico de publicação em npm e Packagist para transformar conhecimento em módulos reutilizáveis.",
         "href": "https://www.npmjs.com/~mozg"
+      }
+    ],
+    "publicJourneys": [
+      {
+        "title": "Finalizar compra",
+        "description": "Canal público para iniciar contratação, alinhar escopo e fechar o atendimento comercial.",
+        "href": "/finalizar-compra",
+        "stage": "checkout"
+      },
+      {
+        "title": "Carrinho",
+        "description": "Referência pública para revisão de itens, intenção de compra e organização da jornada.",
+        "href": "/carrinho",
+        "stage": "review"
+      },
+      {
+        "title": "Obrigado",
+        "description": "Página pública para pós-compra, envio de comprovante e acompanhamento inicial.",
+        "href": "/obrigado",
+        "stage": "confirmation"
+      },
+      {
+        "title": "Confirmação de assinatura",
+        "description": "Camada pública para confirmações recorrentes, planos ativos e continuidade do serviço.",
+        "href": "/confirmacao-de-assinatura",
+        "stage": "subscription"
+      },
+      {
+        "title": "Política de devolução",
+        "description": "Política pública com critérios de cancelamento, ajuste, reembolso e contato pós-compra.",
+        "href": "/politica-de-devolucao",
+        "stage": "policy"
+      }
+    ],
+    "trustSignals": [
+      {
+        "title": "Atendimento direto",
+        "description": "Contato público por WhatsApp e e-mail para orçamento, suporte e continuidade comercial.",
+        "href": "https://wa.me/5511977072339",
+        "value": "11 97707-2339 · mozgbrasil@gmail.com"
+      },
+      {
+        "title": "CNPJ ativo em São Paulo",
+        "description": "Estrutura empresarial de apoio para faturamento, formalização e operação comercial.",
+        "value": "07.361.259/0001-07 · CEREBRUM COMERCIO ELETRONICO LTDA"
+      },
+      {
+        "title": "Avaliação pública",
+        "description": "Canal aberto para reviews e prova social da experiência pública da MOZG.",
+        "href": "https://br.trustpilot.com/review/mozg.com.br",
+        "value": "Trustpilot"
+      },
+      {
+        "title": "Distribuição Android",
+        "description": "Perfil público do desenvolvedor com os aplicativos ativos da marca.",
+        "href": "https://play.google.com/store/apps/dev?id=8685510812208806498",
+        "value": "Google Play"
+      },
+      {
+        "title": "Políticas públicas",
+        "description": "Páginas institucionais de privacidade e devolução para leitura rápida e transparente.",
+        "href": "/politica-de-devolucao",
+        "value": "Privacidade e devolução"
       }
     ],
     "operationalPillars": [
@@ -1643,9 +1754,14 @@
         "note": "versao em PDF"
       },
       {
+        "href": "https://wa.me/5511977072339",
+        "label": "WhatsApp",
+        "note": "mensagem direta para atendimento e contato inicial"
+      },
+      {
         "href": "https://github.com/mozgbrasil",
         "label": "GitHub",
-        "note": "repositorios e identidade tecnica"
+        "note": "perfil público da marca"
       },
       {
         "href": "https://github.com/sponsors/mozgbrasil",
@@ -1660,7 +1776,7 @@
       {
         "href": "https://developers.google.com/profile/u/mozgbrasil",
         "label": "Google Developers",
-        "note": "perfil tecnico no ecossistema Google"
+        "note": "perfil público no ecossistema Google"
       },
       {
         "href": "https://openprofile.dev/profile/mozgbrasil",
@@ -1690,7 +1806,12 @@
       {
         "href": "https://mozg.com.br/privacypolicy",
         "label": "Privacidade",
-        "note": "politica publica de privacidade do site e dos apps"
+        "note": "política pública de privacidade do site e dos apps"
+      },
+      {
+        "href": "https://mozg.com.br/politica-de-devolucao",
+        "label": "Devolução",
+        "note": "política pública de devolução, cancelamento e reembolso"
       },
       {
         "href": "mailto:mozgbrasil@gmail.com",
@@ -1701,20 +1822,23 @@
     "presenceProfiles": [
       {
         "accent": "personal",
-        "label": "Conta pessoal e criativa",
+        "label": "Conta pessoal",
         "title": "hackin88",
         "handle": "@marciohackin88",
-        "summary": "Presenca pessoal, autoral e multiplataforma com base publica, video e short-form.",
+        "summary": "Presença pessoal, autoral e multiplataforma com foco em conteúdo, vídeo e comunidade.",
+        "image": "/assets/marcio-profile.jpg",
+        "imageAlt": "Foto de Marcio dos Santos Amorim",
+        "imageNote": "Perfil pessoal de Marcio dos Santos Amorim",
         "primaryLinks": [
           {
             "href": "https://github.com/hackin88",
             "label": "GitHub",
-            "note": "repositorios e codigo"
+            "note": "projetos pessoais e código"
           },
           {
             "href": "https://x.com/Hackin88Mar",
             "label": "X / Twitter",
-            "note": "notas e distribuicao rapida"
+            "note": "notas e distribuição rápida"
           },
           {
             "href": "https://www.youtube.com/channel/UCZiA1iAt1agceweTMav6zAQ",
@@ -1724,19 +1848,19 @@
           {
             "href": "https://www.tiktok.com/@marciohackin88",
             "label": "TikTok",
-            "note": "short-form e alcance"
+            "note": "vídeos curtos e alcance"
           }
         ],
         "groups": [
           {
-            "title": "Base publica",
+            "title": "Base pública",
             "links": [
               { "href": "https://github.com/hackin88", "label": "GitHub" },
               { "href": "https://x.com/Hackin88Mar", "label": "X / Twitter" }
             ]
           },
           {
-            "title": "Video e short-form",
+            "title": "Vídeo e short-form",
             "links": [
               {
                 "href": "https://www.youtube.com/channel/UCZiA1iAt1agceweTMav6zAQ",
@@ -1777,25 +1901,28 @@
       },
       {
         "accent": "brand",
-        "label": "Marca, laboratorio e canais",
+        "label": "Marca e canais públicos",
         "title": "mozgbrasil",
         "handle": "@mozgbrasil",
-        "summary": "Marca principal do laboratorio, com distribuicao de conteudo, streaming, comunidade e portal complementar em GitHub Pages.",
+        "summary": "Marca principal da MOZG, com distribuição de conteúdo, comunidade, portais e presença pública coordenada.",
+        "image": "/assets/marcio-profile.jpg",
+        "imageAlt": "Retrato de Marcio dos Santos Amorim representando a marca MOZG",
+        "imageNote": "Marca MOZG liderada por Marcio dos Santos Amorim",
         "primaryLinks": [
           {
             "href": "https://github.com/mozgbrasil",
             "label": "GitHub",
-            "note": "repositorios e identidade tecnica"
+            "note": "perfil público da marca"
           },
           {
             "href": "https://x.com/mozgbrasil",
             "label": "X / Twitter",
-            "note": "canal rapido e publico"
+            "note": "canal rápido e público"
           },
           {
             "href": "https://www.youtube.com/channel/UCgGavVKpdCqcizHoMzPWzvA",
             "label": "YouTube",
-            "note": "conteudo principal"
+            "note": "conteúdo principal"
           },
           {
             "href": "https://mozgbrasil.github.io/",
@@ -1805,12 +1932,12 @@
           {
             "href": "https://github.com/sponsors/mozgbrasil",
             "label": "GitHub Sponsors",
-            "note": "apoio e sustentabilidade publica"
+            "note": "apoio e sustentabilidade pública"
           }
         ],
         "groups": [
           {
-            "title": "Base publica",
+            "title": "Base pública",
             "links": [
               { "href": "https://github.com/mozgbrasil", "label": "GitHub" },
               { "href": "https://x.com/mozgbrasil", "label": "X / Twitter" },
@@ -1822,7 +1949,7 @@
             ]
           },
           {
-            "title": "Video e short-form",
+            "title": "Vídeo e short-form",
             "links": [
               {
                 "href": "https://www.youtube.com/channel/UCgGavVKpdCqcizHoMzPWzvA",
@@ -1873,7 +2000,7 @@
             ]
           },
           {
-            "title": "Perfis tecnicos",
+            "title": "Perfis públicos",
             "links": [
               {
                 "href": "https://developers.google.com/profile/u/mozgbrasil",
@@ -1923,6 +2050,10 @@
                 "label": "Politica de privacidade"
               },
               {
+                "href": "https://mozg.com.br/politica-de-devolucao",
+                "label": "Política de devolução"
+              },
+              {
                 "href": "https://br.trustpilot.com/review/mozg.com.br",
                 "label": "Trustpilot"
               }
@@ -1933,13 +2064,13 @@
     ]
   },
   "audit": {
-    "generated_at": "2026-03-30T21:01:00.889Z",
+    "generated_at": "2026-03-31T02:19:27.885Z",
     "company": "MOZG",
     "site_url": "https://mozg.com.br",
     "counts": {
-      "pages": 73,
+      "pages": 78,
       "api_routes": 18,
-      "discovery_items": 236,
+      "discovery_items": 254,
       "portfolio_entries": 6,
       "project_dossiers": 6,
       "category_profiles": 5,
@@ -1952,8 +2083,8 @@
       "surfaces": 5,
       "presence_profiles": 2,
       "presence_groups": 10,
-      "presence_links": 42,
-      "contact_links": 13
+      "presence_links": 43,
+      "contact_links": 15
     },
     "pages": [
       "/",
@@ -1962,6 +2093,11 @@
       "/api",
       "/openapi",
       "/portfolio",
+      "/politica-de-devolucao",
+      "/finalizar-compra",
+      "/carrinho",
+      "/obrigado",
+      "/confirmacao-de-assinatura",
       "/projetos",
       "/stacks",
       "/radar",

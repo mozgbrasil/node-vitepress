@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-30T21:01:00.889Z",
+  "generated_at": "2026-03-31T02:19:27.885Z",
   "company": "MOZG",
   "site_url": "https://mozg.com.br",
   "counts": {
-    "pages": 73,
+    "pages": 78,
     "api_routes": 18,
-    "discovery_items": 236,
+    "discovery_items": 254,
     "portfolio_entries": 6,
     "project_dossiers": 6,
     "category_profiles": 5,
@@ -18,8 +18,8 @@
     "surfaces": 5,
     "presence_profiles": 2,
     "presence_groups": 10,
-    "presence_links": 42,
-    "contact_links": 13
+    "presence_links": 43,
+    "contact_links": 15
   },
   "pages": [
     "/",
@@ -28,6 +28,11 @@
     "/api",
     "/openapi",
     "/portfolio",
+    "/politica-de-devolucao",
+    "/finalizar-compra",
+    "/carrinho",
+    "/obrigado",
+    "/confirmacao-de-assinatura",
     "/projetos",
     "/stacks",
     "/radar",

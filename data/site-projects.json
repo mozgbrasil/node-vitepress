@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-30T21:01:00.889Z",
+  "generated_at": "2026-03-31T02:19:27.885Z",
   "filters_applied": {},
   "total_dossiers": 6,
   "total_available_dossiers": 6,
@@ -106,7 +106,7 @@
       "eyebrow": "Engine editorial",
       "category": "docs",
       "status": "active",
-      "description": "Plataforma editorial para site institucional, documentacao publica, catalogo compartilhado e API auditavel.",
+      "description": "Plataforma editorial para o site institucional, documentação pública, catálogo compartilhado e dados públicos consistentes.",
       "href": "https://mozg.com.br/projetos/node-vitepress",
       "tags": ["VitePress", "Vitest", "SEO", "auditability"],
       "stack": ["VitePress", "Vitest", "ESLint", "Prettier", "Netlify"],
@@ -116,7 +116,7 @@
         "discoverability"
       ],
       "outcomes": [
-        "catalogo central reutilizavel",
+        "catálogo central reutilizável",
         "exports JSON publicos",
         "tema modular e pesquisavel"
       ],
@@ -170,19 +170,19 @@
       "eyebrow": "Biblioteca UI e Storybook",
       "category": "docs",
       "status": "active",
-      "description": "Biblioteca publica de Web Components com Storybook, wrappers multiplataforma e distribuicao auditavel no npm.",
+      "description": "Biblioteca pública de Web Components com Storybook, wrappers multiplataforma e distribuição consistente no npm.",
       "href": "https://mozg.com.br/projetos/node-web-components",
       "tags": ["Web Components", "Storybook", "npm", "auditability"],
       "stack": ["TypeScript", "Vite", "Storybook", "Lit", "npm"],
       "focus": [
         "componentes reutilizaveis",
-        "showcase publico",
-        "release auditavel"
+        "showcase público",
+        "release consistente"
       ],
       "outcomes": [
         "storybook publico",
-        "pacote npm acessivel",
-        "catalogo tipado central"
+        "pacote npm acessível",
+        "catálogo tipado central"
       ],
       "featured": true,
       "slug": "node-web-components",
@@ -241,15 +241,19 @@
       "eyebrow": "Site principal",
       "category": "brand",
       "status": "active",
-      "description": "Presenca institucional principal com portfolio, servicos, documentacao publica e narrativas de implantacao em dominio proprio.",
+      "description": "Presença institucional principal com portfólio, serviços, documentação pública e apresentação da marca em domínio próprio.",
       "href": "https://mozg.com.br",
       "tags": ["branding", "SEO", "PWA", "content"],
       "stack": ["branding", "SEO", "PWA", "structured data", "content"],
-      "focus": ["presenca tecnica", "narrativa editorial", "portfolio publico"],
+      "focus": [
+        "presença da marca",
+        "narrativa editorial",
+        "portfólio público"
+      ],
       "outcomes": [
         "dominio proprio consistente",
-        "distribuicao institucional",
-        "base para evolucao continua"
+        "distribuição institucional",
+        "base para evolução contínua"
       ],
       "featured": true,
       "slug": "mozg-com-br",
@@ -296,19 +300,19 @@
       "eyebrow": "Portal complementar",
       "category": "brand",
       "status": "evolving",
-      "description": "Portal complementar para apresentacao profissional, distribuicao de links publicos e reforco de presenca digital.",
+      "description": "Portal complementar para apresentação profissional, distribuição de links públicos e reforço de presença digital.",
       "href": "https://mozgbrasil.github.io/",
       "tags": ["GitHub Pages", "portfolio", "signals", "landing"],
       "stack": ["GitHub Pages", "HTML", "signals", "landing"],
       "focus": [
-        "sinais publicos",
+        "sinais públicos",
         "landing complementar",
-        "distribuicao de links"
+        "distribuição de links"
       ],
       "outcomes": [
-        "amplificacao de presenca",
+        "amplificação de presença",
         "hub de canais",
-        "portfolio vivo"
+        "portfólio vivo"
       ],
       "featured": true,
       "slug": "mozgbrasil-github-io",
@@ -354,22 +358,22 @@
     },
     {
       "title": "github-profile",
-      "eyebrow": "Perfil tecnico",
+      "eyebrow": "Perfil público",
       "category": "docs",
       "status": "active",
-      "description": "Resumo enxuto da especialidade, portfolio e links publicos para uma apresentacao profissional coerente no GitHub.",
+      "description": "Resumo enxuto da especialidade, portfólio e links públicos para uma apresentação profissional coerente no GitHub.",
       "href": "https://mozg.com.br/projetos/github-profile",
       "tags": ["README profile", "badges", "specialties", "signals"],
       "stack": ["Markdown", "GitHub", "badges", "portfolio"],
       "focus": [
-        "identidade tecnica",
-        "contexto rapido de especialidade",
-        "surface area publica"
+        "identidade profissional",
+        "contexto rápido de especialidade",
+        "camada pública clara"
       ],
       "outcomes": [
         "perfil mais claro",
         "links publicos coerentes",
-        "distribuicao editorial enxuta"
+        "distribuição editorial enxuta"
       ],
       "featured": true,
       "slug": "github-profile",
