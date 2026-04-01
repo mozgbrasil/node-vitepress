@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31T02:19:27.885Z",
+  "generated_at": "2026-04-01T18:04:27.768Z",
   "catalog": {
     "site": {
       "title": "MOZG | Marcio dos Santos Amorim",
@@ -23,6 +23,8 @@
       "githubPages": "https://mozgbrasil.github.io/",
       "profileImage": "/assets/marcio-profile.jpg",
       "institutionLogo": "/logo-mini.svg",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Avenida%20Campanella%2C%201297%2C%20Apto.%2014%2C%20S%C3%A3o%20Paulo%2C%20SP%2C%2008220-831%2C%20Brasil",
+      "mapsEmbedUrl": "https://www.google.com/maps?q=Avenida%20Campanella%2C%201297%2C%20Apto.%2014%2C%20S%C3%A3o%20Paulo%2C%20SP%2C%2008220-831%2C%20Brasil&output=embed",
       "address": {
         "street": "Avenida Campanella, 1297, Apto. 14",
         "city": "São Paulo",
@@ -1794,6 +1796,11 @@
         "note": "perfil de desenvolvedor com Mozg TWA e Mozg Híbrido"
       },
       {
+        "href": "https://www.google.com/maps/search/?api=1&query=Avenida%20Campanella%2C%201297%2C%20Apto.%2014%2C%20S%C3%A3o%20Paulo%2C%20SP%2C%2008220-831%2C%20Brasil",
+        "label": "Google Maps",
+        "note": "rota direta para o endereço institucional em São Paulo"
+      },
+      {
         "href": "https://br.trustpilot.com/review/mozg.com.br",
         "label": "Trustpilot",
         "note": "prova social publica e coleta de reviews"
@@ -2064,13 +2071,13 @@
     ]
   },
   "audit": {
-    "generated_at": "2026-03-31T02:19:27.885Z",
+    "generated_at": "2026-04-01T18:04:27.768Z",
     "company": "MOZG",
     "site_url": "https://mozg.com.br",
     "counts": {
       "pages": 78,
       "api_routes": 18,
-      "discovery_items": 254,
+      "discovery_items": 255,
       "portfolio_entries": 6,
       "project_dossiers": 6,
       "category_profiles": 5,
@@ -2084,7 +2091,7 @@
       "presence_profiles": 2,
       "presence_groups": 10,
       "presence_links": 43,
-      "contact_links": 15
+      "contact_links": 16
     },
     "pages": [
       "/",

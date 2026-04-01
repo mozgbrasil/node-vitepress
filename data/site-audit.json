@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-31T02:19:27.885Z",
+  "generated_at": "2026-04-01T18:04:27.768Z",
   "company": "MOZG",
   "site_url": "https://mozg.com.br",
   "counts": {
     "pages": 78,
     "api_routes": 18,
-    "discovery_items": 254,
+    "discovery_items": 255,
     "portfolio_entries": 6,
     "project_dossiers": 6,
     "category_profiles": 5,
@@ -19,7 +19,7 @@
     "presence_profiles": 2,
     "presence_groups": 10,
     "presence_links": 43,
-    "contact_links": 15
+    "contact_links": 16
   },
   "pages": [
     "/",
