@@ -5,7 +5,7 @@
 - Role: Software Architect
 - Location: São Paulo, Brasil
 - Site: https://mozg.com.br
-- Generated at: 2026-04-02T09:22:17.860Z
+- Generated at: 2026-04-03T16:34:54.692Z
 
 ## Summary
 Arquitetura de software, produtos digitais e presença online com clareza, confiança e evolução contínua.
