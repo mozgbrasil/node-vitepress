@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-04-09T11:05:24.115Z",
+  "filters_applied": {},
+  "total_signals": 5,
+  "total_available_signals": 5,
+  "linked_signals": 4,
+  "signals": [
+    {
+      "title": "Atendimento direto",
+      "description": "Contato público por WhatsApp e e-mail para orçamento, suporte e continuidade comercial.",
+      "href": "https://wa.me/5511977072339",
+      "value": "11 97707-2339 · mozgbrasil@gmail.com"
+    },
+    {
+      "title": "CNPJ ativo em São Paulo",
+      "description": "Estrutura empresarial de apoio para faturamento, formalização e operação comercial.",
+      "value": "07.361.259/0001-07 · CEREBRUM COMERCIO ELETRONICO LTDA"
+    },
+    {
+      "title": "Avaliação pública",
+      "description": "Canal aberto para reviews e prova social da experiência pública da MOZG.",
+      "href": "https://br.trustpilot.com/review/mozg.com.br",
+      "value": "Trustpilot"
+    },
+    {
+      "title": "Distribuição Android",
+      "description": "Perfil público do desenvolvedor com os aplicativos ativos da marca.",
+      "href": "https://play.google.com/store/apps/dev?id=8685510812208806498",
+      "value": "Google Play"
+    },
+    {
+      "title": "Políticas públicas",
+      "description": "Páginas institucionais de privacidade e devolução para leitura rápida e transparente.",
+      "href": "/politica-de-devolucao",
+      "value": "Privacidade e devolução"
+    }
+  ]
+}

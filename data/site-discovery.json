@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-04-03T16:34:54.692Z",
+  "generated_at": "2026-04-09T11:05:24.115Z",
   "filters_applied": {},
-  "total_items": 255,
-  "total_available_items": 255,
+  "total_items": 260,
+  "total_available_items": 260,
   "kinds": [
-    { "label": "page", "count": 78 },
+    { "label": "page", "count": 80 },
     { "label": "stack", "count": 45 },
     { "label": "presence", "count": 43 },
-    { "label": "api", "count": 18 },
+    { "label": "api", "count": 21 },
     { "label": "contact", "count": 16 },
     { "label": "dossier", "count": 6 },
     { "label": "portfolio", "count": 6 },
@@ -86,6 +86,15 @@
       "meta": "Endpoint publico"
     },
     {
+      "id": "api-api-journeys",
+      "kind": "api",
+      "title": "GET /api/journeys",
+      "description": "Diretorio filtravel da jornada publica com etapas, links e contexto comercial.",
+      "href": "/api/journeys",
+      "tags": ["api", "get", "auditabilidade"],
+      "meta": "Endpoint publico"
+    },
+    {
       "id": "api-api-links",
       "kind": "api",
       "title": "GET /api/links",
@@ -140,6 +149,15 @@
       "meta": "Endpoint publico"
     },
     {
+      "id": "api-api-profiles",
+      "kind": "api",
+      "title": "GET /api/profiles",
+      "description": "Diretorio dos perfis suportados com repositorios publicos e referencias principais.",
+      "href": "/api/profiles",
+      "tags": ["api", "get", "auditabilidade"],
+      "meta": "Endpoint publico"
+    },
+    {
       "id": "api-api-projects",
       "kind": "api",
       "title": "GET /api/projects",
@@ -172,6 +190,15 @@
       "title": "GET /api/stacks/:slug",
       "description": "Dossier aprofundado de uma stack com projetos ligados, comandos uteis e operacao relacionada.",
       "href": "/api/stacks/:slug",
+      "tags": ["api", "get", "auditabilidade"],
+      "meta": "Endpoint publico"
+    },
+    {
+      "id": "api-api-trust",
+      "kind": "api",
+      "title": "GET /api/trust",
+      "description": "Diretorio de sinais institucionais para contato, prova social e politicas publicas.",
+      "href": "/api/trust",
       "tags": ["api", "get", "auditabilidade"],
       "meta": "Endpoint publico"
     },
@@ -949,6 +976,15 @@
       "meta": "Navegacao principal"
     },
     {
+      "id": "page-jornada-publica",
+      "kind": "page",
+      "title": "Jornada pública",
+      "description": "Fluxos públicos de compra, revisão, confirmação, assinatura e política com leitura operacional.",
+      "href": "/jornada",
+      "tags": ["pagina", "site", "/jornada"],
+      "meta": "Navegacao principal"
+    },
+    {
       "id": "page-obrigado",
       "kind": "page",
       "title": "Obrigado",
@@ -1117,6 +1153,15 @@
       "description": "Camada de descoberta com filtros para páginas, APIs, projetos, superfícies e canais.",
       "href": "/radar",
       "tags": ["pagina", "site", "/radar"],
+      "meta": "Navegacao principal"
+    },
+    {
+      "id": "page-sinais-de-confianca",
+      "kind": "page",
+      "title": "Sinais de confiança",
+      "description": "Camada institucional com contato direto, prova social, formalização e políticas públicas.",
+      "href": "/sinais",
+      "tags": ["pagina", "site", "/sinais"],
       "meta": "Navegacao principal"
     },
     {

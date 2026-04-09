@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-03T16:34:54.692Z",
+  "generated_at": "2026-04-09T11:05:24.115Z",
   "company": "MOZG",
   "site_url": "https://mozg.com.br",
   "counts": {
-    "pages": 78,
-    "api_routes": 18,
-    "discovery_items": 255,
+    "pages": 80,
+    "api_routes": 21,
+    "discovery_items": 260,
     "portfolio_entries": 6,
     "project_dossiers": 6,
     "category_profiles": 5,
@@ -13,6 +13,8 @@
     "delivery_modes": 4,
     "stack_technologies": 45,
     "operation_dossiers": 4,
+    "public_journeys": 5,
+    "trust_signals": 5,
     "specialties": 4,
     "projects": 6,
     "surfaces": 5,
@@ -35,6 +37,8 @@
     "/confirmacao-de-assinatura",
     "/projetos",
     "/stacks",
+    "/jornada",
+    "/sinais",
     "/radar",
     "/presenca",
     "/contato",
@@ -106,6 +110,7 @@
     "/api/openapi.json",
     "/api/v1/openapi.json",
     "/api/profile",
+    "/api/profiles",
     "/api/links",
     "/api/catalog",
     "/api/audit",
@@ -119,7 +124,9 @@
     "/api/projects",
     "/api/projects/:slug",
     "/api/operations",
-    "/api/operations/:slug"
+    "/api/operations/:slug",
+    "/api/journeys",
+    "/api/trust"
   ],
   "quality_gates": [
     "npm run site:export",
@@ -139,6 +146,9 @@
     "/data/site-projects.json",
     "/data/site-stacks.json",
     "/data/site-operations.json",
+    "/data/site-journeys.json",
+    "/data/site-trust.json",
+    "/data/site-profiles.json",
     "/llms.txt",
     "/robots.txt"
   ]
