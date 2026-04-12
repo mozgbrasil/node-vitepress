@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-09T11:05:24.115Z",
+  "generated_at": "2026-04-11T09:02:22.051Z",
   "active_profile": "mozg",
   "catalog": {
     "site": {
@@ -88,6 +88,7 @@
           "note": "Pagamento instantâneo com QR Code Pix para apoio, sinal ou acerto direto.",
           "receiverName": "Marcio dos Santos Amorim",
           "institutionLabel": "Pagamento instantâneo via Pix",
+          "financialInstitution": "CEREBRUM COMERCIO ELETRONICO LTDA",
           "badge": "Principal"
         },
         {
@@ -98,6 +99,7 @@
           "note": "Alternativa de recebimento para contribuições, pagamentos diretos e cobrança pontual.",
           "receiverName": "Marcio dos Santos Amorim",
           "institutionLabel": "Pagamento instantâneo via Pix",
+          "financialInstitution": "CEREBRUM COMERCIO ELETRONICO LTDA",
           "badge": "Alternativo"
         },
         {
@@ -109,6 +111,7 @@
           "note": "Chave Pix em formato UUID para compartilhamento direto.",
           "receiverName": "Marcio dos Santos Amorim",
           "institutionLabel": "Chave Pix",
+          "financialInstitution": "CEREBRUM COMERCIO ELETRONICO LTDA",
           "badge": "UUID"
         },
         {
@@ -120,6 +123,7 @@
           "note": "Chave Pix complementar para cobranças e transferências.",
           "receiverName": "Marcio dos Santos Amorim",
           "institutionLabel": "Chave Pix",
+          "financialInstitution": "CEREBRUM COMERCIO ELETRONICO LTDA",
           "badge": "Reserva"
         }
       ],
@@ -2148,7 +2152,7 @@
     }
   },
   "audit": {
-    "generated_at": "2026-04-09T11:05:24.115Z",
+    "generated_at": "2026-04-11T09:02:22.051Z",
     "company": "MOZG",
     "site_url": "https://mozg.com.br",
     "counts": {

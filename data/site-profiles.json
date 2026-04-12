@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-09T11:05:24.115Z",
+  "generated_at": "2026-04-11T09:02:22.051Z",
   "active_profile": "mozg",
   "profiles": [
     {
@@ -44,6 +44,147 @@
           "href": "https://brasilparticipativo.presidencia.gov.br/profiles/mozgbrasil/activity",
           "label": "Brasil Participativo",
           "note": "presenca publica complementar"
+        }
+      ],
+      "heroMetrics": [],
+      "heroMetricsEn": []
+    },
+    {
+      "id": "francisco",
+      "slug": "francisco",
+      "label": "Francisco",
+      "title": "Francisco Amorim | Perfil profissional",
+      "headline": "Perfil profissional",
+      "publicRepository": "https://github.com/mozgbrasil/node-vitepress-francisco",
+      "primaryUrl": "https://www.linkedin.com/in/francisco-amorim-35228438/",
+      "sourceUrls": [
+        "https://www.linkedin.com/in/francisco-amorim-35228438/",
+        "https://github.com/mozgbrasil/node-vitepress-francisco"
+      ],
+      "referenceLinks": [
+        {
+          "href": "https://www.linkedin.com/in/francisco-amorim-35228438/",
+          "label": "LinkedIn",
+          "note": "perfil profissional publico"
+        },
+        {
+          "href": "https://github.com/mozgbrasil/node-vitepress-francisco",
+          "label": "Repositorio publico",
+          "note": "destino publico da superficie editorial"
+        }
+      ],
+      "heroMetrics": [],
+      "heroMetricsEn": []
+    },
+    {
+      "id": "alice",
+      "slug": "alice",
+      "label": "Alice",
+      "title": "Maria Alice dos Santos Amorim | Mozg & Cerebrum",
+      "headline": "Chief Executive Officer and Founder of Mozg & Cerebrum",
+      "publicRepository": "https://github.com/mozgbrasil/node-vitepress-alice",
+      "primaryUrl": "https://mozg.com.br/",
+      "sourceUrls": [
+        "https://mozg.com.br/",
+        "https://www.cerebrum.com.br/",
+        "https://github.com/mozgbrasil/node-vitepress-alice"
+      ],
+      "referenceLinks": [
+        {
+          "href": "https://mozg.com.br/",
+          "label": "Mozg",
+          "note": "site institucional principal"
+        },
+        {
+          "href": "https://www.cerebrum.com.br/",
+          "label": "Cerebrum",
+          "note": "site institucional complementar"
+        },
+        {
+          "href": "https://github.com/mozgbrasil/node-vitepress-alice",
+          "label": "Repositorio publico",
+          "note": "destino publico da superficie editorial"
+        }
+      ],
+      "heroMetrics": [],
+      "heroMetricsEn": []
+    },
+    {
+      "id": "isabel",
+      "slug": "isabel",
+      "label": "Isabel",
+      "title": "Isabel dos Santos Amorim | Rarus Flat",
+      "headline": "CEO na Rarus Flat",
+      "publicRepository": "https://github.com/mozgbrasil/node-vitepress-isabel",
+      "primaryUrl": "https://rarusflats.com/",
+      "sourceUrls": [
+        "https://rarusflats.com/",
+        "https://github.com/mozgbrasil/node-vitepress-isabel"
+      ],
+      "referenceLinks": [
+        {
+          "href": "https://rarusflats.com/",
+          "label": "Rarus Flats",
+          "note": "site institucional principal"
+        },
+        {
+          "href": "https://github.com/mozgbrasil/node-vitepress-isabel",
+          "label": "Repositorio publico",
+          "note": "destino publico da superficie editorial"
+        }
+      ],
+      "heroMetrics": [],
+      "heroMetricsEn": []
+    },
+    {
+      "id": "marcela",
+      "slug": "marcela",
+      "label": "Marcela",
+      "title": "Marcela dos Santos Amorim | Perfil profissional",
+      "headline": "Perfil profissional",
+      "publicRepository": "https://github.com/mozgbrasil/node-vitepress-marcela",
+      "primaryUrl": "https://www.linkedin.com/in/marcela-amorim-19387817b/",
+      "sourceUrls": [
+        "https://www.linkedin.com/in/marcela-amorim-19387817b/",
+        "https://github.com/mozgbrasil/node-vitepress-marcela"
+      ],
+      "referenceLinks": [
+        {
+          "href": "https://www.linkedin.com/in/marcela-amorim-19387817b/",
+          "label": "LinkedIn",
+          "note": "perfil profissional publico"
+        },
+        {
+          "href": "https://github.com/mozgbrasil/node-vitepress-marcela",
+          "label": "Repositorio publico",
+          "note": "destino publico da superficie editorial"
+        }
+      ],
+      "heroMetrics": [],
+      "heroMetricsEn": []
+    },
+    {
+      "id": "abpcm",
+      "slug": "abpcm",
+      "label": "ABPCM",
+      "title": "ABPCM | Associação Brasileira de Pacientes de Cannabis Medicinal",
+      "headline": "Perfil institucional",
+      "publicRepository": "https://github.com/mozgbrasil/node-vitepress-abpcm",
+      "primaryUrl": "https://www.abpcm.org.br/",
+      "sourceUrls": [
+        "https://www.abpcm.org.br/",
+        "https://github.com/mozgbrasil/node-vitepress-abpcm"
+      ],
+      "referenceLinks": [
+        {
+          "href": "https://www.abpcm.org.br/",
+          "label": "ABPCM",
+          "note": "site institucional principal"
+        },
+        {
+          "href": "https://github.com/mozgbrasil/node-vitepress-abpcm",
+          "label": "Repositorio publico",
+          "note": "destino publico da superficie editorial"
         }
       ],
       "heroMetrics": [],
