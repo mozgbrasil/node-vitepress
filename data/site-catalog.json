@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-11T09:02:22.051Z",
+  "generated_at": "2026-04-21T03:04:11.517Z",
   "active_profile": "mozg",
   "catalog": {
     "site": {
@@ -75,8 +75,7 @@
           "https://mozg.com.br",
           "https://mozgbrasil.github.io/",
           "https://github.com/mozgbrasil/node-vitepress",
-          "https://mozg.com.br/",
-          "https://github.com/mozgbrasil/node-vitepress"
+          "https://mozg.com.br/"
         ]
       },
       "pixOptions": [
@@ -2152,7 +2151,7 @@
     }
   },
   "audit": {
-    "generated_at": "2026-04-11T09:02:22.051Z",
+    "generated_at": "2026-04-21T03:04:11.517Z",
     "company": "MOZG",
     "site_url": "https://mozg.com.br",
     "counts": {

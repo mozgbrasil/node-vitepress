@@ -1,22 +1,26 @@
-const VERSION = 'mozg-site-v9';
+const VERSION = "mozg-site-mozg-v10";
+const HOME_PATH = "/";
 const APP_SHELL = [
-  '/',
-  '/openapi/',
-  '/docs/',
-  '/swagger-ui.html',
-  '/manifest.json',
-  '/logo-mini.svg',
-  '/logo-mini.png',
-  '/og.jpg',
-  '/data/site-catalog.json',
-  '/data/site-audit.json',
-  '/data/site-discovery.json',
-  '/data/site-portfolio.json',
-  '/data/site-projects.json',
-  '/data/site-capabilities.json',
-  '/data/site-stacks.json',
-  '/llms.txt',
-  '/robots.txt',
+  "/",
+  "/manifest.json",
+  "/logo-mini.svg",
+  "/logo-mini.png",
+  "/og.jpg",
+  "/data/site-catalog.json",
+  "/data/site-audit.json",
+  "/data/site-discovery.json",
+  "/data/site-portfolio.json",
+  "/data/site-projects.json",
+  "/data/site-capabilities.json",
+  "/data/site-stacks.json",
+  "/data/site-operations.json",
+  "/data/site-journeys.json",
+  "/data/site-trust.json",
+  "/llms.txt",
+  "/robots.txt",
+  "/openapi/",
+  "/docs/",
+  "/swagger-ui.html"
 ];
 
 self.addEventListener('install', (event) => {
@@ -59,7 +63,7 @@ self.addEventListener('fetch', (event) => {
             const responseClone = response.clone();
             event.waitUntil(
               caches.open(VERSION).then((cache) => {
-                cache.put('/', responseClone);
+                cache.put(HOME_PATH, responseClone);
               }),
             );
           }
@@ -67,7 +71,7 @@ self.addEventListener('fetch', (event) => {
         })
         .catch(async () => {
           const cache = await caches.open(VERSION);
-          return cache.match('/') || Response.error();
+          return cache.match(HOME_PATH) || Response.error();
         }),
     );
     return;
