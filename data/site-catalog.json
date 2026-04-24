@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T03:04:11.517Z",
+  "generated_at": "2026-04-24T19:37:15.520Z",
   "active_profile": "mozg",
   "catalog": {
     "site": {
@@ -54,6 +54,15 @@
         "email": "mailto:mozgbrasil@gmail.com",
         "jobTitle": "Software Architect",
         "worksFor": { "@type": "Organization", "name": "MOZG" },
+        "description": "Arquitetura de software, produtos digitais e presença online com clareza, confiança e evolução contínua.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Avenida Campanella, 1297, Apto. 14",
+          "addressLocality": "São Paulo",
+          "addressRegion": "SP",
+          "postalCode": "08220-831",
+          "addressCountry": "Brasil"
+        },
         "knowsAbout": [
           "Marcio dos Santos Amorim",
           "MOZG",
@@ -2146,12 +2155,15 @@
           "note": "presenca publica complementar"
         }
       ],
+      "schemaType": "Person",
       "heroMetrics": [],
-      "heroMetricsEn": []
+      "heroMetricsEn": [],
+      "navLinks": [],
+      "pages": []
     }
   },
   "audit": {
-    "generated_at": "2026-04-21T03:04:11.517Z",
+    "generated_at": "2026-04-24T19:37:15.520Z",
     "company": "MOZG",
     "site_url": "https://mozg.com.br",
     "counts": {
